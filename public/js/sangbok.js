@@ -10,7 +10,7 @@ var SongCtrl = function($scope, $routeParams, SongsResource) {
         if ($scope.song.melodyfile) {
             var path, melody;
 
-            path = '/sound/' + $scope.song.melodyfile;
+            path = 'sound/' + $scope.song.melodyfile;
 
             melody = new Audio();
             melody.addEventListener('ended', function() {
@@ -46,7 +46,7 @@ var OfflineCtrl = function($scope, $http, ChaptersResource, SongsResource) {
     $scope.status = $scope.OFFLINE;
     $scope.progress = 0;
 
-    $http.get('/online').success(function(data) {
+    $http.get('online').success(function(data) {
         if(data.online) {
             $scope.status = $scope.ONLINE;
         } else {
@@ -63,7 +63,7 @@ var OfflineCtrl = function($scope, $http, ChaptersResource, SongsResource) {
             var left = songs.length;
             for (i = 0; i < songs.length; ++i) {
 
-                $http.get('/song/' + songs[i].id, { cache: true }).success(function(data) {
+                $http.get('song/' + songs[i].id, { cache: true }).success(function(data) {
                     $scope.progress += 100*(1/songs.length);
                     left--;
 
@@ -82,7 +82,7 @@ var sangbok = angular.module('sangbok', ['ngResource'], function($routeProvider,
         templateUrl: 'partials/home.html',
         controller: HomeCtrl
     });
-    $routeProvider.when('/song/:id', {
+    $routeProvider.when('song/:id', {
         templateUrl: 'partials/song.html',
         controller: SongCtrl
     });
@@ -90,11 +90,11 @@ var sangbok = angular.module('sangbok', ['ngResource'], function($routeProvider,
     $locationProvider.html5Mode(false);
 
     $provide.factory('ChaptersResource', function($resource) {
-        return $resource('/chapter/:chapterId', {chapterId: '@_id'});
+        return $resource('chapter/:chapterId', {chapterId: '@_id'});
     });
 
     $provide.factory('SongsResource', function($resource) {
-        return $resource('/song/:songId', {songId: '@_id'});
+        return $resource('song/:songId', {songId: '@_id'});
     });
 
     //$provide.decorator('$httpBackend', angular.mock.e2e.$httpBackendDecorator);

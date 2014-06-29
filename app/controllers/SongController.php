@@ -9,7 +9,7 @@ class SongController extends \BaseController {
 	 */
 	public function index()
 	{
-		return Response::json(Song::select(['id', 'title', 'author', 'melody'])->get());
+		return Response::json(Song::select(['id', 'title', 'author', 'melody'])->orderBy('chapter_id', 'asc')->orderBy('number', 'asc')->get());
 	}
 
 
