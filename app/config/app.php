@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Barryvdh\MigrationGenerator\MigrationGeneratorServiceProvider',
+		'Orangehill\Iseed\IseedServiceProvider',
 
 	),
 
