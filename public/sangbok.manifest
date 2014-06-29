@@ -1,0 +1,38 @@
+CACHE MANIFEST
+# rev 8
+
+CACHE:
+# CSS
+css/normalize.css
+css/foundation.css
+//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css
+css/app.css
+
+# JS
+js/vendor/zepto.js
+js/vendor/custom.modernizr.js
+js/angular.min.js
+js/angular-mocks.js
+js/angular-resource.min.js
+js/sangbok.js
+js/foundation.min.js
+
+# HTML
+partials/home.html
+partials/song.html
+
+# Fonts
+http://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.woff?v=3.1.0
+http://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.ttf?v=3.1.0
+http://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.svg
+
+# Index
+/chapter
+
+NETWORK:
+*
+
+FALLBACK:
+/song/ /offline
+/chapter/ /offline
+/online /offline
