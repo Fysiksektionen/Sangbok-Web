@@ -20,7 +20,7 @@ var sangbok = angular.module('sangbok', ['ngRoute', 'mm.foundation'])
     var songs = {
       async: function() {
         if ( !promise ) {
-          promise = $http.get('/chapter').then(function (response) {
+          promise = $http.get('chapter').then(function (response) {
             return response.data;
           });
         }
