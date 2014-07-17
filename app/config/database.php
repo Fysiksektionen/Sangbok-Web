@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'sangbok',
-			'username'  => 'sangbok',
-			'password'  => 'sangbok',
+			'database'  => 'fsekt_sangbok',
+			'username'  => 'fsekt_sangbok',
+			'password'  => '!HTyJnsdJh6DHY',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
