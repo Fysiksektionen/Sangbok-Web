@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- manifest="/sangbok.manifest" -->
-<!--[if IE 8]>         <html data-ng-app="sangbok" class="no-js lt-ie9" lang="en" manifest="/sangbok.manifest"> <![endif]-->
-<!--[if gt IE 8]><!--> <html data-ng-app="sangbok" class="no-js" lang="en" manifest="/sangbok.manifest"> <!--<![endif]-->
+<!--[if IE 8]>         <html data-ng-app="sangbok" class="no-js lt-ie9" lang="en" manifest="sangbok.manifest"> <![endif]-->
+<!--[if gt IE 8]><!--> <html data-ng-app="sangbok" class="no-js" lang="en" manifest="sangbok.manifest"> <!--<![endif]-->
 
 <head>
   <meta charset="utf-8" />
@@ -11,15 +11,13 @@
   <base href="/">
 
   <link rel="stylesheet" href="css/normalize.css" />
-  <!-- If you are using CSS version, add this -->
   <link rel="stylesheet" href="css/foundation.css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/sangbok.min.css" />
 
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="js/angular.min.js"></script>
-  <script src="js/angular-mocks.js"></script>
-  <script src="js/angular-resource.min.js"></script>
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.min.js"></script>
   <script src="js/sangbok.js"></script>
 </head>
 
@@ -51,12 +49,8 @@
   <div id="content" data-ng-view>
 
   </div>
-  <script>
-    document.write('<script src=' +
-        ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-        '.js><\/script>');
-  </script>
-  <script type="text/javascript" src="js/foundation.min.js"></script>
-  <script type="text/javascript">$(document).foundation();</script>
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/foundation/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
 </body>
 </html>

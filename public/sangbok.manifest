@@ -3,17 +3,16 @@ CACHE MANIFEST
 
 CACHE:
 # CSS
-css/normalize.css
-css/foundation.css
+css/vendor/normalize.css
+css/vendor/foundation.css
 //netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css
-css/app.css
+css/sangbok.min.css
 
 # JS
-js/vendor/zepto.js
-js/vendor/custom.modernizr.js
-js/angular.min.js
-js/angular-mocks.js
-js/angular-resource.min.js
+js/vendor/jquery.js
+js/vendor/modernizr.js
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.min.js
 js/sangbok.js
 js/foundation.min.js
 
