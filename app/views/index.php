@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- manifest="/sangbok.manifest" -->
 <!--[if IE 8]>         <html data-ng-app="sangbok" class="no-js lt-ie9" lang="en" manifest="sangbok.manifest"> <![endif]-->
 <!--[if gt IE 8]><!--> <html data-ng-app="sangbok" class="no-js" lang="en" manifest="sangbok.manifest"> <!--<![endif]-->
 
