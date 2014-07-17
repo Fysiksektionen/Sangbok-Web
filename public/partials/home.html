@@ -1,10 +1,8 @@
 <div class="row">
-  <div class="section-container accordion" data-section="accordion">
-    <section data-ng-repeat="chapter in chapters">
-      <p class="title" data-section-title><a href="#">{{chapter.chapter}}</a></p>
-      <div class="content" data-section-content>
+  <accordion close-others="true">
+    <accordion-group data-ng-repeat="chapter in chapters">
+        <accordion-heading>{{chapter.chapter}}</accordion-heading>
         <p data-ng-repeat="song in chapter.songs"><a href="#/song/{{song.id}}">{{song.title}}</a></p>
-      </div>
-    </section>
-  </div>
+    </accordion-group>
+  </accordion>
 </div>

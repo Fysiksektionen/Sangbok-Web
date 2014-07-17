@@ -1,4 +1,5 @@
-var OfflineCtrl = function($scope, $http, ChaptersResource, SongsResource) {
+sangbok.controller('OfflineCtrl', ['$scope', '$http', 'Song',
+    function($scope, $http, Song) {
     $scope.ONLINE = 0;
     $scope.OFFLINE = 1;
     $scope.SYNCING = 2;
@@ -20,7 +21,7 @@ var OfflineCtrl = function($scope, $http, ChaptersResource, SongsResource) {
 
         $scope.status = $scope.SYNCING;
 
-        songs = SongsResource.query(function() {
+        songs = Song.query(function() {
             var left = songs.length;
             for (i = 0; i < songs.length; ++i) {
 
@@ -35,4 +36,4 @@ var OfflineCtrl = function($scope, $http, ChaptersResource, SongsResource) {
             }
         });        
     }
-};
+}]);

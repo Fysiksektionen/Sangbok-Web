@@ -13,8 +13,9 @@ module.exports = function(grunt) {
         },
 
         files: {
-          'js/vendor': 'foundation/js/vendor',
-          'js/foundation.min.js': 'foundation/js/foundation.min.js',
+          /*'js/vendor': 'foundation/js/vendor',
+          'js/foundation.min.js': 'foundation/js/foundation.min.js',*/
+          'js/mm-foundation-tpls.min.js': 'angular-foundation/mm-foundation-tpls.min.js',
 
           'css/vendor/foundation.css': 'foundation/css/foundation.css',
           'css/vendor/foundation.css.map': 'foundation/css/foundation.css.map',

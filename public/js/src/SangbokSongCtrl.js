@@ -1,6 +1,8 @@
-var SongCtrl = function($scope, $routeParams, SongsResource) {
+sangbok.controller('SongCtrl', ['$scope', '$routeParams', 'Song',
+    function($scope, $routeParams, Song) {
     'use strict';
-    $scope.song = SongsResource.get({songId: $routeParams.id}, function() {
+    $scope.song = Song.get({songId: $routeParams.id}, function() {
+        console.log($scope.song);
         if ($scope.song.melodyfile) {
             var path, melody;
 
@@ -29,5 +31,4 @@ var SongCtrl = function($scope, $routeParams, SongsResource) {
     $scope.pause = function() {
         $scope.melody.pause();
     };
-};
-
+}]);

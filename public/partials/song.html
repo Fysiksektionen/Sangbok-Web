@@ -1,10 +1,10 @@
 <div class="row panel">
     <h1><a href="#/"><i class="icon-chevron-sign-left"></i></a> {{song.title}}</h1>
     <p>
-      <div ng-show="song.author"><b>Av:</b> <span ng-bind-html-unsafe="song.author | newlines"></span></div>
-      <div ng-show="song.melody"><b>Melodi:</b> <span ng-bind-html-unsafe="song.melody | newlines"></span></div>
+      <div ng-show="song.author"><b>Av:</b> <span ng-bind-html="song.author | sbNewlines"></span></div>
+      <div ng-show="song.melody"><b>Melodi:</b> <span ng-bind-html="song.melody | sbNewlines"></span></div>
       <a data-ng-show="melody && melody.paused" href="" data-ng-click="play()"><i class="icon-play"></a></i>
       <a data-ng-show="melody && !melody.paused" href="" data-ng-click="pause()"><i class="icon-stop"></a></i>
     </p>
 </div>
-<div class="row panel" ng-bind-html-unsafe="song.text | newlines"></div>
+<div class="row panel" ng-bind-html="song.text | sbNewlines"></div>

@@ -1,4 +1,5 @@
-var HomeCtrl = function($scope, ChaptersResource) {
+sangbok.controller('HomeCtrl', ['$scope', 'Chapter',
+  function($scope, Chapter) {
     'use strict';
-    $scope.chapters = ChaptersResource.query();
-};
+    $scope.chapters = Chapter.query();
+}]);
