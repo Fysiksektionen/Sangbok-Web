@@ -9,12 +9,10 @@ css/vendor/foundation.css
 css/sangbok.min.css
 
 # JS
-js/vendor/jquery.js
-js/vendor/modernizr.js
 //ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js
 //ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.min.js
 js/sangbok.js
-js/foundation.min.js
+js/mm-foundation-tpls.min.js
 
 # HTML
 partials/home.html
