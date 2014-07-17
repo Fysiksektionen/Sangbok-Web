@@ -1,4 +1,4 @@
-var sangbok = angular.module('sangbok', ['ngRoute', 'ngResource', 'mm.foundation'])
+var sangbok = angular.module('sangbok', ['ngRoute', 'mm.foundation'])
   .config(['$routeProvider', function($routeProvider) {
     'use strict';
     $routeProvider
@@ -6,7 +6,7 @@ var sangbok = angular.module('sangbok', ['ngRoute', 'ngResource', 'mm.foundation
         templateUrl: 'partials/home.html',
         controller: 'HomeCtrl'
       })
-      .when('/song/:id', {
+      .when('/song/:chapter/:song', {
         templateUrl: 'partials/song.html',
         controller: 'SongCtrl'
       })
@@ -15,17 +15,23 @@ var sangbok = angular.module('sangbok', ['ngRoute', 'ngResource', 'mm.foundation
       });
   }])
   
-  .factory( 'Chapter', [ '$resource', function( $resource ) {
-    return $resource('chapter/:chapterId', {chapterId: '@_id'});
-  }])
-  
-  .factory( 'Song', [ '$resource', function( $resource ) {
-    return $resource('song/:songId', {songId: '@_id'});
+  .factory( 'Songs', ['$http', function( $http ) {
+    var promise;
+    var songs = {
+      async: function() {
+        if ( !promise ) {
+          promise = $http.get('/chapter').then(function (response) {
+            return response.data;
+          });
+        }
+        return promise;
+      }
+    };
+    return songs;
   }])
   
   .filter('sbNewlines', ['$sce', function ($sce) {
     return function(text) {
-      console.log(text);
       if(!text) return '';
         return $sce.trustAsHtml(text.replace(/\n/g, '<br/>'));
     }

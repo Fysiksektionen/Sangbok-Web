@@ -16,7 +16,6 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-route.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.min.js"></script>
   <script src="js/mm-foundation-tpls.min.js"></script>
   <script src="js/sangbok.js"></script>
 </head>
@@ -34,8 +33,7 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right" ng-controller="OfflineCtrl">
-      <li ng-show="status == ONLINE"><a ng-click="sync()">Gör tillgänglig offline</a></li>
-      <li ng-show="status == SYNCING"><a href="">Laddar ner ({{progress | number:0}}%)</a></li>
+      <li ng-show="status == ERROR"><a href="">Offlinelagring misslyckades</a></li>
       <li ng-show="status == SYNCED"><a href="">Tillgänglig offline</a></li>
       <li ng-show="status == OFFLINE"><a href="">Offlineläge</a></li>
     </ul>

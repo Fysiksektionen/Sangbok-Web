@@ -2,7 +2,7 @@
   <accordion close-others="true">
     <accordion-group data-ng-repeat="chapter in chapters">
         <accordion-heading>{{chapter.chapter}}</accordion-heading>
-        <p data-ng-repeat="song in chapter.songs"><a href="#/song/{{song.id}}">{{song.title}}</a></p>
+        <p data-ng-repeat="song in chapter.songs"><a href="#/song/{{chapter.id}}/{{song.number}}">{{song.title}}</a></p>
     </accordion-group>
   </accordion>
 </div>

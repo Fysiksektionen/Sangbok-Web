@@ -1,39 +1,19 @@
-sangbok.controller('OfflineCtrl', ['$scope', '$http', 'Song',
+sangbok.controller('OfflineCtrl', ['$scope', '$http', 'Songs',
     function($scope, $http, Song) {
-    $scope.ONLINE = 0;
+    $scope.ERROR = 0;
     $scope.OFFLINE = 1;
-    $scope.SYNCING = 2;
-    $scope.SYNCED = 3;
+    $scope.SYNCED = 2;
 
-    $scope.status = $scope.OFFLINE;
+    $scope.status = $scope.SYNCED;
     $scope.progress = 0;
 
+    window.applicationCache.addEventListener('error', function cacheError() {
+      $scope.status = $scope.ERROR;
+    }, false);
+
     $http.get('online').success(function(data) {
-        if(data.online) {
-            $scope.status = $scope.ONLINE;
-        } else {
+        if(!data.online) {
             $scope.status = $scope.OFFLINE;
         }
     });
-
-    $scope.sync = function() {
-        var chapters;
-
-        $scope.status = $scope.SYNCING;
-
-        songs = Song.query(function() {
-            var left = songs.length;
-            for (i = 0; i < songs.length; ++i) {
-
-                $http.get('song/' + songs[i].id, { cache: true }).success(function(data) {
-                    $scope.progress += 100*(1/songs.length);
-                    left--;
-
-                    if(left === 0) {
-                        $scope.status = $scope.SYNCED;
-                    }
-                });
-            }
-        });        
-    }
 }]);

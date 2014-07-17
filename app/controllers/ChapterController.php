@@ -11,7 +11,7 @@ class ChapterController extends \BaseController {
 	{
 
 		$chapters = Chapter::with(array('songs'=>function($query){
-        $query->select('id', 'chapter_id', 'title')->orderBy('number', 'asc');
+        $query->orderBy('number', 'asc');
     }))->orderBy('id', 'asc')->get();
 
 		return Response::json($chapters)
@@ -30,7 +30,7 @@ class ChapterController extends \BaseController {
 	public function show($id)
 	{
 		$chapter = Chapter::with(array('songs'=>function($query){
-        $query->select('id', 'chapter_id', 'title', 'author', 'melody')->orderBy('number', 'asc');
+        $query->orderBy('number', 'asc');
     }))->find($id);
 
 		return Response::json($chapters)

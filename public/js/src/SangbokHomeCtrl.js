@@ -1,5 +1,8 @@
-sangbok.controller('HomeCtrl', ['$scope', 'Chapter',
-  function($scope, Chapter) {
+sangbok.controller('HomeCtrl', ['$scope', 'Songs',
+  function($scope, Songs) {
     'use strict';
-    $scope.chapters = Chapter.query();
+    
+    Songs.async().then(function(chapters) {
+      $scope.chapters = chapters;
+    });
 }]);

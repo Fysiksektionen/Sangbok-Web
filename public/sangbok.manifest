@@ -10,7 +10,7 @@ css/sangbok.min.css
 
 # JS
 //ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js
-//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.min.js
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-route.min.js
 js/sangbok.js
 js/mm-foundation-tpls.min.js
 

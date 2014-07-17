@@ -1,9 +1,10 @@
-sangbok.controller('SongCtrl', ['$scope', '$routeParams', 'Song',
-    function($scope, $routeParams, Song) {
+sangbok.controller('SongCtrl', ['$scope', '$routeParams', 'Songs',
+    function($scope, $routeParams, Songs) {
     'use strict';
-    $scope.song = Song.get({songId: $routeParams.id}, function() {
-        console.log($scope.song);
-        if ($scope.song.melodyfile) {
+    Songs.async().then(function(songs) {
+      $scope.song = songs[$routeParams.chapter-1].songs[$routeParams.song-1];
+
+      if ($scope.song.melodyfile) {
             var path, melody;
 
             path = 'sound/' + $scope.song.melodyfile;
