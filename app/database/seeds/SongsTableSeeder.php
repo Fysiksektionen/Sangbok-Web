@@ -2,26 +2,25 @@
 
 class SongsTableSeeder extends Seeder {
 
-	/**
-	 * Auto generated seed file
-	 *
-	 * @return void
-	 */
-	public function run()
-	{
-		\DB::table('songs')->truncate();
+  /**
+   * Auto generated seed file
+   *
+   * @return void
+   */
+  public function run() {
+    \DB::table('songs')->truncate();
         
-		\DB::table('songs')->insert(array (
-			0 => 
-			array (
-				'id' => 1,
-				'chapter_id' => 1,
-				'number' => 1,
-				'title' => 'Du gamla du fria',
-				'author' => 'Rikard Dybeck',
-				'melody' => 'Till svenska fosterjorden
+    \DB::table('songs')->insert(array (
+      0 => 
+      array (
+        'id' => 1,
+        'chapter_id' => 1,
+        'number' => 1,
+        'title' => 'Du gamla du fria',
+        'author' => 'Rikard Dybeck',
+        'melody' => 'Till svenska fosterjorden
 Noter till blandad kör finns i notkapitlet.',
-				'text' => 'Du gamla du fria, du fjällhöga nord
+        'text' => 'Du gamla du fria, du fjällhöga nord
 Du tysta, du glädjerika sköna
 Jag hälsar dig vänaste land uppå jord
 ||:Din sol, din himmel, dina ängder gröna :||
@@ -40,18 +39,18 @@ Med Gud skall jag kämpa, för hem och för härd,
 för Sverige, den kära fosterjorden.
 Jag byter Dig ej, mot allt i en värld
 ||:Nej, jag vill leva jag vill dö i Norden!:||',
-			),
-			1 => 
-			array (
-				'id' => 2,
-				'chapter_id' => 1,
-				'number' => 2,
-				'title' => 'Kungssången',
-				'author' => 'Text: C. V. A. Strandberg
+      ),
+      1 => 
+      array (
+        'id' => 2,
+        'chapter_id' => 1,
+        'number' => 2,
+        'title' => 'Kungssången',
+        'author' => 'Text: C. V. A. Strandberg
 Musik: Otto Lindblad.',
-				'melody' => 'Hymn
+        'melody' => 'Hymn
 Noter till manskör finns i notkapitlet',
-				'text' => 'Ur svenska hjärtans djup en gång
+        'text' => 'Ur svenska hjärtans djup en gång
 En samfälld och en enkel sång
 Som går till Kungen fram
 Var honom trofast och hans ätt
@@ -66,17 +65,17 @@ Det gamla lynnets art igen
 Hos sveakungen och hans män,
 Och låt den ande vila än
 Utöver nordanland.',
-			),
-			2 => 
-			array (
-				'id' => 3,
-				'chapter_id' => 1,
-				'number' => 3,
-				'title' => 'Sveriges flagga',
-				'author' => 'Text: KG Ossiannilsson
+      ),
+      2 => 
+      array (
+        'id' => 3,
+        'chapter_id' => 1,
+        'number' => 3,
+        'title' => 'Sveriges flagga',
+        'author' => 'Text: KG Ossiannilsson
 Musik: Hugo Alfvén',
-				'melody' => 'Noter finns i notkapitlet.',
-				'text' => 'Flamma stolt mot dunkla skyar
+        'melody' => 'Noter finns i notkapitlet.',
+        'text' => 'Flamma stolt mot dunkla skyar
 lik en glimt av sommarns sol
 Över Sveriges skogar, berg och byar,
 över vatten och viol.
@@ -93,18 +92,18 @@ Sveriges flagga, Sveriges ära,
 fornklenod och framtids tolk:
 Gud är med oss, Gud är med oss
 Han skall bära starkt vårt fria svenska folk.',
-			),
-			3 => 
-			array (
-				'id' => 4,
-				'chapter_id' => 1,
-				'number' => 4,
-				'title' => 'Internationalen',
-				'author' => 'Originaltext: Eugène Pottier
+      ),
+      3 => 
+      array (
+        'id' => 4,
+        'chapter_id' => 1,
+        'number' => 4,
+        'title' => 'Internationalen',
+        'author' => 'Originaltext: Eugène Pottier
 Musik: Pierre Degeyter
 Svensk text: Henrik Menander',
-				'melody' => NULL,
-				'text' => 'Upp trälar uti alla stater,
+        'melody' => NULL,
+        'text' => 'Upp trälar uti alla stater,
 som hungern bojor lagt uppå.
 Det dånar uti maktens krater,
 snart skall frihetens timma slå.
@@ -179,16 +178,16 @@ Upp slå ned allt det gamla,
 tålamodet är slut!
 För frihet vi oss samla,
 förgöra våldets krut!',
-			),
-			4 => 
-			array (
-				'id' => 5,
-				'chapter_id' => 1,
-				'number' => 5,
-				'title' => 'Auld lang syne',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Should auld acquaintance be forgot,
+      ),
+      4 => 
+      array (
+        'id' => 5,
+        'chapter_id' => 1,
+        'number' => 5,
+        'title' => 'Auld lang syne',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Should auld acquaintance be forgot,
 And never brought to mind?
 Should auld acquaintance be forgot,
 And days o\' lang syne?
@@ -205,16 +204,16 @@ For auld lang syne my dear,
 For auld lang syne,
 We\'ll take a cup o\' kindness yet
 For auld lang syne.',
-			),
-			5 => 
-			array (
-				'id' => 6,
-				'chapter_id' => 10,
-				'number' => 1,
-				'title' => 'Festen  skall börjas',
-				'author' => NULL,
-				'melody' => 'Vårvindar friska',
-				'text' => 'Festen skall börjas kråset ska smörjas
+      ),
+      5 => 
+      array (
+        'id' => 6,
+        'chapter_id' => 10,
+        'number' => 1,
+        'title' => 'Festen  skall börjas',
+        'author' => NULL,
+        'melody' => 'Vårvindar friska',
+        'text' => 'Festen skall börjas kråset ska smörjas
 magen skall få det som den vill ha.
 Glasen står fulla låt sången rulla
 Glädjen skall vara gäst här i da.
@@ -224,16 +223,16 @@ glöm alla sorger, var bara ung.
 Glöm morgondagen.
 Tänk blott på magen.
 Skål alla vänner! Hej och gutår!',
-			),
-			6 => 
-			array (
-				'id' => 7,
-				'chapter_id' => 10,
-				'number' => 10,
-				'title' => 'Hårgalåten',
-				'author' => '',
-				'melody' => '',
-				'text' => 'Spelmannen drog fiol\'n ur lådan och
+      ),
+      6 => 
+      array (
+        'id' => 7,
+        'chapter_id' => 10,
+        'number' => 10,
+        'title' => 'Hårgalåten',
+        'author' => '',
+        'melody' => '',
+        'text' => 'Spelmannen drog fiol\'n ur lådan och
 Lyfte stråken högt mot söndagsolens kula
 Då blev det fart i Hårgafolket
 De glömde Gud och hela världen
@@ -262,16 +261,16 @@ Hejda din stråke spelman innan
 vi dansar liv och själ och alla ben ur kroppen
 Nej inte slutar han sin dans 
 Förr\'n de allesammans faller döda',
-			),
-			7 => 
-			array (
-				'id' => 8,
-				'chapter_id' => 10,
-				'number' => 11,
-				'title' => 'En dansk aquavit',
-				'author' => 'Hans Hartvig Seedorf',
-				'melody' => '',
-				'text' => 'Ren som en jomfru
+      ),
+      7 => 
+      array (
+        'id' => 8,
+        'chapter_id' => 10,
+        'number' => 11,
+        'title' => 'En dansk aquavit',
+        'author' => 'Hans Hartvig Seedorf',
+        'melody' => '',
+        'text' => 'Ren som en jomfru
 og stærk som en bejler,
 hed som det hjærte,
 der hamre mod dit.
@@ -280,16 +279,16 @@ Kølig som kilden,
 der vårhimlen spejler:
 ||: sådan min ven,
 er en dansk aquavit. :||',
-			),
-			8 => 
-			array (
-				'id' => 9,
-				'chapter_id' => 10,
-				'number' => 12,
-				'title' => 'Trink, trink',
-				'author' => '',
-				'melody' => 'Trink, trink',
-				'text' => 'Trink, trink, Brüderlein trink
+      ),
+      8 => 
+      array (
+        'id' => 9,
+        'chapter_id' => 10,
+        'number' => 12,
+        'title' => 'Trink, trink',
+        'author' => '',
+        'melody' => 'Trink, trink',
+        'text' => 'Trink, trink, Brüderlein trink
 Lasset die Sorgen zu Haus
 Trink, trink, Bruderlein trink
 Bald ist das Leben aus
@@ -311,16 +310,16 @@ Trink... etc.
 
 ||: Kauf dir ein Auto, fahr gegen ein Baum
 Dann wird das Leben ein Traum :||',
-			),
-			9 => 
-			array (
-				'id' => 10,
-				'chapter_id' => 10,
-				'number' => 13,
-				'title' => 'Smedsvisan',
-				'author' => 'Daniel Helldén',
-				'melody' => 'Noter finns i notkapitlet',
-				'text' => 'En gång i min ungdom älskade jag
+      ),
+      9 => 
+      array (
+        'id' => 10,
+        'chapter_id' => 10,
+        'number' => 13,
+        'title' => 'Smedsvisan',
+        'author' => 'Daniel Helldén',
+        'melody' => 'Noter finns i notkapitlet',
+        'text' => 'En gång i min ungdom älskade jag
 en flicka med rena och sköna behag.
 Hon lovfte mig tro, i lust och i nöd
 allt in till sin blekaste död
@@ -359,27 +358,27 @@ Hej hopp faderi faderalladerej
 Hej hopp faderi faderalladerej
 Den flickan hon kommer aldrig igen,
 men sången den trallar jag än.',
-			),
-			10 => 
-			array (
-				'id' => 11,
-				'chapter_id' => 10,
-				'number' => 14,
-				'title' => 'Korta smedsvisan',
-				'author' => '',
-				'melody' => '',
-				'text' => 'En gång i min ungdom älskade jag -
+      ),
+      10 => 
+      array (
+        'id' => 11,
+        'chapter_id' => 10,
+        'number' => 14,
+        'title' => 'Korta smedsvisan',
+        'author' => '',
+        'melody' => '',
+        'text' => 'En gång i min ungdom älskade jag -
 Sa tack och adjö och försvann!',
-			),
-			11 => 
-			array (
-				'id' => 12,
-				'chapter_id' => 10,
-				'number' => 2,
-				'title' => 'Festvisa',
-				'author' => 'nØllespexet 2004',
-				'melody' => 'Sjösala vals',
-				'text' => 'Årets första fest sker på klassiskt manér,
+      ),
+      11 => 
+      array (
+        'id' => 12,
+        'chapter_id' => 10,
+        'number' => 2,
+        'title' => 'Festvisa',
+        'author' => 'nØllespexet 2004',
+        'melody' => 'Sjösala vals',
+        'text' => 'Årets första fest sker på klassiskt manér,
 känn hur glädjen spritter uti kroppen med väldig fart.
 Börja lätt med ölen ty den gåt alltid ner,
 å innan festens slut sänkes nog några fler.
@@ -389,16 +388,16 @@ om kryddan bränner strupen finns bättre destillat.
 Ty punschen kommer ljuv och sval,
 Läskar ända in i märgen.
 Nu ska vi roa oss kungligt till klockan fem.',
-			),
-			12 => 
-			array (
-				'id' => 13,
-				'chapter_id' => 10,
-				'number' => 3,
-				'title' => 'Sjösala vals',
-				'author' => 'Evert Taube',
-				'melody' => 'Sjösala vals',
-				'text' => 'Rönnerdahl han skuttar med ett skratt ur sin säng.
+      ),
+      12 => 
+      array (
+        'id' => 13,
+        'chapter_id' => 10,
+        'number' => 3,
+        'title' => 'Sjösala vals',
+        'author' => 'Evert Taube',
+        'melody' => 'Sjösala vals',
+        'text' => 'Rönnerdahl han skuttar med ett skratt ur sin säng.
 Solen står på Orrberget. Sunnanvind brusar.
 Rönnerdahl han valsar över Sjösala äng.
 - Hör min vackra visa, kom sjung min refräng!
@@ -441,16 +440,16 @@ och ekorren och finken och vårens första gök
 och blommorna, de blommor som redan 
 slagit ut på ängen
 Gullviva, mandelblom, kattfot och blå viol.',
-			),
-			13 => 
-			array (
-				'id' => 14,
-				'chapter_id' => 10,
-				'number' => 4,
-				'title' => 'Änglamark',
-				'author' => 'Evert Taube',
-				'melody' => 'Änglamark',
-				'text' => 'Kalla den änglamarken eller himlajorden om du vill,
+      ),
+      13 => 
+      array (
+        'id' => 14,
+        'chapter_id' => 10,
+        'number' => 4,
+        'title' => 'Änglamark',
+        'author' => 'Evert Taube',
+        'melody' => 'Änglamark',
+        'text' => 'Kalla den änglamarken eller himlajorden om du vill,
 jorden vi ärvde och lunden den gröna.
 Vildrosor och blåklockor och lindblommor och kamomill
 låt dem få leva, de är ju så sköna.
@@ -469,16 +468,16 @@ Kalla den änglamarken eller himlajorden om du vill,
 jorden vi ärvde och lunden den gröna.
 Vildrosor och blåklockor och lindblommor och kamomill
 låt dem få leva, de är ju så sköna.',
-			),
-			14 => 
-			array (
-				'id' => 15,
-				'chapter_id' => 10,
-				'number' => 5,
-				'title' => 'Frithiof och Carmencita',
-				'author' => 'Evert Taube',
-				'melody' => 'Frithiof och Carmencita',
-				'text' => 'Samborombon, en liten by förutan gata, 
+      ),
+      14 => 
+      array (
+        'id' => 15,
+        'chapter_id' => 10,
+        'number' => 5,
+        'title' => 'Frithiof och Carmencita',
+        'author' => 'Evert Taube',
+        'melody' => 'Frithiof och Carmencita',
+        'text' => 'Samborombon, en liten by förutan gata, 
 den ligger inte långt från Rio de la Plata, 
 nästan i kanten av den blåa Atlanten 
 och med Pampas bakom sig 
@@ -527,16 +526,16 @@ Men min kärlek gör dig rik,
 skaffa mig ett jobb i er butik. 
 Och när vi blir gifta söta ungar skall vi få, 
 som kan dansa tango.',
-			),
-			15 => 
-			array (
-				'id' => 16,
-				'chapter_id' => 10,
-				'number' => 6,
-				'title' => 'Än en gång däran',
-				'author' => 'Evert Taube',
-				'melody' => 'Än en gång däran',
-				'text' => 'Än en gång däran, bröder
+      ),
+      15 => 
+      array (
+        'id' => 16,
+        'chapter_id' => 10,
+        'number' => 6,
+        'title' => 'Än en gång däran',
+        'author' => 'Evert Taube',
+        'melody' => 'Än en gång däran',
+        'text' => 'Än en gång däran, bröder
 Än en gång däran
 Följom den urgamla seden
 In till sista man, bröder
@@ -561,30 +560,30 @@ Stärkta i själen av brännvin från vårt land
 Kämpa mot allt torrt, bröder
 Kämpa mot allt torrt
 Svenska hjärtans djup här är din sup.',
-			),
-			16 => 
-			array (
-				'id' => 17,
-				'chapter_id' => 10,
-				'number' => 7,
-				'title' => 'En liten blå förgätmigej',
-				'author' => '',
-				'melody' => 'Sjungs knästående för serveringspersonalen',
-				'text' => 'Hur gärna ville jag ej vara
+      ),
+      16 => 
+      array (
+        'id' => 17,
+        'chapter_id' => 10,
+        'number' => 7,
+        'title' => 'En liten blå förgätmigej',
+        'author' => '',
+        'melody' => 'Sjungs knästående för serveringspersonalen',
+        'text' => 'Hur gärna ville jag ej vara
 en liten blå förgätmigej
 en liten blå förgätmigej.
 Då skulle jag för dig förklara
 hur innerligt jag älskar dig!',
-			),
-			17 => 
-			array (
-				'id' => 18,
-				'chapter_id' => 10,
-				'number' => 8,
-				'title' => 'Längtan till landet',
-				'author' => 'H. Sätherberg',
-				'melody' => 'Noter till blandad kör finns i notkapitlet',
-				'text' => 'Vintern rasat ut bland våra fjällar,
+      ),
+      17 => 
+      array (
+        'id' => 18,
+        'chapter_id' => 10,
+        'number' => 8,
+        'title' => 'Längtan till landet',
+        'author' => 'H. Sätherberg',
+        'melody' => 'Noter till blandad kör finns i notkapitlet',
+        'text' => 'Vintern rasat ut bland våra fjällar,
 Drivans blommor smälta ned och dö.
 Himlen ler i vårens ljusa kvällar,
 Solen kysser liv i skog och sjö.
@@ -603,16 +602,16 @@ Sjö och berg jag vill dem återse,
 Följa bäckens dans till klarnad sjö,
 Trastens sång i furuskogens lunder,
 Vattenfågelns lek kring fjärd och ö. :||',
-			),
-			18 => 
-			array (
-				'id' => 19,
-				'chapter_id' => 10,
-				'number' => 9,
-				'title' => 'Balladen om Herr Fredrik Åkare och den söta fröken Cecilia Lind',
-				'author' => 'Text: Cornelis Vreeswijk',
-				'melody' => 'Monday morning',
-				'text' => 'Från Öckerö loge hörs dragspel och bas
+      ),
+      18 => 
+      array (
+        'id' => 19,
+        'chapter_id' => 10,
+        'number' => 9,
+        'title' => 'Balladen om Herr Fredrik Åkare och den söta fröken Cecilia Lind',
+        'author' => 'Text: Cornelis Vreeswijk',
+        'melody' => 'Monday morning',
+        'text' => 'Från Öckerö loge hörs dragspel och bas
 och fullmånen lyser som var den av glas.
 Där dansar Fredrik Åkare kind emot kind
 med lilla fröken Cecilia Lind.
@@ -641,16 +640,16 @@ Och stjärnorna vandra och timmarna fly
 och Fredrik är gammal men månen är ny.
 Ja, Fredrik är gammal men kärlek är blind.
 Åh, kyss mig igen, sa Cecilia Lind.',
-			),
-			19 => 
-			array (
-				'id' => 20,
-				'chapter_id' => 11,
-				'number' => 1,
-				'title' => 'Fredmans sång n:o 21 - Måltidssång',
-				'author' => 'C. M. Bellman',
-				'melody' => '',
-				'text' => 'Så lunka vi så småningom
+      ),
+      19 => 
+      array (
+        'id' => 20,
+        'chapter_id' => 11,
+        'number' => 1,
+        'title' => 'Fredmans sång n:o 21 - Måltidssång',
+        'author' => 'C. M. Bellman',
+        'melody' => '',
+        'text' => 'Så lunka vi så småningom
 Från Bacchi buller och tumult,
 När döden ropar "Granne kom,
 Ditt timglas är nu fullt" 
@@ -750,16 +749,16 @@ nymf   -   naturväsen
 remmare   -   buktigt vinglas med fot
 präss   -   vin- eller citronpress
 band, stjärnor   -   ordnar',
-			),
-			20 => 
-			array (
-				'id' => 21,
-				'chapter_id' => 11,
-				'number' => 10,
-				'title' => 'Glunt nr. 25 - Examenssexa',
-				'author' => 'G. Wennerberg',
-				'melody' => '',
-				'text' => 'Här är gudagott att vara
+      ),
+      20 => 
+      array (
+        'id' => 21,
+        'chapter_id' => 11,
+        'number' => 10,
+        'title' => 'Glunt nr. 25 - Examenssexa',
+        'author' => 'G. Wennerberg',
+        'melody' => '',
+        'text' => 'Här är gudagott att vara
 O, vad livet dock är skönt.
 Hör vad fröjd från fåglars skara,
 Se vad gräset lyser grönt.
@@ -767,16 +766,16 @@ Humlan surrar, fjäriln prålar,
 Lärkan slår i skyn sin drill
 Och ur nektarfyllda skålar
 Dricka oss små blommor till.',
-			),
-			21 => 
-			array (
-				'id' => 22,
-				'chapter_id' => 11,
-				'number' => 11,
-				'title' => 'Sommarpsalm',
-				'author' => 'Text: Carl David af Wirsén',
-				'melody' => '',
-				'text' => 'En vänlig grönskas rika dräkt
+      ),
+      21 => 
+      array (
+        'id' => 22,
+        'chapter_id' => 11,
+        'number' => 11,
+        'title' => 'Sommarpsalm',
+        'author' => 'Text: Carl David af Wirsén',
+        'melody' => '',
+        'text' => 'En vänlig grönskas rika dräkt
 har smyckat dal och ängar.
 Nu smeker vindens ljumma fläkt
 de fagra örtesängar,
@@ -799,16 +798,16 @@ och dina nådesunder.
 Allt kött är hö, och blomstren dö,
 och tiden allt fördriver.
 Blott Herrens ord förbliver',
-			),
-			22 => 
-			array (
-				'id' => 23,
-				'chapter_id' => 11,
-				'number' => 12,
-				'title' => 'Uti vår hage',
-				'author' => 'Svensk folkvisa',
-				'melody' => '',
-				'text' => 'Uti vår hage där växa blå bär.
+      ),
+      22 => 
+      array (
+        'id' => 23,
+        'chapter_id' => 11,
+        'number' => 12,
+        'title' => 'Uti vår hage',
+        'author' => 'Svensk folkvisa',
+        'melody' => '',
+        'text' => 'Uti vår hage där växa blå bär.
 Kom hjärtans fröjd
 Vill du mig något, så har du mig här!
 Kom liljor och aquileja,
@@ -835,16 +834,16 @@ Men utav alla du kärast mig är.
 Kom liljor och akvileja,
 kom rosor och salivia! 
 Kom ljuva krusmynta, kom hjärtansfröjd!',
-			),
-			23 => 
-			array (
-				'id' => 24,
-				'chapter_id' => 11,
-				'number' => 13,
-				'title' => 'Värmlandsvisan',
-				'author' => '',
-				'melody' => '',
-				'text' => 'Ack, Värmeland, du sköna, du härliga land!  
+      ),
+      23 => 
+      array (
+        'id' => 24,
+        'chapter_id' => 11,
+        'number' => 13,
+        'title' => 'Värmlandsvisan',
+        'author' => '',
+        'melody' => '',
+        'text' => 'Ack, Värmeland, du sköna, du härliga land!  
 Du krona för Svea rikes länder!  
 Ja, om jag komme mitt i det förlovade land,  
 till Värmland jag ändå återvänder.  
@@ -867,16 +866,16 @@ och luften är frisk på dess höjder.
 Och forsarna sjunga sin ljuvliga sång,
 vid den vill jag somna så stilla en gång
 och vila i värmländska jorden.',
-			),
-			24 => 
-			array (
-				'id' => 25,
-				'chapter_id' => 11,
-				'number' => 2,
-				'title' => 'Kor ur Bacchi tempel',
-				'author' => 'C. M. Bellman',
-				'melody' => '',
-				'text' => 'Bort allt vad oro gör,
+      ),
+      24 => 
+      array (
+        'id' => 25,
+        'chapter_id' => 11,
+        'number' => 2,
+        'title' => 'Kor ur Bacchi tempel',
+        'author' => 'C. M. Bellman',
+        'melody' => '',
+        'text' => 'Bort allt vad oro gör,
 Bort allt vad hjärtat kväljer
 Bäst att man väljer bland
 Desse buteljer
@@ -899,16 +898,16 @@ Vet denna oljan ger humör.
 Vad det var mäktigt!
 Vad var det? Jo, präktigt!
 Malaga - ja. :||',
-			),
-			25 => 
-			array (
-				'id' => 26,
-				'chapter_id' => 11,
-				'number' => 3,
-				'title' => 'Fredmans epistel n:o 48',
-				'author' => 'C. M. Bellman',
-				'melody' => '',
-				'text' => 'Solen glimmar blank och trind,
+      ),
+      25 => 
+      array (
+        'id' => 26,
+        'chapter_id' => 11,
+        'number' => 3,
+        'title' => 'Fredmans epistel n:o 48',
+        'author' => 'C. M. Bellman',
+        'melody' => '',
+        'text' => 'Solen glimmar blank och trind,
 Vattnet likt en spegel;
 Småningom upblåser vind
 I de fallna segel;
@@ -970,16 +969,16 @@ Klev så bredbent i paulun;
 Movitz efter med basun:
 Maka åt dig Norström! Frun
 Hör ju till oss alla.',
-			),
-			26 => 
-			array (
-				'id' => 27,
-				'chapter_id' => 11,
-				'number' => 4,
-				'title' => 'Molltoner från Norrland',
-				'author' => 'Julia Kristina Nyberg',
-				'melody' => 'Noter finns i notkapitlet',
-				'text' => 'Vårvindar friska, leka och viska
+      ),
+      26 => 
+      array (
+        'id' => 27,
+        'chapter_id' => 11,
+        'number' => 4,
+        'title' => 'Molltoner från Norrland',
+        'author' => 'Julia Kristina Nyberg',
+        'melody' => 'Noter finns i notkapitlet',
+        'text' => 'Vårvindar friska, leka och viska
 Lunderna kring likt älskande par
 Strömmarna ila, finna ej vila
 Förrän i havet störtvågen far.
@@ -1032,16 +1031,16 @@ Klaga, mitt hjärta, klaga! — O, hör!
 Vallhornets klang bland klipporna dör:
 Strömkarlen spelar, sorgerna delar
 Vakan kring berg och dal.',
-			),
-			27 => 
-			array (
-				'id' => 28,
-				'chapter_id' => 11,
-				'number' => 5,
-				'title' => 'Den blomstertid',
-				'author' => 'Isak Kolmodin',
-				'melody' => '',
-				'text' => 'Den blomstertid nu kommer
+      ),
+      27 => 
+      array (
+        'id' => 28,
+        'chapter_id' => 11,
+        'number' => 5,
+        'title' => 'Den blomstertid',
+        'author' => 'Isak Kolmodin',
+        'melody' => '',
+        'text' => 'Den blomstertid nu kommer
 med lust och fägring stor:
 Du nalkas ljuva sommar,
 Då gräs och gröda gror.
@@ -1067,17 +1066,17 @@ Min själ, upphöj Guds ära,
 stäm upp din glädjesång
 till den som vill oss nära
 och fröjda på en gång.',
-			),
-			28 => 
-			array (
-				'id' => 29,
-				'chapter_id' => 11,
-				'number' => 6,
-				'title' => 'Nu grönskar det',
-				'author' => 'Musik: J. S. Bach
+      ),
+      28 => 
+      array (
+        'id' => 29,
+        'chapter_id' => 11,
+        'number' => 6,
+        'title' => 'Nu grönskar det',
+        'author' => 'Musik: J. S. Bach
 Svensk text: Evelyn Lindström',
-				'melody' => 'Noter finns i notkapitlet',
-				'text' => 'Nu grönskar det i dalens famn,
+        'melody' => 'Noter finns i notkapitlet',
+        'text' => 'Nu grönskar det i dalens famn,
 Nu doftar äng och lid.
 Kom med, kom med på vandringsfärd
 I vårens glada tid!
@@ -1094,17 +1093,17 @@ Med öppna ögon låt oss se
 På livets rikedom
 Som gror och sjuder överallt
 Där våren går i blom!',
-			),
-			29 => 
-			array (
-				'id' => 30,
-				'chapter_id' => 11,
-				'number' => 7,
-				'title' => 'Visa vid midsommartid',
-				'author' => 'Musik: Håkan Norlen
+      ),
+      29 => 
+      array (
+        'id' => 30,
+        'chapter_id' => 11,
+        'number' => 7,
+        'title' => 'Visa vid midsommartid',
+        'author' => 'Musik: Håkan Norlen
 Svensk text: Rune Lindström',
-				'melody' => '',
-				'text' => 'Du lindar av olvon en midsommarkrans
+        'melody' => '',
+        'text' => 'Du lindar av olvon en midsommarkrans
 och hänger den om ditt hår.
 Du skrattar åt mångubbens benvita glans,
 som högt över tallen står.
@@ -1121,16 +1120,16 @@ Nu far du till Mosslinda, Mosslunda mor,
 där Ull-Stina, Kull-Lina, Gull-Fina bor.
 I natt skall du somna vid Svartrama damm
 där natten och mossan är len.',
-			),
-			30 => 
-			array (
-				'id' => 31,
-				'chapter_id' => 11,
-				'number' => 8,
-				'title' => 'Kristallen den fina',
-				'author' => 'Svensk folkvisa',
-				'melody' => '',
-				'text' => 'Kristallen den fina, som solen månd\' skina,
+      ),
+      30 => 
+      array (
+        'id' => 31,
+        'chapter_id' => 11,
+        'number' => 8,
+        'title' => 'Kristallen den fina',
+        'author' => 'Svensk folkvisa',
+        'melody' => '',
+        'text' => 'Kristallen den fina, som solen månd\' skina,
 Som stjärnorna blänka i skyn.
 Jag känner en flicka, i dygden den fina,
 En flicka i denna här byn.
@@ -1153,16 +1152,16 @@ Och jag vore vännen din,
 Och du allra kärestan min!
 Du ädela ros
 och förgyllande skrin.',
-			),
-			31 => 
-			array (
-				'id' => 32,
-				'chapter_id' => 11,
-				'number' => 9,
-				'title' => 'Madrigal',
-				'author' => 'A. de la Hale',
-				'melody' => '',
-				'text' => 'Kom, du ljuva hjärtevän!
+      ),
+      31 => 
+      array (
+        'id' => 32,
+        'chapter_id' => 11,
+        'number' => 9,
+        'title' => 'Madrigal',
+        'author' => 'A. de la Hale',
+        'melody' => '',
+        'text' => 'Kom, du ljuva hjärtevän!
 Skall jag vänta länge än?
 ||: Längtan mig förbränner,
 Hjärtevän! :||
@@ -1176,16 +1175,16 @@ Liksom rosen skär och ren,
 slår du ut i solens sken.
 ||: Kom, kom du min ljuva
 Hjärtevän! :||',
-			),
-			32 => 
-			array (
-				'id' => 33,
-				'chapter_id' => 12,
-				'number' => 1,
-				'title' => 'Jag har aldrig vart på snusen',
-				'author' => '',
-				'melody' => 'Åh, hur saligt att få vandra',
-				'text' => 'Jag har aldrig vart på snusen,
+      ),
+      32 => 
+      array (
+        'id' => 33,
+        'chapter_id' => 12,
+        'number' => 1,
+        'title' => 'Jag har aldrig vart på snusen',
+        'author' => '',
+        'melody' => 'Åh, hur saligt att få vandra',
+        'text' => 'Jag har aldrig vart på snusen,
 Aldrig rökat en cigarr, haleluja
 Mina dygder äro tusen
 Inga syndiga laster jag har
@@ -1206,16 +1205,16 @@ Konjak i varenda rännsten
 Och punsch i varenda vattenpöl
 
 Och mellanöl - och mellanöl...',
-			),
-			33 => 
-			array (
-				'id' => 34,
-				'chapter_id' => 12,
-				'number' => 2,
-				'title' => 'Handelsvisa',
-				'author' => 'Team kangaroo Gerhards-gasque 1977',
-				'melody' => 'Åh, hur saligt att få vandra',
-				'text' => 'Vi vill aldrig gå på Handels,
+      ),
+      33 => 
+      array (
+        'id' => 34,
+        'chapter_id' => 12,
+        'number' => 2,
+        'title' => 'Handelsvisa',
+        'author' => 'Team kangaroo Gerhards-gasque 1977',
+        'melody' => 'Åh, hur saligt att få vandra',
+        'text' => 'Vi vill aldrig gå på Handels,
 Aldrig tenta företagsekonomi.
 Deras IQ den e\' Mandels
 Och förståndet, det har ju gjort sorti.
@@ -1236,16 +1235,16 @@ Då skulle Osquarulda trivas
 Uppå denna Handels ljuva domedag!
 
 Åh, vilket drag - på denna dag ....',
-			),
-			34 => 
-			array (
-				'id' => 35,
-				'chapter_id' => 12,
-				'number' => 3,
-				'title' => 'Fysikhatarvisan',
-				'author' => 'DKM hösten 2000',
-				'melody' => 'Åh, hur saligt att få vandra',
-				'text' => 'Jag vill inte gå på fysik,
+      ),
+      34 => 
+      array (
+        'id' => 35,
+        'chapter_id' => 12,
+        'number' => 3,
+        'title' => 'Fysikhatarvisan',
+        'author' => 'DKM hösten 2000',
+        'melody' => 'Åh, hur saligt att få vandra',
+        'text' => 'Jag vill inte gå på fysik,
 aldrig tenta termometerdynamik.
 Jag vill inte höra syntmusik,
 inte festa som en tråkig mattegeek.
@@ -1266,17 +1265,17 @@ Televerket ska fördrivas
 uppå Konsulatets ljuva domedag
 
 Å nubbedrag - på denna dag ...',
-			),
-			35 => 
-			array (
-				'id' => 36,
-				'chapter_id' => 12,
-				'number' => 4,
-				'title' => 'Datas visa',
-			'author' => 'Mattis Castegren (D)
+      ),
+      35 => 
+      array (
+        'id' => 36,
+        'chapter_id' => 12,
+        'number' => 4,
+        'title' => 'Datas visa',
+      'author' => 'Mattis Castegren (D)
 Ettans fest 2001',
-				'melody' => 'Åh, hur saligt att få vandra',
-				'text' => 'Alla vi som går på Data
+        'melody' => 'Åh, hur saligt att få vandra',
+        'text' => 'Alla vi som går på Data
 sitter mest och kodar Perl-script varje natt.
 Med oss kan man inte prata
 om man inte loggat in på någon chatt.
@@ -1300,16 +1299,16 @@ Nördarna dekompileras
 och uppgraderas till en användbar version.
 
 Datan är grå...',
-			),
-			36 => 
-			array (
-				'id' => 37,
-				'chapter_id' => 12,
-				'number' => 5,
-				'title' => 'Hyllningsvisa',
-				'author' => 'V - LTH',
-				'melody' => 'Sit on my face',
-				'text' => 'Teknik fysik är mössbeklädda töntar,
+      ),
+      36 => 
+      array (
+        'id' => 37,
+        'chapter_id' => 12,
+        'number' => 5,
+        'title' => 'Hyllningsvisa',
+        'author' => 'V - LTH',
+        'melody' => 'Sit on my face',
+        'text' => 'Teknik fysik är mössbeklädda töntar,
 mammas pojkar och en samling pappas flickor.
 Liknar mest en televerksbil, som gått för många mil,
 en teknisk fossil.
@@ -1325,16 +1324,16 @@ Ta hit dynamit, sprängteknik vårt gebit!
 Dessa tekniska lik!!! Barampam!
 
 <På Barampam lyftes mössan, alternativtluften ovanför hjässan, i hälsning.>',
-			),
-			37 => 
-			array (
-				'id' => 38,
-				'chapter_id' => 12,
-				'number' => 6,
-				'title' => 'Man ska gå Teknis',
-				'author' => 'TjejnØllan, FanFar',
-				'melody' => 'Husvagn',
-				'text' => 'Jag har prövat nästan allt som finns att välja på:
+      ),
+      37 => 
+      array (
+        'id' => 38,
+        'chapter_id' => 12,
+        'number' => 6,
+        'title' => 'Man ska gå Teknis',
+        'author' => 'TjejnØllan, FanFar',
+        'melody' => 'Husvagn',
+        'text' => 'Jag har prövat nästan allt som finns att välja på:
 Sjukgymnastik, historia är inge\' kul att gå
 Jag har studerat på de allra konstigaste sätt
 och äntligen jag funnit hur man ska studera rätt
@@ -1363,18 +1362,18 @@ Man ska gå Teknis - och läsa matte och fysik
 Man ska gå Teknis - då har jag hört att man blir rik
 Man ska gå Teknis - och flytta in på KTH
 För att på Teknis - där vill alla gå!',
-			),
-			38 => 
-			array (
-				'id' => 39,
-				'chapter_id' => 12,
-				'number' => 7,
-				'title' => 'Teknologvisa',
-				'author' => '',
-				'melody' => 'Lumberjack song
+      ),
+      38 => 
+      array (
+        'id' => 39,
+        'chapter_id' => 12,
+        'number' => 7,
+        'title' => 'Teknologvisa',
+        'author' => '',
+        'melody' => 'Lumberjack song
 F: Försångare
 A: Alla',
-				'text' => 'F: Jag är teknolog och helt OK
+        'text' => 'F: Jag är teknolog och helt OK
 jag jobbar hårt och jag roar mig.
 A: Han/hon är teknolog och helt OK
 han/hon jobbar hårt och jag roar mig.
@@ -1418,16 +1417,16 @@ Nää, BUU!!
 
 Men han/hon är teknolog och helt OK
 Han/hon jobbar hårt och han roar sig',
-			),
-			39 => 
-			array (
-				'id' => 40,
-				'chapter_id' => 13,
-				'number' => 1,
-				'title' => 'Lingonben',
-				'author' => 'Povel Ramel',
-				'melody' => '',
-				'text' => 'Bluff och Spark och Tork och Kvark 
+      ),
+      39 => 
+      array (
+        'id' => 40,
+        'chapter_id' => 13,
+        'number' => 1,
+        'title' => 'Lingonben',
+        'author' => 'Povel Ramel',
+        'melody' => '',
+        'text' => 'Bluff och Spark och Tork och Kvark 
 voro sex små dvärgar. 
 En var ful och en var glad 
 Och en var dum i huvet.
@@ -1471,16 +1470,16 @@ Kungen är full av stock och sten.
 Skogen är full av lingonben. 
 Per är full av tomtar. 
 Hur ska lillan orka?',
-			),
-			40 => 
-			array (
-				'id' => 41,
-				'chapter_id' => 13,
-				'number' => 10,
-				'title' => 'Kanta Studjosi',
-				'author' => 'magister Ludvig Hagwald, Grönköping',
-				'melody' => 'Studentsången',
-				'text' => 'Kantom studjosi extarbon sjur!
+      ),
+      40 => 
+      array (
+        'id' => 41,
+        'chapter_id' => 13,
+        'number' => 10,
+        'title' => 'Kanta Studjosi',
+        'author' => 'magister Ludvig Hagwald, Grönköping',
+        'melody' => 'Studentsången',
+        'text' => 'Kantom studjosi extarbon sjur!
 Lassom galejan in spring juvenar,
 nock funkar kardan kum san\' bravur,
 kaj futura blondina üst var.
@@ -1492,16 +1491,16 @@ kum voj knopa bandage in plantage,
 kvo dulkissan diploma florit,
 kvo dulkissan diploma florit,
 Hojlah!',
-			),
-			41 => 
-			array (
-				'id' => 42,
-				'chapter_id' => 13,
-				'number' => 11,
-				'title' => 'Indialand',
-				'author' => 'Karl Lindén',
-				'melody' => '',
-				'text' => 'I Indialand, bak Himalayas rand,
+      ),
+      41 => 
+      array (
+        'id' => 42,
+        'chapter_id' => 13,
+        'number' => 11,
+        'title' => 'Indialand',
+        'author' => 'Karl Lindén',
+        'melody' => '',
+        'text' => 'I Indialand, bak Himalayas rand,
 där händer det konstiga saker ibland.
 Se\'n urminnes tider fanns heliga kon.
 Nu har den bytts ut mot en Boforskanon.
@@ -1516,16 +1515,16 @@ försvann och bluvanerna sade hej-svejs,
 för tydligen har inte papper fyllts i
 och Roine förstår lika lite som vi
 Woine woine Roine woine Roine...',
-			),
-			42 => 
-			array (
-				'id' => 43,
-				'chapter_id' => 13,
-				'number' => 12,
-				'title' => 'Zwampen',
-				'author' => 'Electric Banana Band',
-				'melody' => '',
-				'text' => 'Jag gillar inte höghus
+      ),
+      42 => 
+      array (
+        'id' => 43,
+        'chapter_id' => 13,
+        'number' => 12,
+        'title' => 'Zwampen',
+        'author' => 'Electric Banana Band',
+        'melody' => '',
+        'text' => 'Jag gillar inte höghus
 Sten och lätt betong
 Jag trivs inte i stan
 För den är grå och trång
@@ -1554,17 +1553,17 @@ Jag vill bo i en svamp, annars får jag kramp (svamp)
 Det finns hopp för min kropp, i en mullig sopp (svamp)
 Kom ikväll och var snäll, until min kantarell (svamp)
 Titta in och ta ton, i min champinjon (svamp)',
-			),
-			43 => 
-			array (
-				'id' => 44,
-				'chapter_id' => 13,
-				'number' => 13,
-				'title' => 'Lumberjack song',
-				'author' => 'Monty Python\'s Flying Circus',
-				'melody' => 'F: Försångare
+      ),
+      43 => 
+      array (
+        'id' => 44,
+        'chapter_id' => 13,
+        'number' => 13,
+        'title' => 'Lumberjack song',
+        'author' => 'Monty Python\'s Flying Circus',
+        'melody' => 'F: Försångare
 A: Alla',
-				'text' => 'F:I\'m a lumberjack 
+        'text' => 'F:I\'m a lumberjack 
 And I\'m O.K 
 I sleep all night 
 And I work all day
@@ -1620,16 +1619,16 @@ He wears high heels
 Suspenders ..... and a bra? 
 That\'s shocking! 
 That\'s rude...tuttut...tut...tut',
-			),
-			44 => 
-			array (
-				'id' => 45,
-				'chapter_id' => 13,
-				'number' => 14,
-				'title' => 'Under en filt i Madrid',
-				'author' => 'Claes Eriksson',
-				'melody' => '',
-				'text' => 'Under en filt i Madrid 
+      ),
+      44 => 
+      array (
+        'id' => 45,
+        'chapter_id' => 13,
+        'number' => 14,
+        'title' => 'Under en filt i Madrid',
+        'author' => 'Claes Eriksson',
+        'melody' => '',
+        'text' => 'Under en filt i Madrid 
 där ligger en flicka på glid. 
 Tittar på mannen bredvid 
 under en filt i Madrid.
@@ -1678,16 +1677,16 @@ Tonerna trängs i min gom,
 sätt mig på tåget till Rom! 
 Låt mig få sluta min tid 
 under en filt i Madrid!',
-			),
-			45 => 
-			array (
-				'id' => 46,
-				'chapter_id' => 13,
-				'number' => 15,
-				'title' => 'Styrman Karlssons äventyr med porslinspjäsen',
-				'author' => '',
-				'melody' => '',
-				'text' => 'Stackars styrman Karlsson hade otur,
+      ),
+      45 => 
+      array (
+        'id' => 46,
+        'chapter_id' => 13,
+        'number' => 15,
+        'title' => 'Styrman Karlssons äventyr med porslinspjäsen',
+        'author' => '',
+        'melody' => '',
+        'text' => 'Stackars styrman Karlsson hade otur,
 skulle gå på flottans fest igår.
 När han skulle snöra på sej skorna
 måttade han fel med sina tår.
@@ -1727,16 +1726,16 @@ I denna seglade han hem.
 Och möttes av sin fru Charlotta,
 som också har sin fot i kläm
 (i en byrålåda i en chiffonjé, olé!)',
-			),
-			46 => 
-			array (
-				'id' => 47,
-				'chapter_id' => 13,
-				'number' => 16,
-				'title' => 'Sjung om Fru Svenssons lyckliga karl',
-				'author' => 'Povel Ramel',
-				'melody' => 'Studentsången',
-				'text' => 'Sjung om fru Svenssons lyckliga karl,
+      ),
+      46 => 
+      array (
+        'id' => 47,
+        'chapter_id' => 13,
+        'number' => 16,
+        'title' => 'Sjung om Fru Svenssons lyckliga karl',
+        'author' => 'Povel Ramel',
+        'melody' => 'Studentsången',
+        'text' => 'Sjung om fru Svenssons lyckliga karl,
 låt honom plöja i ungdomens fåror.
 Fem gamla hjärtan i sprit har jag.
 å\' en ljus elefant i ett snår.
@@ -1747,16 +1746,16 @@ som idisslar en sko
 när vi snyta en rund liten hund.
 ||: Där den här lilla bagaren bor. :|||
 Hursa?',
-			),
-			47 => 
-			array (
-				'id' => 48,
-				'chapter_id' => 13,
-				'number' => 17,
-				'title' => 'Temperaturen',
-				'author' => '',
-				'melody' => '',
-				'text' => 'Temperaturen är hög uti kroppen 
+      ),
+      47 => 
+      array (
+        'id' => 48,
+        'chapter_id' => 13,
+        'number' => 17,
+        'title' => 'Temperaturen',
+        'author' => '',
+        'melody' => '',
+        'text' => 'Temperaturen är hög uti kroppen 
 Närmare 40 än 37,5. 
 Men så skall det vara när ångan är oppe 
 Och så är fallet uti detta nu! 
@@ -1766,16 +1765,16 @@ Vi rullar, vi rullar, vi rullar, å hej! :||
 Å framåt och bakåt...
 Å höger och vänster... 
 August... och Lotta...',
-			),
-			48 => 
-			array (
-				'id' => 49,
-				'chapter_id' => 13,
-				'number' => 2,
-				'title' => 'Älska dig själv',
-				'author' => 'Fysikalen Wagner 1986',
-				'melody' => 'Mermaid',
-				'text' => 'Är du trött på att va\' som andra, 
+      ),
+      48 => 
+      array (
+        'id' => 49,
+        'chapter_id' => 13,
+        'number' => 2,
+        'title' => 'Älska dig själv',
+        'author' => 'Fysikalen Wagner 1986',
+        'melody' => 'Mermaid',
+        'text' => 'Är du trött på att va\' som andra, 
 driva med i livets älv? 
 Ta och övervinn din mesighet 
 och satsa på dej själv!
@@ -1804,16 +1803,16 @@ Bli en övermänska, långt bortom gott och ont!
 Övermänni-männi-människan är 
 helt komplett, luktar aldrig svett, och 
 fri från impotensbesvär.',
-			),
-			49 => 
-			array (
-				'id' => 50,
-				'chapter_id' => 13,
-				'number' => 3,
-				'title' => 'Balladen om den kaxiga myran',
-				'author' => 'Stefan Demert',
-				'melody' => '',
-				'text' => 'Jag uppstämma vill min lyra 
+      ),
+      49 => 
+      array (
+        'id' => 50,
+        'chapter_id' => 13,
+        'number' => 3,
+        'title' => 'Balladen om den kaxiga myran',
+        'author' => 'Stefan Demert',
+        'melody' => '',
+        'text' => 'Jag uppstämma vill min lyra 
 fast det blott är en gitarr 
 och berätta om en myra 
 som gick ut att leta barr. 
@@ -1875,16 +1874,16 @@ Undvik alkoholens yra.
 Du blir stursk, men kroppen loj 
 och om du är född till myra: 
 ||:Brottas aldrig med ett TOY! :||',
-			),
-			50 => 
-			array (
-				'id' => 51,
-				'chapter_id' => 13,
-				'number' => 4,
-				'title' => 'Nikolajev',
-				'author' => '',
-				'melody' => 'Rysslands nationalsång',
-				'text' => 'Mitt namn är Nikolajev, 
+      ),
+      50 => 
+      array (
+        'id' => 51,
+        'chapter_id' => 13,
+        'number' => 4,
+        'title' => 'Nikolajev',
+        'author' => '',
+        'melody' => 'Rysslands nationalsång',
+        'text' => 'Mitt namn är Nikolajev, 
 kosmonaut från Sovjet. 
 Jag flyger runt jorden 
 i min rymdraket. 
@@ -1908,16 +1907,16 @@ jag glömde gå på muggen
 Innan jag for.
 
 Jag längtar hem...',
-			),
-			51 => 
-			array (
-				'id' => 52,
-				'chapter_id' => 13,
-				'number' => 5,
-				'title' => 'Danse Macabre',
-				'author' => 'Carl-Erik Carlstedt, CTH',
-				'melody' => 'Vårvindar friska',
-				'text' => 'Runt kring vår stuga 
+      ),
+      51 => 
+      array (
+        'id' => 52,
+        'chapter_id' => 13,
+        'number' => 5,
+        'title' => 'Danse Macabre',
+        'author' => 'Carl-Erik Carlstedt, CTH',
+        'melody' => 'Vårvindar friska',
+        'text' => 'Runt kring vår stuga 
 smådjävlar sluga 
 tassa så tyst med bockfot och svans. 
 Varulvar yla, 
@@ -1942,16 +1941,16 @@ Fan rider här med hela sin tross.
 Göm dig i stugan, 
 du har fått flugan, 
 dille det blir din lott.',
-			),
-			52 => 
-			array (
-				'id' => 53,
-				'chapter_id' => 13,
-				'number' => 6,
-				'title' => 'Katten',
-				'author' => '',
-				'melody' => 'Glad såsom fågeln',
-				'text' => 'Glad åt en fågel i morgonstunden 
+      ),
+      52 => 
+      array (
+        'id' => 53,
+        'chapter_id' => 13,
+        'number' => 6,
+        'title' => 'Katten',
+        'author' => '',
+        'melody' => 'Glad såsom fågeln',
+        'text' => 'Glad åt en fågel i morgonstunden 
 går han på jakt i den friska natur. 
 Lärkan han ratar, men trasten i lunden 
 lyckas han fånga, nej tänk en sån tur!
@@ -1964,16 +1963,16 @@ av liv och av dans? Nej, trasten är hans,
 och han kröker sin listiga svans 
 jakten går som en dans
 uti vår-sol-ens glans!',
-			),
-			53 => 
-			array (
-				'id' => 54,
-				'chapter_id' => 13,
-				'number' => 7,
-				'title' => 'Undulaten',
-				'author' => '',
-				'melody' => 'Med en enkel tulipan',
-				'text' => 'Jag är en liten undulat,
+      ),
+      53 => 
+      array (
+        'id' => 54,
+        'chapter_id' => 13,
+        'number' => 7,
+        'title' => 'Undulaten',
+        'author' => '',
+        'melody' => 'Med en enkel tulipan',
+        'text' => 'Jag är en liten undulat,
 som får så dåligt med mat,
 för dom jag bor hos,
 för dom jag bor hos,
@@ -1983,16 +1982,16 @@ men det vill jag inte ha,
 jag vill ha rödvin,
 jag vill ha rödvin,
 och Gorgonzola.',
-			),
-			54 => 
-			array (
-				'id' => 55,
-				'chapter_id' => 13,
-				'number' => 8,
-				'title' => 'Bakfyllosofen',
-				'author' => 'Fysiksektionen, LTH',
-				'melody' => '34:an',
-				'text' => 'Eskimåer jagar valross.
+      ),
+      54 => 
+      array (
+        'id' => 55,
+        'chapter_id' => 13,
+        'number' => 8,
+        'title' => 'Bakfyllosofen',
+        'author' => 'Fysiksektionen, LTH',
+        'melody' => '34:an',
+        'text' => 'Eskimåer jagar valross.
 Alla tyskar jagar älg.
 Pedofiler jagar småglin.
 Vilken värld, ja skål och svälj.
@@ -2010,31 +2009,31 @@ Om du har en liten tax
 och så en fet gul undulat.
 ||:Ja då hopar sig problemen,
 man kan inte ge dem samma mat. :||',
-			),
-			55 => 
-			array (
-				'id' => 56,
-				'chapter_id' => 13,
-				'number' => 9,
-				'title' => 'Mellansup',
-				'author' => 'Fysiksektionen, LTH',
-				'melody' => 'Fredagsmys',
-				'text' => 'Det är dags för mellansup,
+      ),
+      55 => 
+      array (
+        'id' => 56,
+        'chapter_id' => 13,
+        'number' => 9,
+        'title' => 'Mellansup',
+        'author' => 'Fysiksektionen, LTH',
+        'melody' => 'Fredagsmys',
+        'text' => 'Det är dags för mellansup,
 om det så är det sista jag gör.
 Det är dags för mellansup, 
 hoppas inte att toastmastern stör.
 Nu är det slut på versen,
 det är dags för mellansup!',
-			),
-			56 => 
-			array (
-				'id' => 57,
-				'chapter_id' => 14,
-				'number' => 1,
-				'title' => 'Konglig Fysiks Paradhymn',
-				'author' => 'Dum-Dum 1977',
-				'melody' => 'Katyuscha',
-				'text' => 'Här på festen stiger åter glammet
+      ),
+      56 => 
+      array (
+        'id' => 57,
+        'chapter_id' => 14,
+        'number' => 1,
+        'title' => 'Konglig Fysiks Paradhymn',
+        'author' => 'Dum-Dum 1977',
+        'melody' => 'Katyuscha',
+        'text' => 'Här på festen stiger åter glammet
 Sången börjar, tentan bortglömd är
 Lyss min strupe Du plågas utav dammet
 Frukta ej ty hjälpen är just här
@@ -2064,16 +2063,16 @@ SKÅL för det Fysiks skyddsgudar lär.
 
 
 Under sista versen står fysiker, men inga andar, upp. Orden "Osquar" och "Osqulda" kan bytas efter behag.',
-			),
-			57 => 
-			array (
-				'id' => 58,
-				'chapter_id' => 14,
-				'number' => 2,
-				'title' => 'Årskursernas hederssång',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Alla: För det var i vår ungdoms fagraste vår,
+      ),
+      57 => 
+      array (
+        'id' => 58,
+        'chapter_id' => 14,
+        'number' => 2,
+        'title' => 'Årskursernas hederssång',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Alla: För det var i vår ungdoms fagraste vår,
 vi drack varandra till och vi sade "gutår".
 Och alla så dricka vi nu <Foo> till,
 
@@ -2143,17 +2142,17 @@ Vid <Foo> insättes n-m, där n=aktuellt årtal, m=0, 1, 2...
 11 Frappera
 12 Fumla
 13 Frågvis',
-			),
-			58 => 
-			array (
-				'id' => 59,
-				'chapter_id' => 14,
-				'number' => 3,
-			'title' => 'De Brevitate Vitae (Gaudeamus)',
-				'author' => 'Biskop Stada 1267,
+      ),
+      58 => 
+      array (
+        'id' => 59,
+        'chapter_id' => 14,
+        'number' => 3,
+      'title' => 'De Brevitate Vitae (Gaudeamus)',
+        'author' => 'Biskop Stada 1267,
 C.W. Kindleben 1781',
-				'melody' => NULL,
-				'text' => '||: Gaudeamus igitur, iuvenes dum sumus! :||
+        'melody' => NULL,
+        'text' => '||: Gaudeamus igitur, iuvenes dum sumus! :||
 Post icundam iuventutem, post molestam senectutem
 ||: nos habebit humus. :||
 
@@ -2180,32 +2179,32 @@ Vivat nostra civitas, Maecenatum caritas,
 ||: Pereat tristitia, pereant osores!:||
 Pereat diabolus, quivis antiburschius,
 ||: atque irrisores! :||',
-			),
-			59 => 
-			array (
-				'id' => 60,
-				'chapter_id' => 14,
-				'number' => 4,
-				'title' => 'Överföhssång',
-				'author' => 'Skriven till Ettans Fest 1990',
-				'melody' => 'Kungssången',
-				'text' => 'Ur teknologens djup en gång
+      ),
+      59 => 
+      array (
+        'id' => 60,
+        'chapter_id' => 14,
+        'number' => 4,
+        'title' => 'Överföhssång',
+        'author' => 'Skriven till Ettans Fest 1990',
+        'melody' => 'Kungssången',
+        'text' => 'Ur teknologens djup en gång
 En samfälld och en enkel sång
 Som går till Överföhs fram
 Var honom trofast och hans ätt
 Gör piskan i hans näve lätt
 Och all din tro till honom sätt
 Du schlemm av ingen rang',
-			),
-			60 => 
-			array (
-				'id' => 61,
-				'chapter_id' => 14,
-				'number' => 5,
-				'title' => 'Studentsången',
-				'author' => 'Herman Sätherberg',
-				'melody' => 'Noter till blandat kör finns i notkapitlet.',
-				'text' => 'Sjung om studentens lyckliga dag!
+      ),
+      60 => 
+      array (
+        'id' => 61,
+        'chapter_id' => 14,
+        'number' => 5,
+        'title' => 'Studentsången',
+        'author' => 'Herman Sätherberg',
+        'melody' => 'Noter till blandat kör finns i notkapitlet.',
+        'text' => 'Sjung om studentens lyckliga dag!
 Låtom oss fröjdas i ungdomens vår!
 Än klappar hjärtat med friska slag,
 och den ljusnande framtid är vår
@@ -2227,17 +2226,17 @@ aldrig brista må trohets helga brand,
 så i gyllene frid som i strid.
 Liv och blod för vårt fädernesland!
 Liv och blod för vårt fädernesland!',
-			),
-			61 => 
-			array (
-				'id' => 62,
-				'chapter_id' => 14,
-				'number' => 6,
-				'title' => 'O gamla klang och jubeltid',
-				'author' => 'Ur "Alt Heidelberg - Rückblick eines alten Burschen"
+      ),
+      61 => 
+      array (
+        'id' => 62,
+        'chapter_id' => 14,
+        'number' => 6,
+        'title' => 'O gamla klang och jubeltid',
+        'author' => 'Ur "Alt Heidelberg - Rückblick eines alten Burschen"
 Svensk text: August Lindh',
-				'melody' => 'Noter finns i notkapitlet',
-				'text' => 'O gamla klang och jubeltid
+        'melody' => 'Noter finns i notkapitlet',
+        'text' => 'O gamla klang och jubeltid
 Ditt minne skall förbliva
 Och än åt livets bistra strid
 Ett rosigt skimmer giva
@@ -2279,19 +2278,19 @@ Lyft bägarn högt och klinga vän
 De gamla gudar leva än
 Bland skålar och pokaler
 Bland skålar och pokaler',
-			),
-			62 => 
-			array (
-				'id' => 63,
-				'chapter_id' => 2,
-				'number' => 1,
-				'title' => 'Porthos visa',
-				'author' => 'Tore Norén
+      ),
+      62 => 
+      array (
+        'id' => 63,
+        'chapter_id' => 2,
+        'number' => 1,
+        'title' => 'Porthos visa',
+        'author' => 'Tore Norén
 Bergsspexet 1960',
-				'melody' => 'Athos visa
+        'melody' => 'Athos visa
 You can\'t get a man with a gun
 Noter finns i notkapitlet',
-				'text' => 'Jag vill börja gasqua, var fan är min flaska?
+        'text' => 'Jag vill börja gasqua, var fan är min flaska?
 Vem i helvete stal min butelj?
 Skall törsten mig tvinga, en TT börja svinga
 Nej, för fan bara blunda och svälj
@@ -2303,16 +2302,16 @@ Träffar vi välan på någon pub
 Och där skall vi festa, blott dricka av det bästa
 Utav Whisky och portvin, jag tänker gå hårt in
 För att prova på rubb och stubb',
-			),
-			63 => 
-			array (
-				'id' => 64,
-				'chapter_id' => 2,
-				'number' => 10,
-				'title' => 'Mattevisan',
-				'author' => 'Text: Jan-Ola Vensson, F',
-				'melody' => 'Jag är en liten undulat',
-				'text' => 'Jag är en liten teknolog
+      ),
+      63 => 
+      array (
+        'id' => 64,
+        'chapter_id' => 2,
+        'number' => 10,
+        'title' => 'Mattevisan',
+        'author' => 'Text: Jan-Ola Vensson, F',
+        'melody' => 'Jag är en liten undulat',
+        'text' => 'Jag är en liten teknolog
 som har så helvetes svårt,
 med all den matten,
 med all den matten,
@@ -2322,16 +2321,16 @@ Jag vill ha öl och billigt vin
 Kan kalla mig fyllesvin
 Ja, derivata och integraler
 de kan ni glömma!',
-			),
-			64 => 
-			array (
-				'id' => 65,
-				'chapter_id' => 2,
-				'number' => 11,
-				'title' => '37:an',
-				'author' => 'Ur Lunds Fysikteknologers sångbok 1999',
-				'melody' => '34:an',
-				'text' => 'Jag har druckit många punschar,
+      ),
+      64 => 
+      array (
+        'id' => 65,
+        'chapter_id' => 2,
+        'number' => 11,
+        'title' => '37:an',
+        'author' => 'Ur Lunds Fysikteknologers sångbok 1999',
+        'melody' => '34:an',
+        'text' => 'Jag har druckit många punschar,
 blandat grogg i alla år
 svept en herrans massa cognac
 och vält 100 000 får - VA?!
@@ -2345,17 +2344,17 @@ nu ska blannevattnet bort,
 här ska rationaliseras, proceduren göras kort.
 Fina spriten flödar bäst i strupen utan fint manér,
 så helt utan krusiduller går 37:an i magen ner!',
-			),
-			65 => 
-			array (
-				'id' => 66,
-				'chapter_id' => 2,
-				'number' => 2,
-				'title' => 'Lyft ditt välförsedda glas',
-				'author' => NULL,
-				'melody' => 'Ding dong, merrily on high
+      ),
+      65 => 
+      array (
+        'id' => 66,
+        'chapter_id' => 2,
+        'number' => 2,
+        'title' => 'Lyft ditt välförsedda glas',
+        'author' => NULL,
+        'melody' => 'Ding dong, merrily on high
 Noter till blandad kör finns i notkapitlet',
-				'text' => 'Lyft ditt välförsedda glas, 
+        'text' => 'Lyft ditt välförsedda glas, 
 det är en ljuvlig börda! 
 Nu har grabbarna kalas, 
 i morgon är det lördag! 
@@ -2370,17 +2369,17 @@ hör liemannen flämta!
 ||: Dingedingedinge dingedingedinge 
 Dingedingedinge ding dong dong 
 Begravningsklockor klämta :||',
-			),
-			66 => 
-			array (
-				'id' => 67,
-				'chapter_id' => 2,
-				'number' => 3,
-				'title' => 'Härjavisan',
-				'author' => 'Text: Hans Alfredsson
+      ),
+      66 => 
+      array (
+        'id' => 67,
+        'chapter_id' => 2,
+        'number' => 3,
+        'title' => 'Härjavisan',
+        'author' => 'Text: Hans Alfredsson
 Lundaspexet Djingis Khan 1954',
-				'melody' => 'Gärdebylåten',
-				'text' => 'Hurra nu ska man äntligen få röra på benen,
+        'melody' => 'Gärdebylåten',
+        'text' => 'Hurra nu ska man äntligen få röra på benen,
 hela stammen jublar och det spritter i grenen.
 Tänk att än en gång få spränga fram på Brunte i galopp.
 
@@ -2415,18 +2414,18 @@ växer du med supen och blir stor uti orden,
 slår dig för ditt håriga bröst och blir en man från hår till häl. 
 
 Ja, nu skall vi ut och härja...',
-			),
-			67 => 
-			array (
-				'id' => 68,
-				'chapter_id' => 2,
-				'number' => 4,
-				'title' => 'Kalmarevisan',
-				'author' => NULL,
-				'melody' => 'F: Försångare
+      ),
+      67 => 
+      array (
+        'id' => 68,
+        'chapter_id' => 2,
+        'number' => 4,
+        'title' => 'Kalmarevisan',
+        'author' => NULL,
+        'melody' => 'F: Försångare
 A: Alla
 Sjungs lämpligen på småländska.',
-				'text' => 'F: Uti Kalmare stad
+        'text' => 'F: Uti Kalmare stad
 ja där finns det ingen kvast
 A: förrän lördagen!
 
@@ -2457,16 +2456,16 @@ F: Hej dick...
 A: satt på krogen i går:|| och var full som ett får.
 
 F: Hej dick...',
-			),
-			68 => 
-			array (
-				'id' => 69,
-				'chapter_id' => 2,
-				'number' => 5,
-				'title' => 'Jag skall festa',
-				'author' => NULL,
-				'melody' => 'Bamse-låten',
-				'text' => 'Jag skall festa, ta det lugnt med spriten,
+      ),
+      68 => 
+      array (
+        'id' => 69,
+        'chapter_id' => 2,
+        'number' => 5,
+        'title' => 'Jag skall festa',
+        'author' => NULL,
+        'melody' => 'Bamse-låten',
+        'text' => 'Jag skall festa, ta det lugnt med spriten,
 ha det roligt utan att va\' full.
 Inte krypa runt med festeliten,
 ta det sansat för min egen skull.
@@ -2487,16 +2486,16 @@ Spyan rinner ner för ylleslipsen,
 raviolin torkar i mitt hår.
 Vem har lagt mig här i pissoaren,
 vems är gaffeln i mitt högra lår?',
-			),
-			69 => 
-			array (
-				'id' => 70,
-				'chapter_id' => 2,
-				'number' => 6,
-				'title' => 'Emils spritvisa',
-				'author' => NULL,
-				'melody' => 'Snickerboa',
-				'text' => 'Till spritbutiken ränner jag 
+      ),
+      69 => 
+      array (
+        'id' => 70,
+        'chapter_id' => 2,
+        'number' => 6,
+        'title' => 'Emils spritvisa',
+        'author' => NULL,
+        'melody' => 'Snickerboa',
+        'text' => 'Till spritbutiken ränner jag 
 och bankar på dess port. 
 Jag vill ha nå\'t som bränner bra 
 och gör mig skitfull fort. 
@@ -2513,16 +2512,16 @@ Många flaskor stod där på rad
 så nu kan jag bli skitfull och glad. 
 Den röda vätskan rinner ner... 
 Nu kan jag inte se nå\'t mer.',
-			),
-			70 => 
-			array (
-				'id' => 71,
-				'chapter_id' => 2,
-				'number' => 7,
-				'title' => 'Hej på er bröder alla',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Hej på er bröder alla, 
+      ),
+      70 => 
+      array (
+        'id' => 71,
+        'chapter_id' => 2,
+        'number' => 7,
+        'title' => 'Hej på er bröder alla',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Hej på er bröder alla, 
 ja vi ska supa tills dess vi falla, 
 och brännvinslitern, den är för liten, 
 den är för liten för oss alla! 
@@ -2538,16 +2537,16 @@ Här vilar det en fyllebroder,
 som alltid var så glad och goder. 
 Här vilar det en fyllebroder, 
 som alltid var så glad och goder.',
-			),
-			71 => 
-			array (
-				'id' => 72,
-				'chapter_id' => 2,
-				'number' => 8,
-				'title' => 'Lille Olle',
-				'author' => 'Text: Calle Isaksson, D-LiTH',
-				'melody' => 'Katyuscha',
-				'text' => 'Lille Olle skulle gå på disco, 
+      ),
+      71 => 
+      array (
+        'id' => 72,
+        'chapter_id' => 2,
+        'number' => 8,
+        'title' => 'Lille Olle',
+        'author' => 'Text: Calle Isaksson, D-LiTH',
+        'melody' => 'Katyuscha',
+        'text' => 'Lille Olle skulle gå på disco, 
 men han hade inte någon sprit. 
 Lille Olle skaffa\' lite hembränt, 
 lille Olle gick då på en nit. 
@@ -2583,16 +2582,16 @@ Lille Olle skaffade en ölback,
 capsar nu med Gud och Sankte Per. 
 
 La lalla la la la...',
-			),
-			72 => 
-			array (
-				'id' => 73,
-				'chapter_id' => 2,
-				'number' => 9,
-				'title' => 'Gaqueljäsen',
-				'author' => 'Fysikalen Kristina 1982',
-				'melody' => 'Marseljäsen/de Lisle',
-				'text' => 'Vi dricker öl, vi dricker alkohol,
+      ),
+      72 => 
+      array (
+        'id' => 73,
+        'chapter_id' => 2,
+        'number' => 9,
+        'title' => 'Gaqueljäsen',
+        'author' => 'Fysikalen Kristina 1982',
+        'melody' => 'Marseljäsen/de Lisle',
+        'text' => 'Vi dricker öl, vi dricker alkohol,
 vi dricker mer än vad vi tål!
 Det var kaos och dimmigt i Lützen,
 men här är det värre ändå!
@@ -2608,16 +2607,16 @@ fast vi vet inte hur,
 tills det tar slut
 1: Vi dricker med bravur! :||
 2: Vi super med kultur!',
-			),
-			73 => 
-			array (
-				'id' => 74,
-				'chapter_id' => 3,
-				'number' => 1,
-				'title' => 'Ölbytarvisan',
-				'author' => NULL,
-				'melody' => 'Kgl Södermanlands Regementes marsch',
-				'text' => 'Här i Bayern skall ölet flöda fritt
+      ),
+      73 => 
+      array (
+        'id' => 74,
+        'chapter_id' => 3,
+        'number' => 1,
+        'title' => 'Ölbytarvisan',
+        'author' => NULL,
+        'melody' => 'Kgl Södermanlands Regementes marsch',
+        'text' => 'Här i Bayern skall ölet flöda fritt
 Ingen skiljer här nå\'nsin mellan mitt och ditt
 Bjud varandra så håller ni er kvitt
 Saknar någon en öl
@@ -2636,16 +2635,16 @@ Tills ni ser sejdelbottnarna!
 
 <author>
 Fysikalen Wagner 1986',
-			),
-			74 => 
-			array (
-				'id' => 75,
-				'chapter_id' => 3,
-				'number' => 10,
-				'title' => 'Ju mera öl vi dricker',
-				'author' => NULL,
-				'melody' => 'Ju mer vi är tillsammans',
-				'text' => 'Ju mera öl vi dricker,
+      ),
+      74 => 
+      array (
+        'id' => 75,
+        'chapter_id' => 3,
+        'number' => 10,
+        'title' => 'Ju mera öl vi dricker',
+        'author' => NULL,
+        'melody' => 'Ju mer vi är tillsammans',
+        'text' => 'Ju mera öl vi dricker,
 vi dricker, vi dricker,
 ju mera öl vi dricker,
 ju rundare vi bli.
@@ -2654,16 +2653,16 @@ För rundare är sundare
 och sundare är rundare.
 Ju mera öl vi dricker,
 ju rundare vi bli.',
-			),
-			75 => 
-			array (
-				'id' => 76,
-				'chapter_id' => 3,
-				'number' => 11,
-				'title' => 'Vi älskar öl',
-				'author' => NULL,
-				'melody' => 'Ser du stjärnan i det blå',
-				'text' => 'Täckt av silver sejdeln full
+      ),
+      75 => 
+      array (
+        'id' => 76,
+        'chapter_id' => 3,
+        'number' => 11,
+        'title' => 'Vi älskar öl',
+        'author' => NULL,
+        'melody' => 'Ser du stjärnan i det blå',
+        'text' => 'Täckt av silver sejdeln full
 gnistrar mot oss med sitt guld
 humle, malt, är livets salt, vi älskar öl. 
 
@@ -2674,16 +2673,16 @@ släcka törsten, stärka rösten, till dess lov.
 Knubbig blir du, men so what
 gott och roligt har du fått
 extra turen, rensat njuren, öl är gott.',
-			),
-			76 => 
-			array (
-				'id' => 77,
-				'chapter_id' => 3,
-				'number' => 2,
-				'title' => 'Strejk på Pripps',
-				'author' => NULL,
-				'melody' => 'I natt jag drömde',
-				'text' => 'I natt jag drömde något som
+      ),
+      76 => 
+      array (
+        'id' => 77,
+        'chapter_id' => 3,
+        'number' => 2,
+        'title' => 'Strejk på Pripps',
+        'author' => NULL,
+        'melody' => 'I natt jag drömde',
+        'text' => 'I natt jag drömde något som
 jag aldrig drömt förut.
 Jag drömde det var strejk på Pripps
 och alla ölen var slut.
@@ -2696,16 +2695,16 @@ och reste mig och sa:
 
 "Man kan ha roligt utan sprit
 Men det är dumt att chansa!"',
-			),
-			77 => 
-			array (
-				'id' => 78,
-				'chapter_id' => 3,
-				'number' => 3,
-				'title' => 'Ode till ölet',
-				'author' => NULL,
-				'melody' => 'Trampa på gasen',
-				'text' => 'Tu-tu-tu Tuborg
+      ),
+      77 => 
+      array (
+        'id' => 78,
+        'chapter_id' => 3,
+        'number' => 3,
+        'title' => 'Ode till ölet',
+        'author' => NULL,
+        'melody' => 'Trampa på gasen',
+        'text' => 'Tu-tu-tu Tuborg
 och ca-ca-ca Carlsberg
 det är den bästa 
 pi-pi-pi pilsnern som jag vet.
@@ -2723,16 +2722,16 @@ pi-pi-pi biran som jag vet!
 Tu-ca-pi Ölsner och 
 pi-tu-ca bira
 det är den mästa ca-pi-tu-lering som jag gjort.',
-			),
-			78 => 
-			array (
-				'id' => 79,
-				'chapter_id' => 3,
-				'number' => 4,
-				'title' => 'Min pilsner',
-				'author' => NULL,
-				'melody' => 'My Bonnie',
-				'text' => 'Min pilsner skall svalka min tunga. 
+      ),
+      78 => 
+      array (
+        'id' => 79,
+        'chapter_id' => 3,
+        'number' => 4,
+        'title' => 'Min pilsner',
+        'author' => NULL,
+        'melody' => 'My Bonnie',
+        'text' => 'Min pilsner skall svalka min tunga. 
 Min pilsner skall duscha min gom. 
 Min pilsner skall få mig att sjunga, 
 om jag ser att flaskan är tom: 
@@ -2741,16 +2740,16 @@ PILSNER! PILSNER!
 Hämta en pilsner till mig, till mig. 
 PILSNER! PILSNER! 
 Hämta en pilsner till mig!',
-			),
-			79 => 
-			array (
-				'id' => 80,
-				'chapter_id' => 3,
-				'number' => 5,
-				'title' => 'Sanningen om ölet',
-				'author' => NULL,
-				'melody' => 'Här är gudagott att vara',
-				'text' => 'Öl är gudagott att dricka. 
+      ),
+      79 => 
+      array (
+        'id' => 80,
+        'chapter_id' => 3,
+        'number' => 5,
+        'title' => 'Sanningen om ölet',
+        'author' => NULL,
+        'melody' => 'Här är gudagott att vara',
+        'text' => 'Öl är gudagott att dricka. 
 O, vad öldrycken dock är skön. 
 Dricka öl med älskad flicka 
 billigare än likören grön. 
@@ -2758,16 +2757,16 @@ Humlan surrar, flickan strålar
 nu går jag och slår en drill. 
 Lättad, törstig, sedan jag skålar 
 i gott öl min flicka till.',
-			),
-			80 => 
-			array (
-				'id' => 81,
-				'chapter_id' => 3,
-				'number' => 6,
-				'title' => 'Ölvisan',
-				'author' => NULL,
-				'melody' => 'SJ, SJ, gamle vän',
-				'text' => 'Dricka pilsner varje da\'
+      ),
+      80 => 
+      array (
+        'id' => 81,
+        'chapter_id' => 3,
+        'number' => 6,
+        'title' => 'Ölvisan',
+        'author' => NULL,
+        'melody' => 'SJ, SJ, gamle vän',
+        'text' => 'Dricka pilsner varje da\'
 de e kul å de e bra
 Ja, det borde alla ha,
 pilsner varje da.
@@ -2796,16 +2795,16 @@ Så korka upp din öl å drick
 så blir du en festlig prick
 Korka upp å drick min vän
 och rapa högljutt sen',
-			),
-			81 => 
-			array (
-				'id' => 82,
-				'chapter_id' => 3,
-				'number' => 7,
-				'title' => 'En pilsnerdrickare',
-				'author' => NULL,
-				'melody' => 'En sockerbagare',
-				'text' => 'En pilsnerdrickare här bor i staden
+      ),
+      81 => 
+      array (
+        'id' => 82,
+        'chapter_id' => 3,
+        'number' => 7,
+        'title' => 'En pilsnerdrickare',
+        'author' => NULL,
+        'melody' => 'En sockerbagare',
+        'text' => 'En pilsnerdrickare här bor i staden
 han dricker pilsner mest hela dagen
 han dricker gröna, han dricker blå,
 handricker några med renat på
@@ -2813,42 +2812,42 @@ Och i hans fönster hänga tomma glasen,
 och alla burkarna från kalasen
 och är han nykter så kan han gå
 nertill butiken och fylla på.',
-			),
-			82 => 
-			array (
-				'id' => 83,
-				'chapter_id' => 3,
-				'number' => 8,
-				'title' => 'Öl, öl, öl i glas',
-				'author' => NULL,
-				'melody' => 'Row, row, row your boat',
-				'text' => 'Öl, öl, öl i glas eller i butelj,
+      ),
+      82 => 
+      array (
+        'id' => 83,
+        'chapter_id' => 3,
+        'number' => 8,
+        'title' => 'Öl, öl, öl i glas',
+        'author' => NULL,
+        'melody' => 'Row, row, row your boat',
+        'text' => 'Öl, öl, öl i glas eller i butelj,
 Skummande, skummande, skummande, skummande.
 Ta en klunk och svälj.',
-			),
-			83 => 
-			array (
-				'id' => 84,
-				'chapter_id' => 3,
-				'number' => 9,
-				'title' => 'Lapin Kulta',
-				'author' => NULL,
-				'melody' => 'Broder Jakob',
-				'text' => 'Lapin Kulta, Lapin Kulta
+      ),
+      83 => 
+      array (
+        'id' => 84,
+        'chapter_id' => 3,
+        'number' => 9,
+        'title' => 'Lapin Kulta',
+        'author' => NULL,
+        'melody' => 'Broder Jakob',
+        'text' => 'Lapin Kulta, Lapin Kulta
 Karjala, Karjala
 Aura sekä Olvi, Aura sekä Olvi
 Koff, Koff, Koff
 Koff, Koff, Koff',
-			),
-			84 => 
-			array (
-				'id' => 85,
-				'chapter_id' => 4,
-				'number' => 1,
-				'title' => 'Helan går',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Helan går,   
+      ),
+      84 => 
+      array (
+        'id' => 85,
+        'chapter_id' => 4,
+        'number' => 1,
+        'title' => 'Helan går',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Helan går,   
 sjung hopp faderallan lallan lej!   
 Helan går,   
 sjung hopp faderallan lej! 
@@ -2857,16 +2856,16 @@ Och den som inte helan tar,
 han heller inte halvan får.   
 Helan går (supen intages)  
 Sjung hopp faderallan lej!',
-			),
-			85 => 
-			array (
-				'id' => 86,
-				'chapter_id' => 4,
-				'number' => 10,
-				'title' => 'Helan gick',
-				'author' => NULL,
-				'melody' => 'Amanda Lundbom',
-				'text' => 'Helan gick i vänstra foten,   
+      ),
+      85 => 
+      array (
+        'id' => 86,
+        'chapter_id' => 4,
+        'number' => 10,
+        'title' => 'Helan gick',
+        'author' => NULL,
+        'melody' => 'Amanda Lundbom',
+        'text' => 'Helan gick i vänstra foten,   
 bom-faderia, faderareralla.   
 Gudskelov, så vet jag boten,   
 bom-faderi, faderallanlej!   
@@ -2875,16 +2874,16 @@ bom-faderi, faderallanlej
 Hugg i!   
 På nubbar blir man aldrig mätt,   
 bom-faderi, faderallanlej!',
-			),
-			86 => 
-			array (
-				'id' => 87,
-				'chapter_id' => 4,
-				'number' => 11,
-				'title' => 'Helan rasat',
-				'author' => NULL,
-				'melody' => 'Längtan till landet',
-				'text' => 'Helan rasat ned i våra magar,   
+      ),
+      86 => 
+      array (
+        'id' => 87,
+        'chapter_id' => 4,
+        'number' => 11,
+        'title' => 'Helan rasat',
+        'author' => NULL,
+        'melody' => 'Längtan till landet',
+        'text' => 'Helan rasat ned i våra magar,   
 sQuvValpar nu på botten mol allen.   
 I sin ensamhet den bittert klaga:   
 "Det är svårt att bara vara en."   
@@ -2892,16 +2891,16 @@ Snart är halvan här, den härliga supen,
 alkoholiskt ren och silverklar,   
 Dansar som en vårbäck ned genom strupen   
 Hamnar --- plask! --- i helans budoir.',
-			),
-			87 => 
-			array (
-				'id' => 88,
-				'chapter_id' => 4,
-				'number' => 12,
-				'title' => 'Nubbekantat',
-				'author' => NULL,
-				'melody' => 'Smedsvisa',
-				'text' => 'Att höja en skål kan nog vara rätt   
+      ),
+      87 => 
+      array (
+        'id' => 88,
+        'chapter_id' => 4,
+        'number' => 12,
+        'title' => 'Nubbekantat',
+        'author' => NULL,
+        'melody' => 'Smedsvisa',
+        'text' => 'Att höja en skål kan nog vara rätt   
 men måttfullhet krävs för att ej halka snett.   
 Av drycker är tersen särklassigt bäst   
 som tömmes av vänner på fest.   
@@ -2928,29 +2927,29 @@ och bäska droppar måste det va\'.
 Av maten så blir man tjocker och fet   
 så tersen får bli vår diet. 
 <author>Ur det 46:e Bergsspexet KrigEtt',
-			),
-			88 => 
-			array (
-				'id' => 89,
-				'chapter_id' => 4,
-				'number' => 13,
-				'title' => 'Var Osquar',
-				'author' => NULL,
-			'melody' => 'Te deum (Eurovision-signaturen)',
-				'text' => 'Var Osquar som går på vår sektion
+      ),
+      88 => 
+      array (
+        'id' => 89,
+        'chapter_id' => 4,
+        'number' => 13,
+        'title' => 'Var Osquar',
+        'author' => NULL,
+      'melody' => 'Te deum (Eurovision-signaturen)',
+        'text' => 'Var Osquar som går på vår sektion
 av äldre kollegor lärt en tradition,
 att noga se om sin kondition,
 Och högra armen ge motion.',
-			),
-			89 => 
-			array (
-				'id' => 90,
-				'chapter_id' => 4,
-				'number' => 14,
-				'title' => 'Små nubbarba',
-				'author' => NULL,
-				'melody' => 'Små grodorna',
-				'text' => 'Små nubbarna, små nubbarna   
+      ),
+      89 => 
+      array (
+        'id' => 90,
+        'chapter_id' => 4,
+        'number' => 14,
+        'title' => 'Små nubbarba',
+        'author' => NULL,
+        'melody' => 'Små grodorna',
+        'text' => 'Små nubbarna, små nubbarna   
 är äckliga att se,   
 små nubbarna, små nubbarna   
 är äckliga att se.
@@ -2959,16 +2958,16 @@ Nu tar vi dom, nu tar vi dom,
 så slipper vi dom se,   
 nu tar vi dom, nu tar vi dom,   
 så slipper vi dom se.',
-			),
-			90 => 
-			array (
-				'id' => 91,
-				'chapter_id' => 4,
-				'number' => 15,
-			'title' => 'Planksaft (Längtan till baren)',
-				'author' => NULL,
-				'melody' => 'Längtan till landet',
-				'text' => 'Törsten rasar uti våra strupar,   
+      ),
+      90 => 
+      array (
+        'id' => 91,
+        'chapter_id' => 4,
+        'number' => 15,
+      'title' => 'Planksaft (Längtan till baren)',
+        'author' => NULL,
+        'melody' => 'Längtan till landet',
+        'text' => 'Törsten rasar uti våra strupar,   
 tungan hänger torr och styv och stel.   
 Men snart vankas stora långa supar,   
 var och en får sin beskärda del.   
@@ -2994,61 +2993,61 @@ Låt oss skåla med varandra go\' vänner
 skål för vår levnads glada hopp   
 Törstens eld på nytt i strupen bränner.   
 Leve livet skål och botten opp!',
-			),
-			91 => 
-			array (
-				'id' => 92,
-				'chapter_id' => 4,
-				'number' => 16,
-				'title' => 'Brännvin hit',
-				'author' => NULL,
-				'melody' => 'Skära havre',
-				'text' => 'Brännvin hit
+      ),
+      91 => 
+      array (
+        'id' => 92,
+        'chapter_id' => 4,
+        'number' => 16,
+        'title' => 'Brännvin hit',
+        'author' => NULL,
+        'melody' => 'Skära havre',
+        'text' => 'Brännvin hit
 och brännvin dit
 och brännvin är det bästa
 Och fan den
 som brännvin har
 och inte bju\'r sin nästa.',
-			),
-			92 => 
-			array (
-				'id' => 93,
-				'chapter_id' => 4,
-				'number' => 17,
-				'title' => 'Gums visa',
-				'author' => NULL,
-				'melody' => 'Skära havre',
-				'text' => 'Skål, kamrater,
+      ),
+      92 => 
+      array (
+        'id' => 93,
+        'chapter_id' => 4,
+        'number' => 17,
+        'title' => 'Gums visa',
+        'author' => NULL,
+        'melody' => 'Skära havre',
+        'text' => 'Skål, kamrater,
 livet är glatt,
 och snart förgäta vi sorgen,
 Vi söpo igår,
 vi supa idag
 och tar en sjujäkel i morgon!',
-			),
-			93 => 
-			array (
-				'id' => 94,
-				'chapter_id' => 4,
-				'number' => 18,
-				'title' => 'Jäsa brännvin',
-				'author' => 'Skeppssektionen, KTH',
-				'melody' => 'Skära havre',
-				'text' => 'Alla: Jäsa, jäsa brännvin,
+      ),
+      93 => 
+      array (
+        'id' => 94,
+        'chapter_id' => 4,
+        'number' => 18,
+        'title' => 'Jäsa brännvin',
+        'author' => 'Skeppssektionen, KTH',
+        'melody' => 'Skära havre',
+        'text' => 'Alla: Jäsa, jäsa brännvin,
 vem skall brygden dricka?
 Osquar: Osquar säger inte nej!
 Alla:Vad säger Osquars flicka?
 Osqulda: Fy fan, fy fan,
 Jag får så\'n jävla hicka!',
-			),
-			94 => 
-			array (
-				'id' => 95,
-				'chapter_id' => 4,
-				'number' => 19,
-				'title' => 'Fkåne faft',
-				'author' => NULL,
-				'melody' => 'Helan går',
-				'text' => 'Fkåne faft,
+      ),
+      94 => 
+      array (
+        'id' => 95,
+        'chapter_id' => 4,
+        'number' => 19,
+        'title' => 'Fkåne faft',
+        'author' => NULL,
+        'melody' => 'Helan går',
+        'text' => 'Fkåne faft,
 En fydfvenfk faft med fällfam kraft.
 Fkåne faft,
 Den bäfta faft vi haft.
@@ -3057,16 +3056,16 @@ Enf livfluft löfef, fläppef loff,
 När fådan faft ferveraf off,
 Fmakenf faft
 Till landf, till luftf, till havf.',
-			),
-			95 => 
-			array (
-				'id' => 96,
-				'chapter_id' => 4,
-				'number' => 2,
-				'title' => 'Hell and gore',
-				'author' => NULL,
-				'melody' => 'Helan går',
-				'text' => 'Hell and Gore,   
+      ),
+      95 => 
+      array (
+        'id' => 96,
+        'chapter_id' => 4,
+        'number' => 2,
+        'title' => 'Hell and gore',
+        'author' => NULL,
+        'melody' => 'Helan går',
+        'text' => 'Hell and Gore,   
 Chung Hop father Allan, Allan ley!   
 Hell and Gore,   
 Chung Hop father Allan ley!
@@ -3075,16 +3074,16 @@ On handsome in the hell and tar
 Hell are in the half and four   
 Hell and Gore!   
 Chung Hop father Allan ley!',
-			),
-			96 => 
-			array (
-				'id' => 97,
-				'chapter_id' => 4,
-				'number' => 20,
-				'title' => 'Mera Skåne',
-				'author' => NULL,
-				'melody' => 'Internationalen',
-				'text' => 'Nu är det dags att taga supen; 
+      ),
+      96 => 
+      array (
+        'id' => 97,
+        'chapter_id' => 4,
+        'number' => 20,
+        'title' => 'Mera Skåne',
+        'author' => NULL,
+        'melody' => 'Internationalen',
+        'text' => 'Nu är det dags att taga supen; 
 den stärker varje svag fysik. 
 Den rinner ner igenom strupen, 
 river gott som en tolvtumsspik. 
@@ -3102,16 +3101,16 @@ Mera jordar kring månen,
 flera månar kring Mars! 
 Mera marscher till Skåne! 
 Mer Skåne gubevars, bevars, bevars!',
-			),
-			97 => 
-			array (
-				'id' => 98,
-				'chapter_id' => 4,
-				'number' => 21,
-				'title' => 'Man cyklar för lite',
-				'author' => 'Povel Ramel, 1964',
-				'melody' => 'Väda vadmal',
-				'text' => 'Man cyklar för lite\' 
+      ),
+      97 => 
+      array (
+        'id' => 98,
+        'chapter_id' => 4,
+        'number' => 21,
+        'title' => 'Man cyklar för lite',
+        'author' => 'Povel Ramel, 1964',
+        'melody' => 'Väda vadmal',
+        'text' => 'Man cyklar för lite\' 
 Man röker för mycke\' 
 
 och man är fasen så liberal  
@@ -3138,16 +3137,16 @@ och man är...
 Njut var gudagåva! 
 Tids nog får man sova.
 Ja, det vill jag lova!',
-			),
-			98 => 
-			array (
-				'id' => 99,
-				'chapter_id' => 4,
-				'number' => 22,
-				'title' => 'För att människan',
-				'author' => NULL,
-				'melody' => 'Bä, bä, vita lamm',
-				'text' => 'För att människan 
+      ),
+      98 => 
+      array (
+        'id' => 99,
+        'chapter_id' => 4,
+        'number' => 22,
+        'title' => 'För att människan',
+        'author' => NULL,
+        'melody' => 'Bä, bä, vita lamm',
+        'text' => 'För att människan 
 skall trivas på vår jord 
 bör hon ständigt ha 
 på sitt smörgårsbord: 
@@ -3156,29 +3155,29 @@ en stor, stor sup åt far,
 en liten snaps åt mor, 
 och två små droppar 
 åt lille, lille bror.',
-			),
-			99 => 
-			array (
-				'id' => 100,
-				'chapter_id' => 4,
-				'number' => 23,
-				'title' => 'Finsk snapsvisa',
-				'author' => NULL,
-				'melody' => 'Bör sjungas efter grundliga förberedelser, angivande av ett flertal tonarter med bibehållen taktkänsla.
+      ),
+      99 => 
+      array (
+        'id' => 100,
+        'chapter_id' => 4,
+        'number' => 23,
+        'title' => 'Finsk snapsvisa',
+        'author' => NULL,
+        'melody' => 'Bör sjungas efter grundliga förberedelser, angivande av ett flertal tonarter med bibehållen taktkänsla.
 Hiss-dur, Vivace molto fortissimo con spirito.',
-			'text' => '(17 sekunders tystnad)
+      'text' => '(17 sekunders tystnad)
 NU!!!',
-			),
-			100 => 
-			array (
-				'id' => 101,
-				'chapter_id' => 4,
-				'number' => 24,
-				'title' => 'Finsk brännvinsvisa',
-				'author' => NULL,
-				'melody' => 'Ratataa ur Povel Ramels film "Ratataa"
+      ),
+      100 => 
+      array (
+        'id' => 101,
+        'chapter_id' => 4,
+        'number' => 24,
+        'title' => 'Finsk brännvinsvisa',
+        'author' => NULL,
+        'melody' => 'Ratataa ur Povel Ramels film "Ratataa"
 (bör sjungas med finlänsk brytning. På "Ratataa" drar man i tofsen i mössan.)',
-				'text' => 'Att dricka brännvin är en sed 
+        'text' => 'Att dricka brännvin är en sed 
 som ingen oss har lärt. 
 Från början vi ej kunde 
 men det var blott temporärt. 
@@ -3192,27 +3191,27 @@ Ratatataa, med mycket brännvin i.
 Ratatataa, ratatataa! 
 Dricka brännvin gillar jag, 
 för jag blir så full och glad!',
-			),
-			101 => 
-			array (
-				'id' => 102,
-				'chapter_id' => 4,
-				'number' => 25,
-				'title' => 'Sädesfälten',
-				'author' => NULL,
-				'melody' => 'Barndomshemmet',
-				'text' => 'När som sädesfälten böja sig för vinden,
+      ),
+      101 => 
+      array (
+        'id' => 102,
+        'chapter_id' => 4,
+        'number' => 25,
+        'title' => 'Sädesfälten',
+        'author' => NULL,
+        'melody' => 'Barndomshemmet',
+        'text' => 'När som sädesfälten böja sig för vinden,
 står en jäkel där och böjer dom tillbaks!',
-			),
-			102 => 
-			array (
-				'id' => 103,
-				'chapter_id' => 4,
-				'number' => 26,
-				'title' => 'Räven',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Jag fångade en räv idag,
+      ),
+      102 => 
+      array (
+        'id' => 103,
+        'chapter_id' => 4,
+        'number' => 26,
+        'title' => 'Räven',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Jag fångade en räv idag,
 men räven slank ur näven,
 men lika gla\' för det är ja\'
 men gladast är nog räven. 
@@ -3228,16 +3227,16 @@ Jag har letat överallt,
 var katten har jag lagt den? 
 
 Åh hum, vår sång är dum...',
-			),
-			103 => 
-			array (
-				'id' => 104,
-				'chapter_id' => 4,
-				'number' => 27,
-				'title' => 'Supen',
-				'author' => NULL,
-				'melody' => 'Räven',
-				'text' => 'Jag fångade en sup idag 
+      ),
+      103 => 
+      array (
+        'id' => 104,
+        'chapter_id' => 4,
+        'number' => 27,
+        'title' => 'Supen',
+        'author' => NULL,
+        'melody' => 'Räven',
+        'text' => 'Jag fångade en sup idag 
 men supen slank ur näven. 
 Men lika gla\' för det är ja\' 
 Men gladast är nog levern! 
@@ -3255,16 +3254,16 @@ Jag fångade en biff idag
 men den var seg som kola 
 och lika seg som den är ja\'. 
 Det är så kul att skåla!',
-			),
-			104 => 
-			array (
-				'id' => 105,
-				'chapter_id' => 4,
-				'number' => 28,
-				'title' => 'Nu ska vi klämma septen',
-				'author' => NULL,
-				'melody' => 'Nu ska vi skörda linet',
-				'text' => 'Nu skall vi klämma septen gutår, 
+      ),
+      104 => 
+      array (
+        'id' => 105,
+        'chapter_id' => 4,
+        'number' => 28,
+        'title' => 'Nu ska vi klämma septen',
+        'author' => NULL,
+        'melody' => 'Nu ska vi skörda linet',
+        'text' => 'Nu skall vi klämma septen gutår, 
 sjunga en trudelutt om det går. 
 Tjosan Muhammed, nu är det vår, 
 julafton är en fredag. 
@@ -3275,61 +3274,61 @@ abra kadabra klunk,
 julafton är en fredag. 
 
 (om och om igen, fortare och fortare)',
-			),
-			105 => 
-			array (
-				'id' => 106,
-				'chapter_id' => 4,
-				'number' => 29,
-				'title' => 'Full och galen',
-				'author' => NULL,
-			'melody' => 'Kors på Idas grav (Imbelupet)',
-				'text' => 'Full och galen med moralen minimal, 
+      ),
+      105 => 
+      array (
+        'id' => 106,
+        'chapter_id' => 4,
+        'number' => 29,
+        'title' => 'Full och galen',
+        'author' => NULL,
+      'melody' => 'Kors på Idas grav (Imbelupet)',
+        'text' => 'Full och galen med moralen minimal, 
 ljuder nu signalen till vår bacchanal. 
 Sensmoralen i lokalen 
 är att tömma sin pokal 
 så skandalen i finalen blir total.',
-			),
-			106 => 
-			array (
-				'id' => 107,
-				'chapter_id' => 4,
-				'number' => 3,
-				'title' => 'Et langue d\'or',
-				'author' => NULL,
-				'melody' => 'Helan går',
-				'text' => 'Et langue d\'or, joue haute fadeur a l\'an la langue laide!   
+      ),
+      106 => 
+      array (
+        'id' => 107,
+        'chapter_id' => 4,
+        'number' => 3,
+        'title' => 'Et langue d\'or',
+        'author' => NULL,
+        'melody' => 'Helan går',
+        'text' => 'Et langue d\'or, joue haute fadeur a l\'an la langue laide!   
 Et langue d\'or, joue haute fadeur a l\'an laide!   
 Octane somme mine te et loitain,   
 A ni te et leur halle vend fort.   
 Et langue d\'or!   
 Joue haute fadeur a l\'an laide!',
-			),
-			107 => 
-			array (
-				'id' => 108,
-				'chapter_id' => 4,
-				'number' => 30,
-				'title' => 'Toj hemtegubbar',
-				'author' => NULL,
-				'melody' => 'Hej tomtegubbar',
-				'text' => '||: Toj hemtegubbar gla i slåsen 
+      ),
+      107 => 
+      array (
+        'id' => 108,
+        'chapter_id' => 4,
+        'number' => 30,
+        'title' => 'Toj hemtegubbar',
+        'author' => NULL,
+        'melody' => 'Hej tomtegubbar',
+        'text' => '||: Toj hemtegubbar gla i slåsen 
 och låt oss vastiga lura! :||
 
 En liten tid vi heva lär 
 Med möcken hyda och svär bestor, 
 Toj hemtegubbar gla i slåsen 
 och låt oss vastiga lura.',
-			),
-			108 => 
-			array (
-				'id' => 109,
-				'chapter_id' => 4,
-				'number' => 31,
-				'title' => 'Full är bäst',
-				'author' => NULL,
-				'melody' => 'Vi gå över daggstänkta berg',
-				'text' => 'Vi som oss för att glupa satt 
+      ),
+      108 => 
+      array (
+        'id' => 109,
+        'chapter_id' => 4,
+        'number' => 31,
+        'title' => 'Full är bäst',
+        'author' => NULL,
+        'melody' => 'Vi gå över daggstänkta berg',
+        'text' => 'Vi som oss för att glupa satt 
 supa glatt, 
 ity den som försmår sin första tår 
 törsta får. 
@@ -3344,16 +3343,16 @@ varm en tår.
 Er öven i seder, och söven sen ned er 
 på denna protestbullerfest, 
 full är bäst!',
-			),
-			109 => 
-			array (
-				'id' => 110,
-				'chapter_id' => 4,
-				'number' => 32,
-				'title' => 'Morsgrisar små',
-				'author' => NULL,
-				'melody' => 'Morsgrisar är vi allihopa',
-				'text' => 'Morsgrisar små ska inte supa 
+      ),
+      109 => 
+      array (
+        'id' => 110,
+        'chapter_id' => 4,
+        'number' => 32,
+        'title' => 'Morsgrisar små',
+        'author' => NULL,
+        'melody' => 'Morsgrisar är vi allihopa',
+        'text' => 'Morsgrisar små ska inte supa 
 för de stupa allihopa. 
 Men vi vill ha brännvin fyllt med skupa 
 i våra djupa strupa. 
@@ -3362,18 +3361,18 @@ Nu med,   (supen tas)
 och nu med.   (tupen sas)
 Nu med,   (schupen tasch)
 och nu med.   (schnaps)',
-			),
-			110 => 
-			array (
-				'id' => 111,
-				'chapter_id' => 4,
-				'number' => 33,
-				'title' => 'Livet är härligt',
-				'author' => 'Chalmersspexet Katarina 1959
+      ),
+      110 => 
+      array (
+        'id' => 111,
+        'chapter_id' => 4,
+        'number' => 33,
+        'title' => 'Livet är härligt',
+        'author' => 'Chalmersspexet Katarina 1959
 Denna sjunges först på alla Chalmerssittningar',
-				'melody' => 'Röda kavalleriet
+        'melody' => 'Röda kavalleriet
 Sjunges först svagt, sedan starkt',
-				'text' => '||: Livet är härligt!
+        'text' => '||: Livet är härligt!
 Tavaritj, vårt liv är härligt!
 Vi alla våra små bekymmer glömmer
 när vi har fått en tår på tanden, skål!
@@ -3384,16 +3383,16 @@ Glasen i botten vi tillsammans tömmer!
 1: Det kommer mera efter ha-a-and. :||
 
 2: Det kommer mera efter hand!',
-			),
-			111 => 
-			array (
-				'id' => 112,
-				'chapter_id' => 4,
-				'number' => 34,
-				'title' => 'Vodka, vodka',
-				'author' => NULL,
-				'melody' => 'Stenka Razin',
-				'text' => 'Vodka, vodka vill jag dricka, 
+      ),
+      111 => 
+      array (
+        'id' => 112,
+        'chapter_id' => 4,
+        'number' => 34,
+        'title' => 'Vodka, vodka',
+        'author' => NULL,
+        'melody' => 'Stenka Razin',
+        'text' => 'Vodka, vodka vill jag dricka, 
 jag vill äta kaviar, 
 ||: jag vill älska russkij flicka/pojke, 
 jag vill spy i samovar :||
@@ -3413,29 +3412,29 @@ ta en sup och allt går väl :||
 Falu brännvin - falukorv - falu flicka - Faluån 
 Whisky - baked beans - Yankee flicka - på mina jeans 
 Man kan också permutera "äta", "älska" och "spy i"',
-			),
-			112 => 
-			array (
-				'id' => 113,
-				'chapter_id' => 4,
-				'number' => 35,
-				'title' => 'Så hastigt',
-				'author' => NULL,
-				'melody' => 'Flickan går i ringen',
-				'text' => 'Så hastigt den lilla nubben i strupen försvann, 
+      ),
+      112 => 
+      array (
+        'id' => 113,
+        'chapter_id' => 4,
+        'number' => 35,
+        'title' => 'Så hastigt',
+        'author' => NULL,
+        'melody' => 'Flickan går i ringen',
+        'text' => 'Så hastigt den lilla nubben i strupen försvann, 
 Så hastigt den lilla nubben i strupen försvann. 
 Håhå jaja, kommer rafflan idag, 
 Håhå jaja, kommer rafflan idag?',
-			),
-			113 => 
-			array (
-				'id' => 114,
-				'chapter_id' => 4,
-				'number' => 36,
-				'title' => 'Gräv ur tundran',
-				'author' => 'Ekonomspexet Lenin 1989',
-				'melody' => 'Katyuscha',
-				'text' => 'Gräv ur tundran två dussin potäter 
+      ),
+      113 => 
+      array (
+        'id' => 114,
+        'chapter_id' => 4,
+        'number' => 36,
+        'title' => 'Gräv ur tundran',
+        'author' => 'Ekonomspexet Lenin 1989',
+        'melody' => 'Katyuscha',
+        'text' => 'Gräv ur tundran två dussin potäter 
 låt dem jäsa uti fjorton dar. 
 ||: Modersmjölken för ryssar och sovjeter, 
 brännes i babusjkans samovar :||
@@ -3447,17 +3446,17 @@ sjung "Nastrovie" med en mäktig bas.
 Höj sen glasen för fosterlandets välgång, 
 sjung "Nastrovie"... (supen intages) 
 låt glasen gå i kras!',
-			),
-			114 => 
-			array (
-				'id' => 115,
-				'chapter_id' => 4,
-				'number' => 37,
-				'title' => 'Hyllning till OP Andersson',
-				'author' => NULL,
-			'melody' => 'Lilie Marlene (Gul lyser solen)
+      ),
+      114 => 
+      array (
+        'id' => 115,
+        'chapter_id' => 4,
+        'number' => 37,
+        'title' => 'Hyllning till OP Andersson',
+        'author' => NULL,
+      'melody' => 'Lilie Marlene (Gul lyser solen)
 (Inte "Vi äro musikanter")',
-				'text' => 'Vi kan dricka Sädes 
+        'text' => 'Vi kan dricka Sädes 
 och vi kan dricka Kron. 
 Men allra mest vi glädes, 
 åt OP Andersson.
@@ -3466,47 +3465,47 @@ När den gått ned uti vår strup,
 så ropas det på nästa sup: 
 ur svenska hjärtans djup, 
 ur svenska hjärtans djup.',
-			),
-			115 => 
-			array (
-				'id' => 116,
-				'chapter_id' => 4,
-				'number' => 38,
-				'title' => 'Tänk om jag hade lilla nubben...',
-				'author' => NULL,
-				'melody' => 'Hej tomtegubbar',
-				'text' => '||: Tänk om jag hade lilla nubben 
+      ),
+      115 => 
+      array (
+        'id' => 116,
+        'chapter_id' => 4,
+        'number' => 38,
+        'title' => 'Tänk om jag hade lilla nubben...',
+        'author' => NULL,
+        'melody' => 'Hej tomtegubbar',
+        'text' => '||: Tänk om jag hade lilla nubben 
 uppå ett snöre i halsen! :||
 
 Och kunde dra den upp och ner 
 så att den smaka\' som många fler! 
 Tänk om jag hade lilla nubben 
 uppå ett snöre i halsen',
-			),
-			116 => 
-			array (
-				'id' => 117,
-				'chapter_id' => 4,
-				'number' => 39,
-				'title' => 'Krök armen',
-				'author' => NULL,
-				'melody' => 'Väva vadmal',
-				'text' => 'Krök armen i vinken, 
+      ),
+      116 => 
+      array (
+        'id' => 117,
+        'chapter_id' => 4,
+        'number' => 39,
+        'title' => 'Krök armen',
+        'author' => NULL,
+        'melody' => 'Väva vadmal',
+        'text' => 'Krök armen i vinken, 
 här vankas det finkel. 
 Och vanka finkel 
 och finka vankel 
 och kröka armen i finkel. 
 Här vankas det vinkel.',
-			),
-			117 => 
-			array (
-				'id' => 118,
-				'chapter_id' => 4,
-				'number' => 4,
-				'title' => 'Imbelupet',
-				'author' => NULL,
-				'melody' => 'Kors på Idas grav',
-				'text' => 'Imbelupet glaset står på bräcklig fot.   
+      ),
+      117 => 
+      array (
+        'id' => 118,
+        'chapter_id' => 4,
+        'number' => 4,
+        'title' => 'Imbelupet',
+        'author' => NULL,
+        'melody' => 'Kors på Idas grav',
+        'text' => 'Imbelupet glaset står på bräcklig fot.   
 Svala pilsnerpavor luta sig därmot.   
 Men därnere, miserere... 
 
@@ -3533,18 +3532,18 @@ sitter djävulen och vrålar på en sept.
 
 ...uti magen varm och kvav   
 sitter djävulen och väser på oktav.',
-			),
-			118 => 
-			array (
-				'id' => 119,
-				'chapter_id' => 4,
-				'number' => 40,
-				'title' => 'Inre dialog',
-				'author' => NULL,
-				'melody' => 'An der schönen blauen Donaul
+      ),
+      118 => 
+      array (
+        'id' => 119,
+        'chapter_id' => 4,
+        'number' => 40,
+        'title' => 'Inre dialog',
+        'author' => NULL,
+        'melody' => 'An der schönen blauen Donaul
 F: Försångare
 A: Alla',
-				'text' => 'F: Jag vill inte ha - A: en nubbe till!
+        'text' => 'F: Jag vill inte ha - A: en nubbe till!
 F: Jag mår inte bra - A: en nubbe till!
 F: Om ni ger mig mer - A: en nubbe till!
 F: ser jag er som fler - A: en nubbe till!
@@ -3552,32 +3551,32 @@ F: Min mage är sjuk - A: en nubbe till!
 F: Min hjärna är mjuk - A: en nubbe till!
 A: Jag kan inte tänka så bra,
 så jag får väl nubben ta - hurra!',
-			),
-			119 => 
-			array (
-				'id' => 120,
-				'chapter_id' => 4,
-				'number' => 41,
-				'title' => 'Månvisa',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'När månen vandrar sin tysta ban 
+      ),
+      119 => 
+      array (
+        'id' => 120,
+        'chapter_id' => 4,
+        'number' => 41,
+        'title' => 'Månvisa',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'När månen vandrar sin tysta ban 
 och tittar in genom rutan 
 Då tänker jag att på ljusa dan 
 då kan jag klara mig utan. 
 Ja, jag kan klara mig utan måne, 
 men utan renat och utan Skåne, 
 det vete f-n, det vete f-n.',
-			),
-			120 => 
-			array (
-				'id' => 121,
-				'chapter_id' => 4,
-				'number' => 42,
-				'title' => 'Måsen',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'Det satt en mås på en klyvarbom, 
+      ),
+      120 => 
+      array (
+        'id' => 121,
+        'chapter_id' => 4,
+        'number' => 42,
+        'title' => 'Måsen',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'Det satt en mås på en klyvarbom, 
 och torr i krävan var kräket. 
 Och torkan brände i skepparns gom, 
 när de låg där i bleket. 
@@ -3592,75 +3591,75 @@ Jag önskar blott att jag såg \'en.
 Så arm och nykter den arme kraken 
 han sätter storsegel den krabaten. 
 Till sjöss han far och halvan tar.',
-			),
-			121 => 
-			array (
-				'id' => 122,
-				'chapter_id' => 4,
-				'number' => 43,
-				'title' => 'Den vingklippta måsen',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Det satt en mås på en klyvarbom
+      ),
+      121 => 
+      array (
+        'id' => 122,
+        'chapter_id' => 4,
+        'number' => 43,
+        'title' => 'Den vingklippta måsen',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Det satt en mås på en klyvarbom
 Jag vill ha OP!',
-			),
-			122 => 
-			array (
-				'id' => 123,
-				'chapter_id' => 4,
-				'number' => 44,
-				'title' => 'JASen',
-				'author' => 'Dadderiet 1993',
-				'melody' => 'Månvisa',
-				'text' => 'Det flög en JAS över Västerbron 
+      ),
+      122 => 
+      array (
+        'id' => 123,
+        'chapter_id' => 4,
+        'number' => 44,
+        'title' => 'JASen',
+        'author' => 'Dadderiet 1993',
+        'melody' => 'Månvisa',
+        'text' => 'Det flög en JAS över Västerbron 
 men styrsystemet var trasigt. 
 Piloten sköt ut sig med kanon 
 för planet svängde så knasigt. 
 "Jag vill ju uppåt, jag vill ju mer"
 men planet svarte: "Jag vill ju ner"
 mot alla hjon på Västerbron.',
-			),
-			123 => 
-			array (
-				'id' => 124,
-				'chapter_id' => 4,
-				'number' => 45,
-				'title' => 'När nubben blänker',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'När nubben blänker i immigt glas 
+      ),
+      123 => 
+      array (
+        'id' => 124,
+        'chapter_id' => 4,
+        'number' => 45,
+        'title' => 'När nubben blänker',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'När nubben blänker i immigt glas 
 som hoppets strålande stjärna, 
 då är det avsett att det ska tas 
 förutan fruktan och gärna. 
 Så klang och klingom, så tar vi supen, 
 den läskar härligt den torra strupen. 
 Ja, skål gutår, ja, skål gutår!',
-			),
-			124 => 
-			array (
-				'id' => 125,
-				'chapter_id' => 4,
-				'number' => 46,
-				'title' => 'Moose:en',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'Det satt en älg i en klyvartopp
+      ),
+      124 => 
+      array (
+        'id' => 125,
+        'chapter_id' => 4,
+        'number' => 46,
+        'title' => 'Moose:en',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'Det satt en älg i en klyvartopp
 förklädd i älgjaktens månad
 Befjädrad var han från tå till topp
 skepparn blev rätt förvånad
 "Jag är en mås, goa skepparn!", ljög den
 förklädda älgen, därefter flög den
 Mjukt föll den sen, på skepparen',
-			),
-			125 => 
-			array (
-				'id' => 126,
-				'chapter_id' => 4,
-				'number' => 47,
-				'title' => 'När jag är fuller',
-				'author' => 'Sångartäflan 1942',
-				'melody' => 'Månvisa',
-				'text' => 'När jag är fuller, då är jag glad, 
+      ),
+      125 => 
+      array (
+        'id' => 126,
+        'chapter_id' => 4,
+        'number' => 47,
+        'title' => 'När jag är fuller',
+        'author' => 'Sångartäflan 1942',
+        'melody' => 'Månvisa',
+        'text' => 'När jag är fuller, då är jag glad, 
 fan vet om jag ej är vacker. 
 Då går jag runt i vår lilla stad, 
 ibland lyxhus och baracker. 
@@ -3691,48 +3690,48 @@ och avskyr bråk och kravaller.
 Min mage krånglar och är ur lag, 
 och fan ska veta att jag idag 
 är bakom galler, är bakom galler.',
-			),
-			126 => 
-			array (
-				'id' => 127,
-				'chapter_id' => 4,
-				'number' => 48,
-				'title' => 'Mesen',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'Det satt en mes i en klyvarmast
+      ),
+      126 => 
+      array (
+        'id' => 127,
+        'chapter_id' => 4,
+        'number' => 48,
+        'title' => 'Mesen',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'Det satt en mes i en klyvarmast
 där sågs han ragla och svaja
 för trot att frön var hans enda last
 var han nu full som en kaja.
 "Vad har du gjort!" hördes skepparn stöna
 och mesen svarte: "Jag rökte fröna!
 I egen holk, i egen holk"',
-			),
-			127 => 
-			array (
-				'id' => 128,
-				'chapter_id' => 4,
-				'number' => 49,
-				'title' => 'Musen',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'Det satt en mus i en hushållsost,
+      ),
+      127 => 
+      array (
+        'id' => 128,
+        'chapter_id' => 4,
+        'number' => 49,
+        'title' => 'Musen',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'Det satt en mus i en hushållsost,
 och åt och åt utan måtta.
 Tills osten blivit en mushåls-ost,
 och han en klotformad råtta.
 "Så bra", sa musen, "att va en fettboll,
 nu kan jag rulla med hast åt rätt håll:
 Ostindien! Ostindien!"',
-			),
-			128 => 
-			array (
-				'id' => 129,
-				'chapter_id' => 4,
-				'number' => 5,
-				'title' => 'Vem sade ordet "skål"?',
-				'author' => NULL,
-				'melody' => 'Vårvindar friska',
-				'text' => 'Vem sade ordet "skål" här vid bordet,  
+      ),
+      128 => 
+      array (
+        'id' => 129,
+        'chapter_id' => 4,
+        'number' => 5,
+        'title' => 'Vem sade ordet "skål"?',
+        'author' => NULL,
+        'melody' => 'Vårvindar friska',
+        'text' => 'Vem sade ordet "skål" här vid bordet,  
 viskande for det sällskapet kring.  
 Fattom kristallen, nubben är kall den,  
 stiger åt skallen, pling, plang, pling.  
@@ -3740,71 +3739,71 @@ Käraste vänner välkomna hit
 känn hur det bränner god akvavit.  
 Nu lilla hutten går i kaputten  
 skål lilla tutten, pling, plang, pling',
-			),
-			129 => 
-			array (
-				'id' => 130,
-				'chapter_id' => 4,
-				'number' => 50,
-				'title' => 'Måsens sista sup',
-				'author' => NULL,
-				'melody' => 'Månvisa',
-				'text' => 'Den mås som satt på en klyvarbom
+      ),
+      129 => 
+      array (
+        'id' => 130,
+        'chapter_id' => 4,
+        'number' => 50,
+        'title' => 'Måsens sista sup',
+        'author' => NULL,
+        'melody' => 'Månvisa',
+        'text' => 'Den mås som satt på en klyvarbom
 den är nu död och begraven,
 och skepparn som drack en flaska rom
 han har nu drunknat i haven
 Så kan det gå om man fått för mycke\'
 om man för brännvin har fattat tycke.
 Vi som har kvar, vi resten tar.',
-			),
-			130 => 
-			array (
-				'id' => 131,
-				'chapter_id' => 4,
-				'number' => 51,
-				'title' => 'Humlorna',
-				'author' => NULL,
-				'melody' => 'Karl Alfred boy',
-				'text' => 'Vi äro små humlor vi, bzzz, bzzz. 
+      ),
+      130 => 
+      array (
+        'id' => 131,
+        'chapter_id' => 4,
+        'number' => 51,
+        'title' => 'Humlorna',
+        'author' => NULL,
+        'melody' => 'Karl Alfred boy',
+        'text' => 'Vi äro små humlor vi, bzzz, bzzz. 
 Vi äro små humlor vi, bzzz, bzzz. 
 Vi äro små humlor som tar oss en geting 
 Vi äro små humlor vi, bzzz, bzzz.',
-			),
-			131 => 
-			array (
-				'id' => 132,
-				'chapter_id' => 4,
-				'number' => 52,
-				'title' => 'Fiskarna',
-				'author' => NULL,
-				'melody' => 'Karl Alfred boy',
-				'text' => 'Vi äro små fiskar vi, blubb, blubb. 
+      ),
+      131 => 
+      array (
+        'id' => 132,
+        'chapter_id' => 4,
+        'number' => 52,
+        'title' => 'Fiskarna',
+        'author' => NULL,
+        'melody' => 'Karl Alfred boy',
+        'text' => 'Vi äro små fiskar vi, blubb, blubb. 
 Vi äro små fiskar vi, blubb, blubb. 
 Vi äro små fiskar som tar oss en kallsup, 
 Vi äro små fiskar vi, blubb blubb.',
-			),
-			132 => 
-			array (
-				'id' => 133,
-				'chapter_id' => 4,
-				'number' => 53,
-				'title' => 'Änglarna',
-				'author' => NULL,
-				'melody' => 'Karl Alfred boy',
-				'text' => 'Vi äro små änglar vi, flax, flax
+      ),
+      132 => 
+      array (
+        'id' => 133,
+        'chapter_id' => 4,
+        'number' => 53,
+        'title' => 'Änglarna',
+        'author' => NULL,
+        'melody' => 'Karl Alfred boy',
+        'text' => 'Vi äro små änglar vi, flax, flax
 Vi äro små änglar vi, flax, flax
 Vi äro små änglar som tar oss en djävel
 VI äro små änglar vi, flax, flax',
-			),
-			133 => 
-			array (
-				'id' => 134,
-				'chapter_id' => 4,
-				'number' => 54,
-				'title' => 'Brännvin är jävligt gott',
-				'author' => NULL,
-				'melody' => 'Karl Alfred boy',
-			'text' => 'Ja, brännvin är jävligt gott. (bank, bank)
+      ),
+      133 => 
+      array (
+        'id' => 134,
+        'chapter_id' => 4,
+        'number' => 54,
+        'title' => 'Brännvin är jävligt gott',
+        'author' => NULL,
+        'melody' => 'Karl Alfred boy',
+      'text' => 'Ja, brännvin är jävligt gott. (bank, bank)
 Ju bättre ju mer man fått. (bank, bank)
 Det rinner längst halsen, man tappar balansen.
 Ja, brännvin är jävligt gott! (bank, bank)
@@ -3813,29 +3812,29 @@ Ja, brännvin är jävligt gott. (bank, bank)
 Ju bättre ju mer man fått. (bank, bank)
 Men går man i golvet, så där framåt tolv-ett
 Så slår man sig jävligt hårt (bank, bank)',
-			),
-			134 => 
-			array (
-				'id' => 135,
-				'chapter_id' => 4,
-				'number' => 55,
-				'title' => 'En liten fyllhund',
-				'author' => NULL,
-				'melody' => 'Mors lilla Olle',
-				'text' => 'En liten fyllhund på krogen satt. 
+      ),
+      134 => 
+      array (
+        'id' => 135,
+        'chapter_id' => 4,
+        'number' => 55,
+        'title' => 'En liten fyllhund',
+        'author' => NULL,
+        'melody' => 'Mors lilla Olle',
+        'text' => 'En liten fyllhund på krogen satt. 
 Rosor på kinden - men blicken var matt. 
 Läpparna små liksom näsan var blå. 
 Bara jag kunde så skulle jag gå.',
-			),
-			135 => 
-			array (
-				'id' => 136,
-				'chapter_id' => 4,
-				'number' => 56,
-				'title' => 'Getingen',
-				'author' => NULL,
-				'melody' => 'Jazzgossen',
-				'text' => 'Å så kommer det en geting, 
+      ),
+      135 => 
+      array (
+        'id' => 136,
+        'chapter_id' => 4,
+        'number' => 56,
+        'title' => 'Getingen',
+        'author' => NULL,
+        'melody' => 'Jazzgossen',
+        'text' => 'Å så kommer det en geting, 
 genom luften som ett reaplan. 
 Å han åker på en snyting, 
 mitt under röda kran. 
@@ -3845,18 +3844,18 @@ jätte plask, jätteplask.
 Å så blir man lite dragen, 
 men pigg och rask, 
 pigg och rask, pigg och rask.',
-			),
-			136 => 
-			array (
-				'id' => 137,
-				'chapter_id' => 4,
-				'number' => 57,
-				'title' => 'Kalla små nubbar',
-				'author' => NULL,
-				'melody' => 'Kalle på spången
+      ),
+      136 => 
+      array (
+        'id' => 137,
+        'chapter_id' => 4,
+        'number' => 57,
+        'title' => 'Kalla små nubbar',
+        'author' => NULL,
+        'melody' => 'Kalle på spången
 F: Försångare
 A: Alla',
-				'text' => 'F: Vad är det som gör
+        'text' => 'F: Vad är det som gör
 att en skojare trivs?
 A: Jo, kalla, kalla, kalla, kalla
 små nubbar.
@@ -3876,63 +3875,63 @@ F: Ja, kalla
 A: Mycket kalla
 Ja, kalla, kalla, kalla, kalla 
 små nubbar.',
-			),
-			137 => 
-			array (
-				'id' => 138,
-				'chapter_id' => 4,
-				'number' => 58,
-				'title' => 'Mandoms morske män',
-				'author' => NULL,
-				'melody' => 'Kungssången',
-				'text' => 'Ur svenska hjärtans djup en sup, 
+      ),
+      137 => 
+      array (
+        'id' => 138,
+        'chapter_id' => 4,
+        'number' => 58,
+        'title' => 'Mandoms morske män',
+        'author' => NULL,
+        'melody' => 'Kungssången',
+        'text' => 'Ur svenska hjärtans djup en sup, 
 en samfälld och en enkel sup 
 som ger oss mod i barm. 
 I prima äktsvensk alkohol 
 för svenska folkets höga mål 
 vi höjer nu vår första skål, 
 vi mandoms morske män',
-			),
-			138 => 
-			array (
-				'id' => 139,
-				'chapter_id' => 4,
-				'number' => 59,
-				'title' => 'Oh Besinna',
-				'author' => NULL,
-				'melody' => 'Oh, Susanna',
-				'text' => 'Smuttans ungar har just runnit ner 
+      ),
+      138 => 
+      array (
+        'id' => 139,
+        'chapter_id' => 4,
+        'number' => 59,
+        'title' => 'Oh Besinna',
+        'author' => NULL,
+        'melody' => 'Oh, Susanna',
+        'text' => 'Smuttans ungar har just runnit ner 
 uti magens boudoir. 
 Kommer inte genast något mer, 
 Höres magens kommentar. 
 Oh besinna, den saken är ju klar, 
 både tarmvred, magsår och kolik 
 dunstar bort med lite sprit.',
-			),
-			139 => 
-			array (
-				'id' => 140,
-				'chapter_id' => 4,
-				'number' => 6,
-				'title' => 'Ubåten',
-				'author' => NULL,
-				'melody' => 'Jazzgossen',
-				'text' => 'Å så kommer det en ångbåt,   
+      ),
+      139 => 
+      array (
+        'id' => 140,
+        'chapter_id' => 4,
+        'number' => 6,
+        'title' => 'Ubåten',
+        'author' => NULL,
+        'melody' => 'Jazzgossen',
+        'text' => 'Å så kommer det en ångbåt,   
 och den säger "Tut-tut-tut!"   
 Å så kommer det en ubåt,   
 och den säger   
 
 (Gurgla nubben)',
-			),
-			140 => 
-			array (
-				'id' => 141,
-				'chapter_id' => 4,
-				'number' => 60,
-				'title' => 'Mera järn',
-				'author' => NULL,
-				'melody' => 'Milord',
-				'text' => 'Vi vill ha mera järn, 
+      ),
+      140 => 
+      array (
+        'id' => 141,
+        'chapter_id' => 4,
+        'number' => 60,
+        'title' => 'Mera järn',
+        'author' => NULL,
+        'melody' => 'Milord',
+        'text' => 'Vi vill ha mera järn, 
 vi vill ha flera järn, 
 ett litet rostfritt, oböjt, 
 destillerat järn! 
@@ -3940,29 +3939,29 @@ Och vi ska böja järn,
 och vi ska kröka järn 
 så att vi har det 
 flytande i morgon kväll',
-			),
-			141 => 
-			array (
-				'id' => 142,
-				'chapter_id' => 4,
-				'number' => 61,
-				'title' => 'Vem kan kröka',
-				'author' => NULL,
-				'melody' => 'Vem kan segla',
-				'text' => 'Vem kan kröka förutan krök? 
+      ),
+      141 => 
+      array (
+        'id' => 142,
+        'chapter_id' => 4,
+        'number' => 61,
+        'title' => 'Vem kan kröka',
+        'author' => NULL,
+        'melody' => 'Vem kan segla',
+        'text' => 'Vem kan kröka förutan krök? 
 Vem kan gå utan vingel? 
 Vem kan skala en stor gul lök 
 Utan att fälla tårar?',
-			),
-			142 => 
-			array (
-				'id' => 143,
-				'chapter_id' => 4,
-				'number' => 62,
-				'title' => 'Vem kan hugga',
-				'author' => NULL,
-				'melody' => 'Vem kan segla',
-				'text' => 'Vem kan hugga sig själv i knät? 
+      ),
+      142 => 
+      array (
+        'id' => 143,
+        'chapter_id' => 4,
+        'number' => 62,
+        'title' => 'Vem kan hugga',
+        'author' => NULL,
+        'melody' => 'Vem kan segla',
+        'text' => 'Vem kan hugga sig själv i knät? 
 Vem kan slå sig på tummen? 
 Vem kan skära i vännen sin, 
 utan att dra på munnen? 
@@ -3981,112 +3980,112 @@ Jag kan ragla förutan vin,
 Och visst var jag nykter om våren, 
 men ej skilja på kron och gin, 
 efter den elfte tåren.',
-			),
-			143 => 
-			array (
-				'id' => 144,
-				'chapter_id' => 4,
-				'number' => 63,
-				'title' => 'Var redo!',
-				'author' => NULL,
-				'melody' => 'Ur vägen',
-				'text' => '||: Var redo, var redo, 
+      ),
+      143 => 
+      array (
+        'id' => 144,
+        'chapter_id' => 4,
+        'number' => 63,
+        'title' => 'Var redo!',
+        'author' => NULL,
+        'melody' => 'Ur vägen',
+        'text' => '||: Var redo, var redo, 
 För nu skall supen tas :||
 Den gör gott åt kroppen ock åt själen, 
 känns ifrån hjässan långt ned i hälen. 
 Kling, klang, kling, klang, 
 nu börjar vårt kalas.',
-			),
-			144 => 
-			array (
-				'id' => 145,
-				'chapter_id' => 4,
-				'number' => 64,
-				'title' => 'Till supen så tager man sill',
-				'author' => NULL,
-				'melody' => 'Daggstänkta berg',
-				'text' => 'Till supen så tager man sill, sill, sill,
+      ),
+      144 => 
+      array (
+        'id' => 145,
+        'chapter_id' => 4,
+        'number' => 64,
+        'title' => 'Till supen så tager man sill',
+        'author' => NULL,
+        'melody' => 'Daggstänkta berg',
+        'text' => 'Till supen så tager man sill, sill, sill,
 men också ansjovis om man vill, vill, vill.
 ||: Och om man är oviss om sillen är ansjovis,
 så tar man bara några supar till, till, till. :||',
-			),
-			145 => 
-			array (
-				'id' => 146,
-				'chapter_id' => 4,
-				'number' => 65,
-				'title' => 'Vi går över ån',
-				'author' => NULL,
-				'melody' => 'Daggstänkta berg',
-				'text' => 'Vi går över ån efter sprit fallera,
+      ),
+      145 => 
+      array (
+        'id' => 146,
+        'chapter_id' => 4,
+        'number' => 65,
+        'title' => 'Vi går över ån',
+        'author' => NULL,
+        'melody' => 'Daggstänkta berg',
+        'text' => 'Vi går över ån efter sprit fallera,
 men efter vatten går vi ej en bit, fallera
 Ja sup kära bröder
 fast näsan är röder,
 en gång så blir den ack va vit, fallera',
-			),
-			146 => 
-			array (
-				'id' => 147,
-				'chapter_id' => 4,
-				'number' => 66,
-				'title' => 'Sänkta Lucia',
-				'author' => NULL,
-				'melody' => 'Sankta Lucia',
-				'text' => 'Huvet slåt kopparslag, ögonen svider,
+      ),
+      146 => 
+      array (
+        'id' => 147,
+        'chapter_id' => 4,
+        'number' => 66,
+        'title' => 'Sänkta Lucia',
+        'author' => NULL,
+        'melody' => 'Sankta Lucia',
+        'text' => 'Huvet slåt kopparslag, ögonen svider,
 i magen obehag, natten den lider.
 Då genom strupen går
 hembränt en liten tår.
 Vördat vare vårat brännvin,
 vördat vårt brännvin.',
-			),
-			147 => 
-			array (
-				'id' => 148,
-				'chapter_id' => 4,
-				'number' => 67,
-				'title' => 'Lundströms kök',
-				'author' => NULL,
-				'melody' => 'Ska det verkligen behövas någon melodi?',
-				'text' => 'Trrrrrretton kärringar i Lundströms kök, 
+      ),
+      147 => 
+      array (
+        'id' => 148,
+        'chapter_id' => 4,
+        'number' => 67,
+        'title' => 'Lundströms kök',
+        'author' => NULL,
+        'melody' => 'Ska det verkligen behövas någon melodi?',
+        'text' => 'Trrrrrretton kärringar i Lundströms kök, 
 i Lundströms kök, i Lundströms kök. 
 Alla var de fulla utom en som söp, 
 en som söp sig full, skål!',
-			),
-			148 => 
-			array (
-				'id' => 149,
-				'chapter_id' => 4,
-				'number' => 68,
-				'title' => 'Solen',
-				'author' => NULL,
-				'melody' => 'Camptown Ladies',
-				'text' => 'Solen den går upp och ner, doda, doda! 
+      ),
+      148 => 
+      array (
+        'id' => 149,
+        'chapter_id' => 4,
+        'number' => 68,
+        'title' => 'Solen',
+        'author' => NULL,
+        'melody' => 'Camptown Ladies',
+        'text' => 'Solen den går upp och ner, doda, doda! 
 Jag ska aldrig supa mer, hej doda dej! 
 Hej doda dej, hej doda dej! 
 Jag ska aldrig supa mer, hej doda dej! 
 
 Men detta var ju inte sant, doda, doda! 
 I morgon gör jag likadant, hej doda dej!',
-			),
-			149 => 
-			array (
-				'id' => 150,
-				'chapter_id' => 4,
-				'number' => 69,
-				'title' => 'Korta solen',
-				'author' => NULL,
-				'melody' => NULL,
-				'text' => 'Solen den går upp och ner, snapsen den går ner!',
-			),
-			150 => 
-			array (
-				'id' => 151,
-				'chapter_id' => 4,
-				'number' => 7,
-				'title' => 'När helan man tagit',
-				'author' => NULL,
-				'melody' => 'Skånska slott och härresäten',
-				'text' => 'När helan man tagit   
+      ),
+      149 => 
+      array (
+        'id' => 150,
+        'chapter_id' => 4,
+        'number' => 69,
+        'title' => 'Korta solen',
+        'author' => NULL,
+        'melody' => NULL,
+        'text' => 'Solen den går upp och ner, snapsen den går ner!',
+      ),
+      150 => 
+      array (
+        'id' => 151,
+        'chapter_id' => 4,
+        'number' => 7,
+        'title' => 'När helan man tagit',
+        'author' => NULL,
+        'melody' => 'Skånska slott och härresäten',
+        'text' => 'När helan man tagit   
 och halvan ska dricka,   
 Det är som att kyssa   
 en nymornad flicka. 
@@ -4095,16 +4094,16 @@ Ju mera man får,
 desto mer vill man ha,   
 En ensammer jävel   
 gör alls ingen gla\'.',
-			),
-			151 => 
-			array (
-				'id' => 152,
-				'chapter_id' => 4,
-				'number' => 70,
-				'title' => 'Old Janx Spirit',
-				'author' => 'Gruvarbetarsång från Orion',
-				'melody' => 'When Johnny Comes Marching Home',
-				'text' => 'Oh don\'t give me none more of that 
+      ),
+      151 => 
+      array (
+        'id' => 152,
+        'chapter_id' => 4,
+        'number' => 70,
+        'title' => 'Old Janx Spirit',
+        'author' => 'Gruvarbetarsång från Orion',
+        'melody' => 'When Johnny Comes Marching Home',
+        'text' => 'Oh don\'t give me none more of that 
 Old Janx Spirit! 
 No, don\'t you give me none more of that 
 Old Janx Spirit! 
@@ -4114,16 +4113,16 @@ my eyes will fry
 and I may die. 
 Won\'t you pour me one more 
 of that sinful Old Janx Spirit.',
-			),
-			152 => 
-			array (
-				'id' => 153,
-				'chapter_id' => 4,
-				'number' => 71,
-				'title' => 'Självmördarvisan',
-				'author' => NULL,
-				'melody' => 'Hej tomtegubbar',
-				'text' => 'Hej, tomtegubbar, vrid på gasen 
+      ),
+      152 => 
+      array (
+        'id' => 153,
+        'chapter_id' => 4,
+        'number' => 71,
+        'title' => 'Självmördarvisan',
+        'author' => NULL,
+        'melody' => 'Hej tomtegubbar',
+        'text' => 'Hej, tomtegubbar, vrid på gasen 
 och ta er själva av daga. 
 Rödsprit vi hällt i alla glasen 
 och fjäriln vinglar på Haga. 
@@ -4131,29 +4130,29 @@ Av akvavit man får kolik
 och alla tomtar skola-sto-lik. 
 Hej, tomtegubbar, vrid på gasen 
 och ta er själva av daga.',
-			),
-			153 => 
-			array (
-				'id' => 154,
-				'chapter_id' => 4,
-				'number' => 72,
-				'title' => 'Hörapparaten',
-				'author' => NULL,
-				'melody' => 'Jenka',
-				'text' => 'Brännvin, öl, och gammal finkel 
+      ),
+      153 => 
+      array (
+        'id' => 154,
+        'chapter_id' => 4,
+        'number' => 72,
+        'title' => 'Hörapparaten',
+        'author' => NULL,
+        'melody' => 'Jenka',
+        'text' => 'Brännvin, öl, och gammal finkel 
 gör att jag jag nu ser i vinkel. 
 Därför hamnar inte supen (alt. maten) 
 uti strupen utan i min hörapparat.',
-			),
-			154 => 
-			array (
-				'id' => 155,
-				'chapter_id' => 4,
-				'number' => 73,
-				'title' => 'Göken',
-				'author' => NULL,
-				'melody' => 'Räven raskar över isen',
-				'text' => 'Osquar: Och nubben kallas också göken. 
+      ),
+      154 => 
+      array (
+        'id' => 155,
+        'chapter_id' => 4,
+        'number' => 73,
+        'title' => 'Göken',
+        'author' => NULL,
+        'melody' => 'Räven raskar över isen',
+        'text' => 'Osquar: Och nubben kallas också göken. 
 Och nubben kallas också göken. 
 Säg, får jag lov, säg, får jag lov, 
 att byta byxor med fröken? 
@@ -4162,17 +4161,17 @@ Osqulda: Nej, det går inte alls, min herre,
 det går inte alls, min herre. 
 För jag har, för jag har 
 inga byxor dessvärre.',
-			),
-			155 => 
-			array (
-				'id' => 156,
-				'chapter_id' => 4,
-				'number' => 74,
-				'title' => 'Magen brummar',
-				'author' => NULL,
-				'melody' => 'Broder Jakob
+      ),
+      155 => 
+      array (
+        'id' => 156,
+        'chapter_id' => 4,
+        'number' => 74,
+        'title' => 'Magen brummar',
+        'author' => NULL,
+        'melody' => 'Broder Jakob
 Kanon',
-				'text' => 'Magen brummar. 
+        'text' => 'Magen brummar. 
 Jag försummar 
 hälla dit 
 mera sprit. 
@@ -4180,16 +4179,16 @@ Nu så ska vi dricka,
 så att vi får hicka. 
 Mera sprit. 
 Akvavit.',
-			),
-			156 => 
-			array (
-				'id' => 157,
-				'chapter_id' => 4,
-				'number' => 75,
-				'title' => 'Gammalt brännvin',
-				'author' => NULL,
-				'melody' => 'Gubben Noak',
-				'text' => 'Gammalt brännvin, 
+      ),
+      156 => 
+      array (
+        'id' => 157,
+        'chapter_id' => 4,
+        'number' => 75,
+        'title' => 'Gammalt brännvin',
+        'author' => NULL,
+        'melody' => 'Gubben Noak',
+        'text' => 'Gammalt brännvin, 
 Gammalt brännvin 
 finnes i vårt krus. 
 Slån i glaset gubbar, 
@@ -4206,44 +4205,44 @@ rinna starka supar.
 Ge åt kroppen, 
 ge åt själen 
 kraft och frejdigt hopp!',
-			),
-			157 => 
-			array (
-				'id' => 158,
-				'chapter_id' => 4,
-				'number' => 76,
-			'title' => 'Månen (En gång i månan)',
-				'author' => NULL,
-				'melody' => 'Mors lilla Olle',
-				'text' => 'En gång i månan är månen full, 
+      ),
+      157 => 
+      array (
+        'id' => 158,
+        'chapter_id' => 4,
+        'number' => 76,
+      'title' => 'Månen (En gång i månan)',
+        'author' => NULL,
+        'melody' => 'Mors lilla Olle',
+        'text' => 'En gång i månan är månen full, 
 men aldrig jag sett honom ramla omkull. 
 Stum av beundran hur mycket han tål, 
 höja vi glasen och dricka hans skål.',
-			),
-			158 => 
-			array (
-				'id' => 159,
-				'chapter_id' => 4,
-				'number' => 77,
-				'title' => 'Raj-Raj',
-				'author' => NULL,
-				'melody' => 'Kväsarvalsen',
-				'text' => 'Ingen har det så bra som jag, 
+      ),
+      158 => 
+      array (
+        'id' => 159,
+        'chapter_id' => 4,
+        'number' => 77,
+        'title' => 'Raj-Raj',
+        'author' => NULL,
+        'melody' => 'Kväsarvalsen',
+        'text' => 'Ingen har det så bra som jag, 
 nej, ingen har det så bra som jag, 
 förutom min bror som, så vitt jag vet, 
 ligger i sprit uppå Riksmuseet. 
 
 Raj-raj-raj...',
-			),
-			159 => 
-			array (
-				'id' => 160,
-				'chapter_id' => 4,
-				'number' => 78,
-				'title' => 'Tjugotre',
-				'author' => 'Carl Nisser, E-80',
-				'melody' => 'Amanda Lundbom',
-				'text' => 'Tjugotre är Bäska Droppar, 
+      ),
+      159 => 
+      array (
+        'id' => 160,
+        'chapter_id' => 4,
+        'number' => 78,
+        'title' => 'Tjugotre',
+        'author' => 'Carl Nisser, E-80',
+        'melody' => 'Amanda Lundbom',
+        'text' => 'Tjugotre är Bäska Droppar, 
 bom-faderia, bomfaderaderalla. 
 skänker liv åt döda kroppar, 
 bom-faderi, faderallanlej. 
@@ -4262,16 +4261,16 @@ Bäska Droppar nyttja\' han,
 Bom-faderi, faderallanlej, Hugg i! 
 och Lazarus spratt till, minsann, 
 bom-faderi faderallanlej.',
-			),
-			160 => 
-			array (
-				'id' => 161,
-				'chapter_id' => 4,
-				'number' => 79,
-				'title' => 'Vikingen',
-				'author' => 'Sångarstriden 1981',
-				'melody' => 'When Johnny Comes Marching Home',
-				'text' => 'En viking älskar livets vand, 
+      ),
+      160 => 
+      array (
+        'id' => 161,
+        'chapter_id' => 4,
+        'number' => 79,
+        'title' => 'Vikingen',
+        'author' => 'Sångarstriden 1981',
+        'melody' => 'When Johnny Comes Marching Home',
+        'text' => 'En viking älskar livets vand, 
 hurra, hurra! 
 Det hastigt i hans svalg försvann, 
 hurra, hurra! 
@@ -4286,17 +4285,17 @@ som lik, sig lik.
 Och sen när vi vaknar, vi sjunger en bit, 
 och korkar upp skånes akvavit. 
 Skål för alla vikingar som kom hit.',
-			),
-			161 => 
-			array (
-				'id' => 162,
-				'chapter_id' => 4,
-				'number' => 8,
-				'title' => 'Halvan',
-				'author' => NULL,
-				'melody' => 'Pojkarne
+      ),
+      161 => 
+      array (
+        'id' => 162,
+        'chapter_id' => 4,
+        'number' => 8,
+        'title' => 'Halvan',
+        'author' => NULL,
+        'melody' => 'Pojkarne
 Noter finns i notkapitlet',
-				'text' => 'Hur länge skall på borden   
+        'text' => 'Hur länge skall på borden   
 den lilla halvan stå?   
 Skall snart ej höras orden:   
 Nu halvan går, låt gå!
@@ -4305,16 +4304,16 @@ Det ärvda vikingsinne
 till supen trår igen,   
 och helans trogna minne   
 i halvan går igen.',
-			),
-			162 => 
-			array (
-				'id' => 163,
-				'chapter_id' => 4,
-				'number' => 80,
-				'title' => 'Uti min mage',
-				'author' => NULL,
-				'melody' => 'Uti vår hage',
-				'text' => 'Uti min mage en längtan mig tär. 
+      ),
+      162 => 
+      array (
+        'id' => 163,
+        'chapter_id' => 4,
+        'number' => 80,
+        'title' => 'Uti min mage',
+        'author' => NULL,
+        'melody' => 'Uti vår hage',
+        'text' => 'Uti min mage en längtan mig tär. 
 Kom hjärtans fröjd. 
 Där råder en hunger som ropar så här: 
 Kom kryddsill och kall potatis. 
@@ -4336,16 +4335,16 @@ Kom Renat och Aqua Vitae,
 Kom OP och allt vad sprit e\', 
 Kom ljuva Genever, 
 Kom Överste.',
-			),
-			163 => 
-			array (
-				'id' => 164,
-				'chapter_id' => 4,
-				'number' => 81,
-				'title' => 'Då verka lätt',
-				'author' => NULL,
-				'melody' => 'Dover Calais',
-				'text' => 'När jag tar mig en sup 
+      ),
+      163 => 
+      array (
+        'id' => 164,
+        'chapter_id' => 4,
+        'number' => 81,
+        'title' => 'Då verka lätt',
+        'author' => NULL,
+        'melody' => 'Dover Calais',
+        'text' => 'När jag tar mig en sup 
 blir jag intressant och djup. 
 Allting som är svårt 
 kan dä verka lätt. 
@@ -4354,30 +4353,30 @@ All min rädsla går bort
 med en grogg av någon sort. 
 Allting som är svårt 
 kan då verka lätt!',
-			),
-			164 => 
-			array (
-				'id' => 165,
-				'chapter_id' => 4,
-				'number' => 9,
-				'title' => 'Angorakatten',
-				'author' => NULL,
-				'melody' => 'Vi går över daggstänkta berg',
-				'text' => 'Det var en gång en vanlig bonnakatt, fallera,   
+      ),
+      164 => 
+      array (
+        'id' => 165,
+        'chapter_id' => 4,
+        'number' => 9,
+        'title' => 'Angorakatten',
+        'author' => NULL,
+        'melody' => 'Vi går över daggstänkta berg',
+        'text' => 'Det var en gång en vanlig bonnakatt, fallera,   
 som älskade en hel-angorakatt, fallera!   
 Och följden blev en jamare,   
 men den blev mycket tamare,   
 för den var blott en halv-an-gor-akatt, fallera.',
-			),
-			165 => 
-			array (
-				'id' => 166,
-				'chapter_id' => 5,
-				'number' => 1,
-				'title' => 'Vinets lov',
-				'author' => NULL,
-				'melody' => 'Fjäriln vingad',
-				'text' => 'När det strålar uti salen
+      ),
+      165 => 
+      array (
+        'id' => 166,
+        'chapter_id' => 5,
+        'number' => 1,
+        'title' => 'Vinets lov',
+        'author' => NULL,
+        'melody' => 'Fjäriln vingad',
+        'text' => 'När det strålar uti salen
 Utav glädje glans och färg
 När det gnistrar uti pokalen
 Utav ädla druvors märg
@@ -4396,32 +4395,32 @@ Drick för våren, väl Du kan det.
 Drick för värmen våren ger.
 Drick för starka vänskapsbanden.
 Drick för allt vad skönt Du ser.',
-			),
-			166 => 
-			array (
-				'id' => 167,
-				'chapter_id' => 5,
-				'number' => 10,
-				'title' => 'Portvinsvisa',
-				'author' => 'Bosse Österberg',
-				'melody' => 'Polly Wolly Doodle',
-				'text' => 'Jag var ung konduktör
+      ),
+      166 => 
+      array (
+        'id' => 167,
+        'chapter_id' => 5,
+        'number' => 10,
+        'title' => 'Portvinsvisa',
+        'author' => 'Bosse Österberg',
+        'melody' => 'Polly Wolly Doodle',
+        'text' => 'Jag var ung konduktör
 jag var lång som en stör
 men så la jag mig där som tågena kör
 
 Så nu mer är jag kort,
 jag har bena bort
 och jag dricker bara Invalid Port.',
-			),
-			167 => 
-			array (
-				'id' => 168,
-				'chapter_id' => 5,
-				'number' => 11,
-				'title' => 'Röda vinet',
-				'author' => NULL,
-				'melody' => 'Gubben Noak',
-				'text' => 'Röda vinet, röda vinet,
+      ),
+      167 => 
+      array (
+        'id' => 168,
+        'chapter_id' => 5,
+        'number' => 11,
+        'title' => 'Röda vinet',
+        'author' => NULL,
+        'melody' => 'Gubben Noak',
+        'text' => 'Röda vinet, röda vinet,
 uti glsen står.
 Bäst vi börjar smaka,
 ifall det tas tillbaka.
@@ -4434,31 +4433,31 @@ Bara vi nu tål\'et,
 se upp för alkoholet.
 Tag nu skvätten, i falsetten,
 om igen en SKÅL!',
-			),
-			168 => 
-			array (
-				'id' => 169,
-				'chapter_id' => 5,
-				'number' => 12,
-				'title' => 'Vinet väntar',
-				'author' => NULL,
-				'melody' => 'Gubben Noak',
-				'text' => 'Vinet väntar, vinet väntar,
+      ),
+      168 => 
+      array (
+        'id' => 169,
+        'chapter_id' => 5,
+        'number' => 12,
+        'title' => 'Vinet väntar',
+        'author' => NULL,
+        'melody' => 'Gubben Noak',
+        'text' => 'Vinet väntar, vinet väntar,
 på att drucket bli.
 Det är smått förläget,
 känner ej till vägen.
 Sträck fram handen, fukta tanden.
 Så går vinet ner.',
-			),
-			169 => 
-			array (
-				'id' => 170,
-				'chapter_id' => 5,
-				'number' => 2,
-				'title' => 'Feta fransyskor',
-				'author' => 'K-LTH, Sångarstriden 1985',
-			'melody' => 'Marche Militaire (Tomatarnas vaktparad)',
-				'text' => 'Feta fransyskor 
+      ),
+      169 => 
+      array (
+        'id' => 170,
+        'chapter_id' => 5,
+        'number' => 2,
+        'title' => 'Feta fransyskor',
+        'author' => 'K-LTH, Sångarstriden 1985',
+      'melody' => 'Marche Militaire (Tomatarnas vaktparad)',
+        'text' => 'Feta fransyskor 
 som svettas om fötterna
 de trampar druvor 
 som sedan skall jäsas till vin!
@@ -4476,16 +4475,16 @@ Damer: Flaskan och glasen har gått i sin!
 Herrar: Hit med vin, mera vin!
 Damer: Tror ni att vi är fyllesvin?
 Herrar: JA, fast större!',
-			),
-			170 => 
-			array (
-				'id' => 171,
-				'chapter_id' => 5,
-				'number' => 3,
-			'title' => 'Vinvisa (Har ni sett på attan)',
-				'author' => NULL,
-				'melody' => 'Amanda Lundbom',
-				'text' => 'Har ni sett på attan gubbar.
+      ),
+      170 => 
+      array (
+        'id' => 171,
+        'chapter_id' => 5,
+        'number' => 3,
+      'title' => 'Vinvisa (Har ni sett på attan)',
+        'author' => NULL,
+        'melody' => 'Amanda Lundbom',
+        'text' => 'Har ni sett på attan gubbar.
 Bomfaderi och bomfaderalla
 Här serveras inga nubbar
 Bomfaderi faderallanlej
@@ -4505,16 +4504,16 @@ Bom faderi faderallanlej,
 Hugg i
 Så dricka vi nu allas skål
 Bom faderi faderallanlej.',
-			),
-			171 => 
-			array (
-				'id' => 172,
-				'chapter_id' => 5,
-				'number' => 4,
-				'title' => 'Vinet skänker',
-				'author' => NULL,
-				'melody' => 'Längtan till landet',
-				'text' => 'Goda vänner, låt oss fatta glaset,
+      ),
+      171 => 
+      array (
+        'id' => 172,
+        'chapter_id' => 5,
+        'number' => 4,
+        'title' => 'Vinet skänker',
+        'author' => NULL,
+        'melody' => 'Längtan till landet',
+        'text' => 'Goda vänner, låt oss fatta glaset,
 Stämma upp en ljuvlig hyllningssång
 Frid och fröjd ska råda på kalaset,
 Glädjen vara hela kvällen lång.
@@ -4533,16 +4532,16 @@ Nu skall vi skåla alla go vänner
 Tippe tippe topp, tipp topp, tippe topp.
 Törsten uti våra strupar bränner,
 Höj ditt glas, ja - skål och botten upp.',
-			),
-			172 => 
-			array (
-				'id' => 173,
-				'chapter_id' => 5,
-				'number' => 5,
-				'title' => 'Du gamla vin',
-				'author' => NULL,
-				'melody' => 'Du gamla du fria',
-				'text' => 'Du gamla, du fina, du årgågna vin
+      ),
+      172 => 
+      array (
+        'id' => 173,
+        'chapter_id' => 5,
+        'number' => 5,
+        'title' => 'Du gamla vin',
+        'author' => NULL,
+        'melody' => 'Du gamla du fria',
+        'text' => 'Du gamla, du fina, du årgågna vin
 som plockats och trampats bland bergen
 Jag dyrkar aromen och smaken så fin,
 men ljuvast utav  av är ändå färgen
@@ -4553,16 +4552,16 @@ för lycka och vänskapsband vi skåla.
 Ja vinet det har en förunderlig charm
 är nästan lika gott som rom och cola
 så låt oss därför med varandra skåla.',
-			),
-			173 => 
-			array (
-				'id' => 174,
-				'chapter_id' => 5,
-				'number' => 6,
-				'title' => 'Elysisk längtan',
-				'author' => NULL,
-			'melody' => 'An die Freude (Beethovens 10:e symfoni)',
-				'text' => 'Aftonrodnan svalka sprider
+      ),
+      173 => 
+      array (
+        'id' => 174,
+        'chapter_id' => 5,
+        'number' => 6,
+        'title' => 'Elysisk längtan',
+        'author' => NULL,
+      'melody' => 'An die Freude (Beethovens 10:e symfoni)',
+        'text' => 'Aftonrodnan svalka sprider
 Skymningen sig sänker fin
 Och likt dimridåer sprider
 Doften av det rena vin
@@ -4572,16 +4571,16 @@ Rakt in i rusets röda tröst
 Natten flyrr på gryningsvingar
 Värmen flammar i mitt bröst :||
 HEJ!!!',
-			),
-			174 => 
-			array (
-				'id' => 175,
-				'chapter_id' => 5,
-				'number' => 7,
-				'title' => 'Bordeaux, Bordeaux',
-				'author' => NULL,
-				'melody' => 'I sommarens soliga dagar',
-				'text' => 'Jag minns än i dag hur min fader
+      ),
+      174 => 
+      array (
+        'id' => 175,
+        'chapter_id' => 5,
+        'number' => 7,
+        'title' => 'Bordeaux, Bordeaux',
+        'author' => NULL,
+        'melody' => 'I sommarens soliga dagar',
+        'text' => 'Jag minns än i dag hur min fader
 kom hem ifrån staden så glader
 och rada\' upp flaskor på rader
 och sade nöjt som så:
@@ -4594,16 +4593,16 @@ som första klassens fyllesvin.
 Och vi dansade runt på bordet,
 och sjöng så vi blev blå:
 Bordeaux, Bordeaux!',
-			),
-			175 => 
-			array (
-				'id' => 176,
-				'chapter_id' => 5,
-				'number' => 8,
-				'title' => 'Spegelvisa',
-				'author' => NULL,
-				'melody' => 'Så länge skutan',
-				'text' => 'Så länge rösten är mild
+      ),
+      175 => 
+      array (
+        'id' => 176,
+        'chapter_id' => 5,
+        'number' => 8,
+        'title' => 'Spegelvisa',
+        'author' => NULL,
+        'melody' => 'Så länge skutan',
+        'text' => 'Så länge rösten är mild
 så länge ingen är vild
 så länge spegeln på väggen
 ger halvskaplig bild.
@@ -4617,16 +4616,16 @@ för att bli glad av att lukta på korken.
 Men bland fysikbokens fans
 vi höjer bägarn med glans
 och låter vinet gå ner i en yrande dans.',
-			),
-			176 => 
-			array (
-				'id' => 177,
-				'chapter_id' => 5,
-				'number' => 9,
-				'title' => 'Röd vitamin',
-				'author' => NULL,
-				'melody' => 'My Bonnie',
-				'text' => 'Hur badar man bäst på en kurort?
+      ),
+      176 => 
+      array (
+        'id' => 177,
+        'chapter_id' => 5,
+        'number' => 9,
+        'title' => 'Röd vitamin',
+        'author' => NULL,
+        'melody' => 'My Bonnie',
+        'text' => 'Hur badar man bäst på en kurort?
 Jo, om man har fyllt en bassäng,
 med vätskan som snart skall besjungas
 när vi kommit till en refräng;
@@ -4642,18 +4641,18 @@ när glaset har tömts uti botten
 så stämmer vi upp till en sång.
 
 Rödvin, rödvin...',
-			),
-			177 => 
-			array (
-				'id' => 178,
-				'chapter_id' => 6,
-				'number' => 1,
-				'title' => 'Punschen kommer',
-				'author' => NULL,
-				'melody' => 'Glada änkan
+      ),
+      177 => 
+      array (
+        'id' => 178,
+        'chapter_id' => 6,
+        'number' => 1,
+        'title' => 'Punschen kommer',
+        'author' => NULL,
+        'melody' => 'Glada änkan
 (Sjungs medan punschen serveras, under det att man gungar vänster-höger, framåt-bakåt och uppåt-nedåt
 Den som fått sin punsch slutar sjunga)',
-				'text' => 'Punschen kommer, punschen kommer,
+        'text' => 'Punschen kommer, punschen kommer,
 ljuv och sval.
 Glasen imma, röster stimma,
 i vår sal.
@@ -4661,30 +4660,30 @@ Skål för glada minnen,
 skål för varje vår!
 Inga sorger finnas mer
 när punsch vi får.',
-			),
-			178 => 
-			array (
-				'id' => 179,
-				'chapter_id' => 6,
-				'number' => 10,
-				'title' => 'Studiemedelsrondo',
-				'author' => NULL,
-				'melody' => 'Lossa sand
+      ),
+      178 => 
+      array (
+        'id' => 179,
+        'chapter_id' => 6,
+        'number' => 10,
+        'title' => 'Studiemedelsrondo',
+        'author' => NULL,
+        'melody' => 'Lossa sand
 (Upprepas, allt snabbare)',
-				'text' => 'Vi dricker punsch till lunch
+        'text' => 'Vi dricker punsch till lunch
 när vi har fått avin
 Vi lunchar hela dagen
 tills kassan gått i sin.',
-			),
-			179 => 
-			array (
-				'id' => 180,
-				'chapter_id' => 6,
-				'number' => 11,
-				'title' => 'FESTU:s punschvisa',
-				'author' => NULL,
-				'melody' => 'Tomtarnas julnatt',
-				'text' => 'Punschen, punschen,
+      ),
+      179 => 
+      array (
+        'id' => 180,
+        'chapter_id' => 6,
+        'number' => 11,
+        'title' => 'FESTU:s punschvisa',
+        'author' => NULL,
+        'melody' => 'Tomtarnas julnatt',
+        'text' => 'Punschen, punschen,
 rinner genom strupen, 
 ner i djupen.
 Blandas, konfronteras
@@ -4693,16 +4692,16 @@ där med supen.
 Gula droppar
 stärker våra kroppar!
 Punsch, punsch, punsch!',
-			),
-			180 => 
-			array (
-				'id' => 181,
-				'chapter_id' => 6,
-				'number' => 12,
-				'title' => 'Visa en torsdagskväll',
-				'author' => NULL,
-				'melody' => 'Visa vid midsommartid',
-				'text' => 'Du häller ur flaskan en gyllene tår
+      ),
+      180 => 
+      array (
+        'id' => 181,
+        'chapter_id' => 6,
+        'number' => 12,
+        'title' => 'Visa en torsdagskväll',
+        'author' => NULL,
+        'melody' => 'Visa vid midsommartid',
+        'text' => 'Du häller ur flaskan en gyllene tår
 av punsch ifrån Cederlunds.
 Du lyfter sen bägarn och väl du förstår
 att föra den till din mun.
@@ -4711,16 +4710,16 @@ och känna den ljuva punschen
 som ett vårbjörkeskir.
 I natt ska du bäras av Osquar på bår
 och kallas för fyllefår.',
-			),
-			181 => 
-			array (
-				'id' => 182,
-				'chapter_id' => 6,
-				'number' => 13,
-				'title' => 'Sveriges Arraktionalhymn',
-				'author' => 'Ekonomspexet Erik XIV, 1992',
-				'melody' => 'Du gamla, Du fria',
-				'text' => 'Du ädla, du friska, du livselixir,
+      ),
+      181 => 
+      array (
+        'id' => 182,
+        'chapter_id' => 6,
+        'number' => 13,
+        'title' => 'Sveriges Arraktionalhymn',
+        'author' => 'Ekonomspexet Erik XIV, 1992',
+        'melody' => 'Du gamla, Du fria',
+        'text' => 'Du ädla, du friska, du livselixir,
 med dig vill jag mina läppar blöta.
 Den svenskaste drycken på jorden, den förblir
 den gyllene, den underbara söta,
@@ -4731,16 +4730,16 @@ och även som varm till torsdagslunchen.
 Jag halsar dig lenaste drycken uppå jord.
 Ja, jag vill leva, jag vill dö av punschen.
 Ja, jag vill leva, jag vill dö av punschen.',
-			),
-			182 => 
-			array (
-				'id' => 183,
-				'chapter_id' => 6,
-				'number' => 14,
-				'title' => 'Punschfinalen',
-				'author' => 'Bergsspexet Lord Nelson 1975',
-				'melody' => 'Rysslands nationalsång',
-				'text' => 'Ikväll har Napoleon gjort England den äran
+      ),
+      182 => 
+      array (
+        'id' => 183,
+        'chapter_id' => 6,
+        'number' => 14,
+        'title' => 'Punschfinalen',
+        'author' => 'Bergsspexet Lord Nelson 1975',
+        'melody' => 'Rysslands nationalsång',
+        'text' => 'Ikväll har Napoleon gjort England den äran
 att komma på middag till dess ambassad.
 Men nu har ni sett till allas förfäran
 att blott tomma flaskor står på parad.
@@ -4758,16 +4757,16 @@ Men snart står han uppsträckt i London på en stapel,
 vi undrar om någon i groggen har lagt gips.
 
 Så går vi ner...',
-			),
-			183 => 
-			array (
-				'id' => 184,
-				'chapter_id' => 6,
-				'number' => 15,
-				'title' => 'Sista punschvisan',
-				'author' => NULL,
-				'melody' => 'Auld lang syne',
-				'text' => 'När punschen småningom ta\'t slut
+      ),
+      183 => 
+      array (
+        'id' => 184,
+        'chapter_id' => 6,
+        'number' => 15,
+        'title' => 'Sista punschvisan',
+        'author' => NULL,
+        'melody' => 'Auld lang syne',
+        'text' => 'När punschen småningom ta\'t slut
 och vår flaska blivit tom.
 Då vänder vi den upp och ner
 till dess inget rinner ut.
@@ -4787,16 +4786,16 @@ med en fot på stolen
 med båda fötter på stolen
 med en fot på bordet
 och till sist under bordet',
-			),
-			184 => 
-			array (
-				'id' => 185,
-				'chapter_id' => 6,
-				'number' => 2,
-				'title' => 'Punschhkanon',
-				'author' => NULL,
-				'melody' => 'Gökvisa',
-				'text' => 'Herrar:
+      ),
+      184 => 
+      array (
+        'id' => 185,
+        'chapter_id' => 6,
+        'number' => 2,
+        'title' => 'Punschhkanon',
+        'author' => NULL,
+        'melody' => 'Gökvisa',
+        'text' => 'Herrar:
 ||: Punsch punsch punsch punsch
 punsch punsch, alla sorters :||
 
@@ -4815,16 +4814,16 @@ och koppen står där naken
 och väntar på påtår
 
 Jo punsch...',
-			),
-			185 => 
-			array (
-				'id' => 186,
-				'chapter_id' => 6,
-				'number' => 3,
-				'title' => 'Punschschottis',
-				'author' => NULL,
-				'melody' => 'Schottis på Valhall',
-				'text' => 'Uppå bordet står nu en liten tår
+      ),
+      185 => 
+      array (
+        'id' => 186,
+        'chapter_id' => 6,
+        'number' => 3,
+        'title' => 'Punschschottis',
+        'author' => NULL,
+        'melody' => 'Schottis på Valhall',
+        'text' => 'Uppå bordet står nu en liten tår
 den harr lyster precis som en kristall.
 Den är lockande, den är pockande,
 och fast den är isande kall.
@@ -4833,16 +4832,16 @@ i en dammig och torr liten hals.
 Det är punschen som går.
 det är punschen som fårä
 hela livet att bli till en vals.',
-			),
-			186 => 
-			array (
-				'id' => 187,
-				'chapter_id' => 6,
-				'number' => 4,
-				'title' => 'Punschens lov',
-				'author' => 'Kårspexet Sven Hedin 1987',
-				'melody' => 'Rövarvisan',
-				'text' => '||: Punsch, punsch, punsch, punsch :||
+      ),
+      186 => 
+      array (
+        'id' => 187,
+        'chapter_id' => 6,
+        'number' => 4,
+        'title' => 'Punschens lov',
+        'author' => 'Kårspexet Sven Hedin 1987',
+        'melody' => 'Rövarvisan',
+        'text' => '||: Punsch, punsch, punsch, punsch :||
 
 Punschen är och punschen var
 och punschen skall förbliva
@@ -4854,16 +4853,16 @@ och svalkar både kropp och själ.
 Det botar begären
 och lindrar besvären
 ja punschen den gör både gott och väl.',
-			),
-			187 => 
-			array (
-				'id' => 188,
-				'chapter_id' => 6,
-				'number' => 5,
-				'title' => 'Jag gillar punschen',
-				'author' => 'Ur Skoogshögskolans sångbok 1906',
-				'melody' => NULL,
-				'text' => 'Länge har jag tänkt
+      ),
+      187 => 
+      array (
+        'id' => 188,
+        'chapter_id' => 6,
+        'number' => 5,
+        'title' => 'Jag gillar punschen',
+        'author' => 'Ur Skoogshögskolans sångbok 1906',
+        'melody' => NULL,
+        'text' => 'Länge har jag tänkt
 att punschen övergiva,
 men det blir aldrig av
 så länge jag får leva,
@@ -4876,47 +4875,47 @@ Jag gillar, jag gillar punschen,
 jag gillar den som punschen skapat hat.
 Jag gillar, jag gillar punschen,
 jag gillar punschen och dess far.',
-			),
-			188 => 
-			array (
-				'id' => 189,
-				'chapter_id' => 6,
-				'number' => 6,
-				'title' => 'Imperial punsch',
-				'author' => 'DKM 2000',
-			'melody' => 'Imperial March (Star Wars)',
-				'text' => 'Punsch, punsch, punsch, mera punsch, mera punsch!
+      ),
+      188 => 
+      array (
+        'id' => 189,
+        'chapter_id' => 6,
+        'number' => 6,
+        'title' => 'Imperial punsch',
+        'author' => 'DKM 2000',
+      'melody' => 'Imperial March (Star Wars)',
+        'text' => 'Punsch, punsch, punsch, mera punsch, mera punsch!
 Punsch, punsch, punsch, mera punsch, mera punsch!
 
 Punsch, punsch, punsch, mera punsch, punsch punsch,
 mera punsch, punsch, punsch, mera punsh,
 mera punsch!',
-			),
-			189 => 
-			array (
-				'id' => 190,
-				'chapter_id' => 6,
-				'number' => 7,
-				'title' => 'Djungelpunsch',
-				'author' => NULL,
-			'melody' => 'Var nöjd med... (Djungelboken)',
-				'text' => 'Jag gillar alla tiders punsch
+      ),
+      189 => 
+      array (
+        'id' => 190,
+        'chapter_id' => 6,
+        'number' => 7,
+        'title' => 'Djungelpunsch',
+        'author' => NULL,
+      'melody' => 'Var nöjd med... (Djungelboken)',
+        'text' => 'Jag gillar alla tiders punsch
 Punsch till frukost, punsch till lunch
 En punsch till förrätt, varmrätt och dessert
 Jag gillar punsch för vet du vad
 Rent kaffe gör ju ingen glad
 
 Så punsch för fulla muggar vill jag ha!',
-			),
-			190 => 
-			array (
-				'id' => 191,
-				'chapter_id' => 6,
-				'number' => 8,
-				'title' => 'Vi vill ha punsch',
-				'author' => NULL,
-				'melody' => 'Theme from the Addams family',
-			'text' => 'Vi vil ha punsch (knäpp, knäpp)
+      ),
+      190 => 
+      array (
+        'id' => 191,
+        'chapter_id' => 6,
+        'number' => 8,
+        'title' => 'Vi vill ha punsch',
+        'author' => NULL,
+        'melody' => 'Theme from the Addams family',
+      'text' => 'Vi vil ha punsch (knäpp, knäpp)
 Vi vil ha punsch (knäpp, knäpp)
 Vi vil ha punsch, vi vill ha punsch
 Vi vil ha punsch (knäpp, knäpp)
@@ -4930,16 +4929,16 @@ Klafsa i punsch (slurp, slurp)
 Klafsa i punsch (slurp, slurp)
 Klafsa i punsch, klafsa i punsch
 Klafsa i punsch (slurp, slurp)',
-			),
-			191 => 
-			array (
-				'id' => 192,
-				'chapter_id' => 6,
-				'number' => 9,
-				'title' => 'Punsch, punsch',
-				'author' => NULL,
-				'melody' => 'Ritsch, ratsch',
-				'text' => 'Punsch, punsch filibombombom,
+      ),
+      191 => 
+      array (
+        'id' => 192,
+        'chapter_id' => 6,
+        'number' => 9,
+        'title' => 'Punsch, punsch',
+        'author' => NULL,
+        'melody' => 'Ritsch, ratsch',
+        'text' => 'Punsch, punsch filibombombom,
 filibombombom, filibombombom.
 Punsch, punsch filibombombom,
 filibombombom, filibom!
@@ -4952,16 +4951,16 @@ Det blir för trist med sodavatten,
 sodavatten, sodavatten.
 Blir för trist med sodavatten,
 ge mig lite punsch!',
-			),
-			192 => 
-			array (
-				'id' => 193,
-				'chapter_id' => 7,
-				'number' => 1,
-				'title' => 'Skål för vattnet',
-				'author' => 'Vattenfysikalen Shakespeare 1992',
-				'melody' => 'Rule Britannia',
-				'text' => 'I Spanien hör det till god ton och etikett
+      ),
+      192 => 
+      array (
+        'id' => 193,
+        'chapter_id' => 7,
+        'number' => 1,
+        'title' => 'Skål för vattnet',
+        'author' => 'Vattenfysikalen Shakespeare 1992',
+        'melody' => 'Rule Britannia',
+        'text' => 'I Spanien hör det till god ton och etikett
 att gå omkring och skryta vitt och brett
 De trodde att de skulle slå oss lätt!
 
@@ -4973,16 +4972,16 @@ Skål för vattnet, tjoho för H$_2$O!
 Skål för ön där bara blyga britter bo!
 Skål för vattnet som gör vår flotta stark,
 hell allt vatten som ger flyt åt vår monark!',
-			),
-			193 => 
-			array (
-				'id' => 194,
-				'chapter_id' => 7,
-				'number' => 10,
-				'title' => 'Avundsjuk visa',
-				'author' => 'Lundakarnevalen 2002',
-				'melody' => 'En sockerbagare',
-				'text' => 'En sockerdrickare finns på kalaset
+      ),
+      193 => 
+      array (
+        'id' => 194,
+        'chapter_id' => 7,
+        'number' => 10,
+        'title' => 'Avundsjuk visa',
+        'author' => 'Lundakarnevalen 2002',
+        'melody' => 'En sockerbagare',
+        'text' => 'En sockerdrickare finns på kalaset
 han dricker Champis det lilla aset.
 Han dricker Pommac och 7-up,
 och när jag däckar så får han napp.
@@ -4991,31 +4990,31 @@ En sockerdrickare finns på kalaset
 han dricker Champis det lilla aset.
 Och när han däckar så får jag napp,
 för jag har spetsat hans 7-up!',
-			),
-			194 => 
-			array (
-				'id' => 195,
-				'chapter_id' => 7,
-				'number' => 11,
-				'title' => 'Kaffe',
-				'author' => NULL,
-				'melody' => 'Du ska få min gamla cykel när jag dör',
-				'text' => 'Kaffe, kaffe, kaffe,
+      ),
+      194 => 
+      array (
+        'id' => 195,
+        'chapter_id' => 7,
+        'number' => 11,
+        'title' => 'Kaffe',
+        'author' => NULL,
+        'melody' => 'Du ska få min gamla cykel när jag dör',
+        'text' => 'Kaffe, kaffe, kaffe,
 konjak och likör,
 ger åt alla här ett mycket gott humör.
 På det ska ni ge er katten,
 vi skall sitta hela natten,
 dricka kaffe, kaffe, konjak och likör.',
-			),
-			195 => 
-			array (
-				'id' => 196,
-				'chapter_id' => 7,
-				'number' => 12,
-				'title' => 'Whiskyn',
-				'author' => 'Jan Engshagen, 2011',
-				'melody' => 'Längtan till landet',
-				'text' => 'Whiskyn är förädling utav ölet,
+      ),
+      195 => 
+      array (
+        'id' => 196,
+        'chapter_id' => 7,
+        'number' => 12,
+        'title' => 'Whiskyn',
+        'author' => 'Jan Engshagen, 2011',
+        'melody' => 'Längtan till landet',
+        'text' => 'Whiskyn är förädling utav ölet,
 destilleras, lagras flera år.
 En mästardryck, full av gamla anor
 den är glasklart barens bästa tår.
@@ -5024,16 +5023,16 @@ Drycken njutas bäst uti kristallglas
 aldrig mer än fyror på en gång.
 En kultiverad dryck som saknar like.
 Vi hyllar alla whiskys med en sång.',
-			),
-			196 => 
-			array (
-				'id' => 197,
-				'chapter_id' => 7,
-				'number' => 13,
-				'title' => '1, 2, 3, Whisky!',
-				'author' => 'Didrik Lundberg, 2011',
-			'melody' => 'Siffersången (Fem myror)',
-				'text' => 'Glenlivet,
+      ),
+      196 => 
+      array (
+        'id' => 197,
+        'chapter_id' => 7,
+        'number' => 13,
+        'title' => '1, 2, 3, Whisky!',
+        'author' => 'Didrik Lundberg, 2011',
+      'melody' => 'Siffersången (Fem myror)',
+        'text' => 'Glenlivet,
 Highland Park,
 Glegoyne,
 Glenmorangie,
@@ -5046,16 +5045,16 @@ Macallan,
 Knockando,
 Glenfarclas,
 Clynelish!',
-			),
-			197 => 
-			array (
-				'id' => 198,
-				'chapter_id' => 7,
-				'number' => 14,
-				'title' => 'Kahlua',
-				'author' => 'Fysikalen Anastasia 2004',
-				'melody' => 'Kalinka',
-				'text' => 'Vi söker våra rötter,
+      ),
+      197 => 
+      array (
+        'id' => 198,
+        'chapter_id' => 7,
+        'number' => 14,
+        'title' => 'Kahlua',
+        'author' => 'Fysikalen Anastasia 2004',
+        'melody' => 'Kalinka',
+        'text' => 'Vi söker våra rötter,
 dricker allt som rött är,
 upphäver sedan glatt vårt röda tjut.
 
@@ -5068,16 +5067,16 @@ med vodka och grädde rör med frenesi.
 White Russian, White Russian, 
 White Russian det bli.
 Den dryck som har blivit vårt livselixir. :||',
-			),
-			198 => 
-			array (
-				'id' => 199,
-				'chapter_id' => 7,
-				'number' => 2,
-				'title' => 'Man kan dricka vatten',
-				'author' => 'n0llespexet 1995',
-				'melody' => 'Vi äro musikanter',
-				'text' => 'Man kan dricka vatten, 
+      ),
+      198 => 
+      array (
+        'id' => 199,
+        'chapter_id' => 7,
+        'number' => 2,
+        'title' => 'Man kan dricka vatten',
+        'author' => 'n0llespexet 1995',
+        'melody' => 'Vi äro musikanter',
+        'text' => 'Man kan dricka vatten, 
 mjölk, och gammalt flott.
 Men vi dricker hellre
 sådant som är gott.
@@ -5095,16 +5094,16 @@ Vi kan häva ost och vardagsrum.
 Och vi kan supa bomfadderalla,
 bomfadderalla, skål på Er alla!
 Vi kan supa andra hållet, andra hållet med.',
-			),
-			199 => 
-			array (
-				'id' => 200,
-				'chapter_id' => 7,
-				'number' => 3,
-				'title' => 'Nu tar vi rom',
-				'author' => 'Fysikalen Shakespeare 1990',
-				'melody' => 'Deck the hall',
-				'text' => 'Här på skeppet rinner rommen,
+      ),
+      199 => 
+      array (
+        'id' => 200,
+        'chapter_id' => 7,
+        'number' => 3,
+        'title' => 'Nu tar vi rom',
+        'author' => 'Fysikalen Shakespeare 1990',
+        'melody' => 'Deck the hall',
+        'text' => 'Här på skeppet rinner rommen,
 lalalalala lalalala!
 Rom till varje nyankommen,
 lalalalala lalalala!
@@ -5121,16 +5120,16 @@ ROM och RAM och rom och cola,
 lalalalax lägger också rom.
 "Rom och mjölke" vill vi vråla.
 Allalala vägar bär till rom!',
-			),
-			200 => 
-			array (
-				'id' => 201,
-				'chapter_id' => 7,
-				'number' => 4,
-				'title' => 'Däj-o',
-				'author' => NULL,
-				'melody' => 'Banana boat song',
-				'text' => '||: Däj-o, däääj-o
+      ),
+      200 => 
+      array (
+        'id' => 201,
+        'chapter_id' => 7,
+        'number' => 4,
+        'title' => 'Däj-o',
+        'author' => NULL,
+        'melody' => 'Banana boat song',
+        'text' => '||: Däj-o, däääj-o
 Daylight come, and me wan\' go home. :||
 Work all night on a drink of rum.
 Daylight come, and me wan\' go home
@@ -5140,16 +5139,16 @@ Daylight come, and me wan\' go home
 ||: Dääj-o, däääj-o
 Daylight come, and me wan\' go home :||
 Däääj-o!',
-			),
-			201 => 
-			array (
-				'id' => 202,
-				'chapter_id' => 7,
-				'number' => 5,
-				'title' => 'Mjölk',
-				'author' => NULL,
-				'melody' => 'Trink, trink',
-				'text' => 'Mjölk, mjölk vi vill ha mjölk.
+      ),
+      201 => 
+      array (
+        'id' => 202,
+        'chapter_id' => 7,
+        'number' => 5,
+        'title' => 'Mjölk',
+        'author' => NULL,
+        'melody' => 'Trink, trink',
+        'text' => 'Mjölk, mjölk vi vill ha mjölk.
 Det är en underbar dryck.
 Mjölk, mjölk vi vill ha mjölk,
 Det är vår senaste nyck.
@@ -5157,29 +5156,29 @@ Hämta din spann, mjölka din get,
 Ge mig en klunk utav det.
 Slut upp i kampen för helnykterhet.
 Mjölk är det bästa jag vet.',
-			),
-			202 => 
-			array (
-				'id' => 203,
-				'chapter_id' => 7,
-				'number' => 6,
-				'title' => 'Mjölksång',
-				'author' => NULL,
-				'melody' => 'Mors lilla Olle',
-				'text' => 'Vad dom kan göra i vårt mejeri!
+      ),
+      202 => 
+      array (
+        'id' => 203,
+        'chapter_id' => 7,
+        'number' => 6,
+        'title' => 'Mjölksång',
+        'author' => NULL,
+        'melody' => 'Mors lilla Olle',
+        'text' => 'Vad dom kan göra i vårt mejeri!
 Mjölk kan dom tillverka med grejer i.
 Lättmjölk och folkmjölk och starkmjölk är bra.
 Dom ska vi dricka imorgon, hurra!',
-			),
-			203 => 
-			array (
-				'id' => 204,
-				'chapter_id' => 7,
-				'number' => 7,
-				'title' => 'Hyllningsvisa till absinten',
-				'author' => 'Sing-Sing Singers 2000',
-				'melody' => 'Come All Ye Faithful',
-				'text' => 'Var är absinten,
+      ),
+      203 => 
+      array (
+        'id' => 204,
+        'chapter_id' => 7,
+        'number' => 7,
+        'title' => 'Hyllningsvisa till absinten',
+        'author' => 'Sing-Sing Singers 2000',
+        'melody' => 'Come All Ye Faithful',
+        'text' => 'Var är absinten,
 illgrön liksom minten,
 som skänker galenskap åt var teknolog?
 
@@ -5194,16 +5193,16 @@ som ger oss stirrig blick och rufsigt hår,
 dessutom kindfärg liksom August Strindberg.
 För att bli kreativa har vi bli\'tt addiktiva,
 snart blir vi högaktiva; vi tar oss en tår!',
-			),
-			204 => 
-			array (
-				'id' => 205,
-				'chapter_id' => 7,
-				'number' => 8,
-				'title' => 'Schottis på Valhall',
-				'author' => 'Ulf Peder Olrog',
-				'melody' => NULL,
-				'text' => 'Opp och hoppa, Tor
+      ),
+      204 => 
+      array (
+        'id' => 205,
+        'chapter_id' => 7,
+        'number' => 8,
+        'title' => 'Schottis på Valhall',
+        'author' => 'Ulf Peder Olrog',
+        'melody' => NULL,
+        'text' => 'Opp och hoppa, Tor
 Slå på trumman, bror
 Det är dans här på Valhall i natt
 Uti Fröjas sal
@@ -5222,32 +5221,32 @@ Vred vart väl Ving-Tor, vakna och vråla
 Brage bråka och Skade hon skrek:
 
 Opp och hoppa, Tor...',
-			),
-			205 => 
-			array (
-				'id' => 206,
-				'chapter_id' => 7,
-				'number' => 9,
-				'title' => 'Häflåten',
-				'author' => NULL,
-				'melody' => 'Midnatt råder',
-				'text' => 'Yoghurt, yoghurt,
+      ),
+      205 => 
+      array (
+        'id' => 206,
+        'chapter_id' => 7,
+        'number' => 9,
+        'title' => 'Häflåten',
+        'author' => NULL,
+        'melody' => 'Midnatt råder',
+        'text' => 'Yoghurt, yoghurt,
 fyller oss till breddem,
 oss till bredden.
 Gurglar hrligt samman där med grädden
 där med grädden.
 Gräddfil kräver att vi törstigt häfver
 Mjölk! Mjölk! Mjölk!',
-			),
-			206 => 
-			array (
-				'id' => 207,
-				'chapter_id' => 8,
-				'number' => 1,
-				'title' => 'Störthärligt full',
-				'author' => 'Hittad på Handels 1981',
-				'melody' => 'Fat mamie Brown',
-				'text' => 'Nu har alla lämnat festen och jag 
+      ),
+      206 => 
+      array (
+        'id' => 207,
+        'chapter_id' => 8,
+        'number' => 1,
+        'title' => 'Störthärligt full',
+        'author' => 'Hittad på Handels 1981',
+        'melody' => 'Fat mamie Brown',
+        'text' => 'Nu har alla lämnat festen och jag 
 sitter ensam kvar,
 ibland groggar, pilsnerflaskor
 i en sönderslagen bar.
@@ -5286,16 +5285,16 @@ så jag raglar ut till köket
 för en återställare!
 
 För jag är störthärligt full...',
-			),
-			207 => 
-			array (
-				'id' => 208,
-				'chapter_id' => 8,
-				'number' => 10,
-				'title' => 'Vi dricka, vi dricka',
-			'author' => 'David Danowsky (F)',
-				'melody' => 'Tre Pepparkaksgubbar',
-				'text' => 'Vi dricka, vi dricka
+      ),
+      207 => 
+      array (
+        'id' => 208,
+        'chapter_id' => 8,
+        'number' => 10,
+        'title' => 'Vi dricka, vi dricka',
+      'author' => 'David Danowsky (F)',
+        'melody' => 'Tre Pepparkaksgubbar',
+        'text' => 'Vi dricka, vi dricka
 upp allt som dukas fram
 Först ölen och vinet
 sen snapsar vi som f-n
@@ -5303,16 +5302,16 @@ Väl runda och goda
 vi lämnar vår salong
 Men ramlar ner och somnar sött
 i rännstenens schäslong.',
-			),
-			208 => 
-			array (
-				'id' => 209,
-				'chapter_id' => 8,
-				'number' => 11,
-				'title' => 'When I get drunker',
-				'author' => NULL,
-				'melody' => 'When I\'m 64',
-				'text' => 'When I get drunker, loosing my mind
+      ),
+      208 => 
+      array (
+        'id' => 209,
+        'chapter_id' => 8,
+        'number' => 11,
+        'title' => 'When I get drunker',
+        'author' => NULL,
+        'melody' => 'When I\'m 64',
+        'text' => 'When I get drunker, loosing my mind
 many beers from now.
 Will I still be having me a jolly good time,
 whisky, gin and a bottle of wine.
@@ -5321,16 +5320,16 @@ don\'t say you want no more,
 \'cause we are the singers
 and we are the swingers,
 join us and you won\'t get bored.',
-			),
-			209 => 
-			array (
-				'id' => 210,
-				'chapter_id' => 8,
-				'number' => 12,
-				'title' => 'Vi ska supa',
-				'author' => NULL,
-				'melody' => 'Askungen',
-				'text' => 'Vi ska supa, vi ska festa,
+      ),
+      209 => 
+      array (
+        'id' => 210,
+        'chapter_id' => 8,
+        'number' => 12,
+        'title' => 'Vi ska supa',
+        'author' => NULL,
+        'melody' => 'Askungen',
+        'text' => 'Vi ska supa, vi ska festa,
 vi ska göra vårat bästa,
 vi ska låta marken gunga,
 vi äro ännu unga.
@@ -5339,16 +5338,16 @@ vi festar in Norden
 och vi ska bara supa, sjunga, 
 Spexa, älska, vara unga,
 Imorgon äro alla huven tunga.',
-			),
-			210 => 
-			array (
-				'id' => 211,
-				'chapter_id' => 8,
-				'number' => 13,
-				'title' => 'Härjarens bordsvisa',
-				'author' => 'Bordsvisa Sångarstriden 1985, Lund',
-				'melody' => 'Askungen',
-				'text' => 'Vi ska röja, vi ska härja
+      ),
+      210 => 
+      array (
+        'id' => 211,
+        'chapter_id' => 8,
+        'number' => 13,
+        'title' => 'Härjarens bordsvisa',
+        'author' => 'Bordsvisa Sångarstriden 1985, Lund',
+        'melody' => 'Askungen',
+        'text' => 'Vi ska röja, vi ska härja
 vi ska supa, slåss och svärja
 oss förnöja sisådärja
 med blod vi knappt oss värja
@@ -5360,16 +5359,16 @@ och om deet så ska bli min grav
 min sprit förtär ja\'
 
 La la la...',
-			),
-			211 => 
-			array (
-				'id' => 212,
-				'chapter_id' => 8,
-				'number' => 14,
-				'title' => 'Selen lever',
-				'author' => NULL,
-				'melody' => 'He\'s got the whole world in his hand',
-				'text' => '||: Selen lever, i vår hånd :|| x4
+      ),
+      211 => 
+      array (
+        'id' => 212,
+        'chapter_id' => 8,
+        'number' => 14,
+        'title' => 'Selen lever',
+        'author' => NULL,
+        'melody' => 'He\'s got the whole world in his hand',
+        'text' => '||: Selen lever, i vår hånd :|| x4
 
 Vi stikker hakkapikken i den, i vår sel...
 
@@ -5396,16 +5395,16 @@ Vi kjører speedbåt over den, på vår sel...
 Men! Selen lever...
 
 Carl Gustaf gråter, för vår sel...',
-			),
-			212 => 
-			array (
-				'id' => 213,
-				'chapter_id' => 8,
-				'number' => 2,
-				'title' => 'Jag var full en gång',
-				'author' => NULL,
-				'melody' => 'Flottarkärlek',
-				'text' => 'Jag var full en gång för länge se\'n 
+      ),
+      212 => 
+      array (
+        'id' => 213,
+        'chapter_id' => 8,
+        'number' => 2,
+        'title' => 'Jag var full en gång',
+        'author' => NULL,
+        'melody' => 'Flottarkärlek',
+        'text' => 'Jag var full en gång för länge se\'n 
 På knäna kröp jag hem, 
 Varje dike var för mig ett vilohem. 
 I varje hörn och varje vrå 
@@ -5420,16 +5419,16 @@ Och jag trodde det var öl
 Sedan dess har alla kallat mig för knöl -- fylleknöl! 
 
 Andra versen kan upprepas med "öl-fylleknöl" utbytt mot "vin-fyllesvin", och sedan "sprit-fylleskit"',
-			),
-			213 => 
-			array (
-				'id' => 214,
-				'chapter_id' => 8,
-				'number' => 3,
-				'title' => 'Bär ner mig till sjön',
-				'author' => NULL,
-				'melody' => 'Bei mir bist du schön',
-				'text' => '||: Bär ner mig till sjön 
+      ),
+      213 => 
+      array (
+        'id' => 214,
+        'chapter_id' => 8,
+        'number' => 3,
+        'title' => 'Bär ner mig till sjön',
+        'author' => NULL,
+        'melody' => 'Bei mir bist du schön',
+        'text' => '||: Bär ner mig till sjön 
 Bär ner mig till sjön 
 Jag känner att jag måste i! :|| 
 Och när du badat mig 
@@ -5468,16 +5467,16 @@ Mitt huvud känns så tungt,
 Jag kan ej andas lugnt. 
 Hur har jag kommit hem, 
 Och vem har stoppat mig i säng?',
-			),
-			214 => 
-			array (
-				'id' => 215,
-				'chapter_id' => 8,
-				'number' => 4,
-				'title' => 'Minne',
-				'author' => NULL,
-			'melody' => 'Memories (Cats)',
-				'text' => 'Minne, jag har tappat mitt minne! 
+      ),
+      214 => 
+      array (
+        'id' => 215,
+        'chapter_id' => 8,
+        'number' => 4,
+        'title' => 'Minne',
+        'author' => NULL,
+      'melody' => 'Memories (Cats)',
+        'text' => 'Minne, jag har tappat mitt minne! 
 Är jag svensk eller finne?
 Kommer inte ihåg...
 
@@ -5487,16 +5486,16 @@ sådär små alko-hål.
 Men besinn\' er,
 man tätar med det brännvin man får
 fastän minnet och helan går.',
-			),
-			215 => 
-			array (
-				'id' => 216,
-				'chapter_id' => 8,
-				'number' => 5,
-				'title' => 'Antisnapsvisa',
-				'author' => NULL,
-				'melody' => 'Sjösala vals',
-				'text' => 'Huvudet vi lyfter med ett stön ur vår säng
+      ),
+      215 => 
+      array (
+        'id' => 216,
+        'chapter_id' => 8,
+        'number' => 5,
+        'title' => 'Antisnapsvisa',
+        'author' => NULL,
+        'melody' => 'Sjösala vals',
+        'text' => 'Huvudet vi lyfter med ett stön ur vår säng
 Diskmaskin i buken, kanoner i huvudet
 Tungan som en plyschsoffa och yrseln i sväng
 I ångesten vi svettas, kom sjung din refräng
@@ -5505,16 +5504,16 @@ Varför finns det aldrig någon nykter QuArneVal?
 O, låt oss somna om så vi slipper våra kval
 Men se, så många supar vi redan kastat upp i sängen:
 Renat och Skåne, Svartvinbär och fager Bäsk!',
-			),
-			216 => 
-			array (
-				'id' => 217,
-				'chapter_id' => 8,
-				'number' => 6,
-				'title' => 'Dom som är nyktra',
-				'author' => NULL,
-				'melody' => 'Du är den ende',
-				'text' => 'Dom som är nyktra
+      ),
+      216 => 
+      array (
+        'id' => 217,
+        'chapter_id' => 8,
+        'number' => 6,
+        'title' => 'Dom som är nyktra',
+        'author' => NULL,
+        'melody' => 'Du är den ende',
+        'text' => 'Dom som är nyktra
 de har inge\' roligt
 dom har bara ansvar
 och inte nå\'t tjolit-
@@ -5547,16 +5546,16 @@ Det gör det samma var vi må va\' gäster
 ja, till och med lanthushållningssällskapsfester
 kan uthärdas med eau-de-vie
 som får månda\'n att bli blott en vag utopi.',
-			),
-			217 => 
-			array (
-				'id' => 218,
-				'chapter_id' => 8,
-				'number' => 7,
-				'title' => 'Treo-comp',
-				'author' => NULL,
-				'melody' => 'Längtan till landet',
-				'text' => 'Morgonstund med smak av döda bävrar
+      ),
+      217 => 
+      array (
+        'id' => 218,
+        'chapter_id' => 8,
+        'number' => 7,
+        'title' => 'Treo-comp',
+        'author' => NULL,
+        'melody' => 'Längtan till landet',
+        'text' => 'Morgonstund med smak av döda bävrar
 frukostmorgonen är över oss
 hur vi alla stretar, hur vi vägrar
 så går solen lik förbannat opp.
@@ -5565,16 +5564,16 @@ Snart är dagen här med hemska plågor
 huvudvärk, yrsel, elände men
 det finns faktiskt ett glas som dej kan rädda
 Treo-comp vår frälsare och vän.',
-			),
-			218 => 
-			array (
-				'id' => 219,
-				'chapter_id' => 8,
-				'number' => 8,
-				'title' => 'Vit vecka',
-				'author' => 'Sångarstriden 1992',
-				'melody' => 'White christmas',
-				'text' => 'Jag drömmer om en vit vecka.
+      ),
+      218 => 
+      array (
+        'id' => 219,
+        'chapter_id' => 8,
+        'number' => 8,
+        'title' => 'Vit vecka',
+        'author' => 'Sångarstriden 1992',
+        'melody' => 'White christmas',
+        'text' => 'Jag drömmer om en vit vecka.
 Sju dagar utan alkohol.
 Tänk att bara skåla
 i juice och cola
@@ -5584,16 +5583,16 @@ Jag drömmer om en vit vecka.
 Det finns en gräns för vad jag tål.
 Jag vill inte ha mera sprit,
 så låt nästa vecka vara vit.',
-			),
-			219 => 
-			array (
-				'id' => 220,
-				'chapter_id' => 8,
-				'number' => 9,
-				'title' => 'The drunken sailor',
-				'author' => NULL,
-				'melody' => NULL,
-			'text' => '||:What shall we do with the drunken sailor :|| (3 ggr)
+      ),
+      219 => 
+      array (
+        'id' => 220,
+        'chapter_id' => 8,
+        'number' => 9,
+        'title' => 'The drunken sailor',
+        'author' => NULL,
+        'melody' => NULL,
+      'text' => '||:What shall we do with the drunken sailor :|| (3 ggr)
 Early in the morning
 
 ||:Hooray and up she rises :|| (3 ggr)
@@ -5611,16 +5610,16 @@ Shave his head with a rusty razor...etc.
 Put him into bed with the Captain\'s daughter...etc.
 
 That\'s what we\'ll do with the drunken sailor...etc.',
-			),
-			220 => 
-			array (
-				'id' => 221,
-				'chapter_id' => 9,
-				'number' => 1,
-				'title' => 'Système International',
-				'author' => NULL,
-				'melody' => 'Studentsången',
-				'text' => 'W    kg    m    Wb    s
+      ),
+      220 => 
+      array (
+        'id' => 221,
+        'chapter_id' => 9,
+        'number' => 1,
+        'title' => 'Système International',
+        'author' => NULL,
+        'melody' => 'Studentsången',
+        'text' => 'W    kg    m    Wb    s
 Ωm    T    A    rad
 Cd    S    N    s
 Ω    A    m    Lx    dB
@@ -5628,17 +5627,17 @@ Cd    S    N    s
 J/kg    H    V    C
 kg/m²    mol
 m/s²    m/s²    F!',
-			),
-			221 => 
-			array (
-				'id' => 222,
-				'chapter_id' => 9,
-				'number' => 10,
-				'title' => 'Hållfvisa',
-				'author' => 'Mikael Ros 1975',
-				'melody' => 'Mors lilla Olle
+      ),
+      221 => 
+      array (
+        'id' => 222,
+        'chapter_id' => 9,
+        'number' => 10,
+        'title' => 'Hållfvisa',
+        'author' => 'Mikael Ros 1975',
+        'melody' => 'Mors lilla Olle
 SE1055 Hållfasthetslära, grundkurs F',
-				'text' => 'Mohrs lilla cirkel i skogen kröp, 
+        'text' => 'Mohrs lilla cirkel i skogen kröp, 
 Gränslast på axeln och skjuvning i blick. 
 Ytorna små utav tryck äro blå, 
 Tänk om jag slapp att få flyta ändå. 
@@ -5652,17 +5651,17 @@ Hooke fick nu se dem, gav till ett skri.
 Linjen försvann, nu är leken förbi. 
 Å varför skrämde du undan min vän? 
 Mohr lilla bed honom käla igen.',
-			),
-			222 => 
-			array (
-				'id' => 223,
-				'chapter_id' => 9,
-				'number' => 11,
-				'title' => 'Elämnenas lov',
-				'author' => '',
-				'melody' => 'Trink, Trink
+      ),
+      222 => 
+      array (
+        'id' => 223,
+        'chapter_id' => 9,
+        'number' => 11,
+        'title' => 'Elämnenas lov',
+        'author' => '',
+        'melody' => 'Trink, Trink
 EI1240 Teoretisk elektroteknik',
-				'text' => 'Ström, ström, vi vill ha ström, 
+        'text' => 'Ström, ström, vi vill ha ström, 
 Det är vår senaste dröm. 
 Ström, ström, vi vill ha ström, 
 Det är vår senaste dröm. 
@@ -5672,17 +5671,17 @@ Och bottna din FET
 Och ge mig en puls utav det. 
 Slut upp i kampen för Elmät och TET, 
 Ström är det bästa vi vet!',
-			),
-			223 => 
-			array (
-				'id' => 224,
-				'chapter_id' => 9,
-				'number' => 12,
-				'title' => 'O hemska lab',
-				'author' => 'Sångartäfvlan 1992',
-			'melody' => 'O Helga Natt (Adams Julsång)
+      ),
+      223 => 
+      array (
+        'id' => 224,
+        'chapter_id' => 9,
+        'number' => 12,
+        'title' => 'O hemska lab',
+        'author' => 'Sångartäfvlan 1992',
+      'melody' => 'O Helga Natt (Adams Julsång)
 2B1507 Halvledarelektronik',
-				'text' => 'O hemska lab, o grymma kval imorgon, 
+        'text' => 'O hemska lab, o grymma kval imorgon, 
 Här sitter jag och förstår ingenting. 
 Hela mitt inre fylls utav ett motstånd 
 Emot eländig elektrisk mätteknik. 
@@ -5693,17 +5692,17 @@ Här räcker inte min kapacitans.
 Kondensatorer och felvända dioder, 
 O hemska lab, nu vill jag koppla af. 
 O hemska lab, ty detta blir min graf!',
-			),
-			224 => 
-			array (
-				'id' => 225,
-				'chapter_id' => 9,
-				'number' => 13,
-				'title' => 'Aris summavisa',
-				'author' => 'Mikael Winai 2001',
-				'melody' => 'Idas sommarvisa
+      ),
+      224 => 
+      array (
+        'id' => 225,
+        'chapter_id' => 9,
+        'number' => 13,
+        'title' => 'Aris summavisa',
+        'author' => 'Mikael Winai 2001',
+        'melody' => 'Idas sommarvisa
 SF1628 Komplex analys',
-				'text' => 'Du ska inte tro att en summa 
+        'text' => 'Du ska inte tro att en summa 
 blir alls vad den ser ut att va\', 
 ja summor kan va\' lite krångligt 
 det gäller att arbeta smart. 
@@ -5732,17 +5731,17 @@ Och jag gör små roliga ställen
 där kurvan är snirklig och fin. 
 Då blir bladen fulla med summor 
 och svaren blir fulla med π:n',
-			),
-			225 => 
-			array (
-				'id' => 226,
-				'chapter_id' => 9,
-				'number' => 14,
-				'title' => 'Kvarkvisan',
-			'author' => 'Skriven under (sic) Forces 20-årsjubileum 1997',
-				'melody' => 'Lingonben
+      ),
+      225 => 
+      array (
+        'id' => 226,
+        'chapter_id' => 9,
+        'number' => 14,
+        'title' => 'Kvarkvisan',
+      'author' => 'Skriven under (sic) Forces 20-årsjubileum 1997',
+        'melody' => 'Lingonben
 SI1151 Kvantfysik',
-				'text' => 'Upp och ner och charm och sär 
+        'text' => 'Upp och ner och charm och sär 
 voro sex små kvarkar 
 en var grön och en var blå 
 och en var lite anti 
@@ -5756,31 +5755,31 @@ Tre stycken kvarkar för en proton,
 se där passerar en foton 
 Fermi, Bose och Einstein. 
 Tjo! sa Stephen Hawking.',
-			),
-			226 => 
-			array (
-				'id' => 227,
-				'chapter_id' => 9,
-				'number' => 15,
-				'title' => 'Liten visa om Gram-Schmidts metod',
-				'author' => 'Christian Adåker, FanFar',
-				'melody' => 'Imse vimse spine
+      ),
+      226 => 
+      array (
+        'id' => 227,
+        'chapter_id' => 9,
+        'number' => 15,
+        'title' => 'Liten visa om Gram-Schmidts metod',
+        'author' => 'Christian Adåker, FanFar',
+        'melody' => 'Imse vimse spine
 SF1604 Linjär algebra II',
-				'text' => 'Tag en delrumsbas M
+        'text' => 'Tag en delrumsbas M
 och en vektor a.
 Projicera ner, tag dess residual.
 Normalisera, tillför den till M.
 Tag sen nästa vektor, börja om igen.',
-			),
-			227 => 
-			array (
-				'id' => 228,
-				'chapter_id' => 9,
-				'number' => 16,
-				'title' => 'Kemisången',
-				'author' => '',
-				'melody' => 'Studentsången',
-				'text' => 'Sn   As   B   Pt   Br
+      ),
+      227 => 
+      array (
+        'id' => 228,
+        'chapter_id' => 9,
+        'number' => 16,
+        'title' => 'Kemisången',
+        'author' => '',
+        'melody' => 'Studentsången',
+        'text' => 'Sn   As   B   Pt   Br
 Na   Tl   Pr 
 P   Pd   N   Cr
 Er   I   Xe   Nd
@@ -5790,17 +5789,17 @@ V   C   Se   Mo
 Al   Si   Ar
 Al   Si   Ar
 U!',
-			),
-			228 => 
-			array (
-				'id' => 229,
-				'chapter_id' => 9,
-				'number' => 17,
-				'title' => 'Imperial system',
-				'author' => 'Skriven till Sektionens 75-årsjubileum
+      ),
+      228 => 
+      array (
+        'id' => 229,
+        'chapter_id' => 9,
+        'number' => 17,
+        'title' => 'Imperial system',
+        'author' => 'Skriven till Sektionens 75-årsjubileum
 2007-11-15 av GM²N',
-				'melody' => 'Studentsången',
-				'text' => 'ft   kp   K   bu   B
+        'melody' => 'Studentsången',
+        'text' => 'ft   kp   K   bu   B
 \'\'   Gb   Oe   lb   rdr   std 
 st   msk   kn   E
 Fr   krm   c   cSt
@@ -5810,17 +5809,17 @@ at
 hk   nmi
 M   Ci   dptr   cal
 mvp   mvp   ha!',
-			),
-			229 => 
-			array (
-				'id' => 230,
-				'chapter_id' => 9,
-				'number' => 2,
-				'title' => 'Integralkalkylens fader',
-				'author' => NULL,
-				'melody' => 'Sveriges fana
+      ),
+      229 => 
+      array (
+        'id' => 230,
+        'chapter_id' => 9,
+        'number' => 2,
+        'title' => 'Integralkalkylens fader',
+        'author' => NULL,
+        'melody' => 'Sveriges fana
 SF1602 Differential- och integralkalkyl II',
-				'text' => 'Integralkalkylens fader, 
+        'text' => 'Integralkalkylens fader, 
 G W Leibniz hette han. 
 Han blev trött på att skriva rader 
 Av plustecken efter varann. 
@@ -5856,17 +5855,17 @@ Integralens tecken lära får.
 
 <author>
 Skriven till integralens 300-årsdag 1975-11-11.',
-			),
-			230 => 
-			array (
-				'id' => 231,
-				'chapter_id' => 9,
-				'number' => 3,
-				'title' => 'GG-visan',
-				'author' => 'nØllespexet 1999',
-				'melody' => 'Jag är ett litet ylle
+      ),
+      230 => 
+      array (
+        'id' => 231,
+        'chapter_id' => 9,
+        'number' => 3,
+        'title' => 'GG-visan',
+        'author' => 'nØllespexet 1999',
+        'melody' => 'Jag är ett litet ylle
 5A1203 Fysik, grundkurs del I',
-				'text' => 'Jag heter Göran Grimvall, W pdV Vdp, 
+        'text' => 'Jag heter Göran Grimvall, W pdV Vdp, 
 med världens bästa infall, W pdV Vdp. 
 Jag lär ut termodynamik 
 och har problem i Ny Teknik, 
@@ -5889,17 +5888,17 @@ Jag springer efter skärmar när
 jag inte plockar svamp och bär. 
 Grimvall, Grimvall,
 oj... nu sitter Grimvall där!',
-			),
-			231 => 
-			array (
-				'id' => 232,
-				'chapter_id' => 9,
-				'number' => 4,
-				'title' => 'Öl sex',
-				'author' => 'F-CTH',
-				'melody' => 'Med en enkel tulipan
+      ),
+      231 => 
+      array (
+        'id' => 232,
+        'chapter_id' => 9,
+        'number' => 4,
+        'title' => 'Öl sex',
+        'author' => 'F-CTH',
+        'melody' => 'Med en enkel tulipan
 SI1140 Vektoranalys',
-				'text' => 'En liten enkel integral 
+        'text' => 'En liten enkel integral 
 Uti ett Vektor III-tal 
 Ni har besväret, 
 Ni har besväret att derivera. 
@@ -5918,33 +5917,33 @@ En liten enkel integral
 Uti ett Vektor III-tal 
 Kan va\' så jävlig 
 Att man ej hinner med något mera.',
-			),
-			232 => 
-			array (
-				'id' => 233,
-				'chapter_id' => 9,
-				'number' => 5,
-				'title' => 'The BASIC song',
-				'author' => NULL,
-				'melody' => 'Mors lilla Olle
+      ),
+      232 => 
+      array (
+        'id' => 233,
+        'chapter_id' => 9,
+        'number' => 5,
+        'title' => 'The BASIC song',
+        'author' => NULL,
+        'melody' => 'Mors lilla Olle
 DD1346 Programkonstruktion
 Radnumren sjungs ej!',
-				'text' => '10 LET oss nu fatta i våra glas
+        'text' => '10 LET oss nu fatta i våra glas
 20 INPUT en klunk utav det som där has
 30 IF du fått nog THEN till 50 min vän
 40 ELSE GOTO-baka till 10 igen
 50 END',
-			),
-			233 => 
-			array (
-				'id' => 234,
-				'chapter_id' => 9,
-				'number' => 6,
-				'title' => 'Mors lilla dator',
-				'author' => NULL,
-				'melody' => 'Mors lilla Olle
+      ),
+      233 => 
+      array (
+        'id' => 234,
+        'chapter_id' => 9,
+        'number' => 6,
+        'title' => 'Mors lilla dator',
+        'author' => NULL,
+        'melody' => 'Mors lilla Olle
 DD1345 Grundläggande datalogi',
-				'text' => 'Mors lilla dator åt skogen gick,
+        'text' => 'Mors lilla dator åt skogen gick,
 mitt i programmet sade det klick
 svart bidde skärmen och minnet försvann,
 den informationen kan ingen få fram.
@@ -5958,16 +5957,16 @@ Hyscheli-hysch vad prasslar här?
 fram väller pappret ur printern där!
 Den har fått nippran av tecken så små,
 jag tror att jag snart hemåt skall gå.',
-			),
-			234 => 
-			array (
-				'id' => 235,
-				'chapter_id' => 9,
-				'number' => 7,
-				'title' => 'Tentamenssång',
-				'author' => NULL,
-				'melody' => 'Stockholmsmelodi',
-				'text' => 'Se hur hela Teknis går i vånda 
+      ),
+      234 => 
+      array (
+        'id' => 235,
+        'chapter_id' => 9,
+        'number' => 7,
+        'title' => 'Tentamenssång',
+        'author' => NULL,
+        'melody' => 'Stockholmsmelodi',
+        'text' => 'Se hur hela Teknis går i vånda 
 Snart så kommer tentaperiod 
 Mek på fredag sedan Funk på måndag 
 Det är så att man kan gråta blod 
@@ -5986,17 +5985,17 @@ Skriver formler, söker kombinera
 För att få ihop en ekvation 
 Sedan kan de ilsket konstatera 
 Att de ej fått rätt på dimension',
-			),
-			235 => 
-			array (
-				'id' => 236,
-				'chapter_id' => 9,
-				'number' => 8,
-				'title' => 'ODE till en husvagn',
-				'author' => 'Första Fulölfesten, 2000',
-				'melody' => 'Husvagn
+      ),
+      235 => 
+      array (
+        'id' => 236,
+        'chapter_id' => 9,
+        'number' => 8,
+        'title' => 'ODE till en husvagn',
+        'author' => 'Första Fulölfesten, 2000',
+        'melody' => 'Husvagn
 SG1130 Mekanik, baskurs',
-				'text' => 'Vi har ägnat våren åt en kurs i mekanik, 
+        'text' => 'Vi har ägnat våren åt en kurs i mekanik, 
 prickar, streck och pilar och en massa dynamik. 
 Vi har haft svårt att fatta vad en svängning innebär 
 men äntligen har vi förstått vad Newtons lagar lär...
@@ -6025,17 +6024,17 @@ Man ska ha husvagn, det är en bild som är konkret,
 man ska ha husvagn, men för en hög viskositet 
 ska man ha honung - det ger ett ζ som är högt, 
 man ska ha honung - för det är kladdigt, mjukt och sött!',
-			),
-			236 => 
-			array (
-				'id' => 237,
-				'chapter_id' => 9,
-				'number' => 9,
-				'title' => 'Matlab',
-				'author' => 'Uppsala teknologers sångbok',
-				'melody' => 'Husvagn
+      ),
+      236 => 
+      array (
+        'id' => 237,
+        'chapter_id' => 9,
+        'number' => 9,
+        'title' => 'Matlab',
+        'author' => 'Uppsala teknologers sångbok',
+        'melody' => 'Husvagn
 DN1240 Numeriska metoder, grundkurs II',
-				'text' => 'Jag har prövat nästan allt som finns att pröva på:
+        'text' => 'Jag har prövat nästan allt som finns att pröva på:
 Kulram, fingrar, räknesticka, tärning eller så.
 Jag har kalkylerat på de konstigaste sätt
 men nu så har jag kommit på hur man ska räkna rätt. 
@@ -6064,8 +6063,8 @@ Man ska ha MATLAB - och datasalens friska luft.
 Man ska ha MATLAB - det tycker tjejerna är tufft.
 Man ska ha MATLAB - när Ryssen kommer med sitt MIG
 Man ska ha MATLAB - då vinner man i krig',
-			),
-		));
-	}
+      ),
+    ));
+  }
 
 }

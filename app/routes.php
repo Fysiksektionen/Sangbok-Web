@@ -11,17 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('index');
+Route::get('/', function() {
+  return View::make('index');
 });
 
-Route::get('/offline', function()
-{
+Route::get('/offline', function() {
   return Response::json(array('online' => false));
 });
-Route::get('/online', function()
-{
+Route::get('/online', function() {
   return Response::json(array('online' => true));
 });
 

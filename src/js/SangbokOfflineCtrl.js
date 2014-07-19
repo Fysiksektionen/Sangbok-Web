@@ -1,5 +1,5 @@
-sangbok.controller('OfflineCtrl', ['$scope', '$http', 'Songs',
-    function($scope, $http, Song) {
+sangbok.controller('OfflineCtrl', ['$scope', '$http',
+    function($scope, $http) {
     $scope.ERROR = 0;
     $scope.OFFLINE = 1;
     $scope.SYNCED = 2;
@@ -7,7 +7,7 @@ sangbok.controller('OfflineCtrl', ['$scope', '$http', 'Songs',
     $scope.status = $scope.SYNCED;
     $scope.progress = 0;
 
-    window.applicationCache.addEventListener('error', function cacheError() {
+    window.applicationCache.addEventListener('error', function () {
       $scope.status = $scope.ERROR;
     }, false);
 

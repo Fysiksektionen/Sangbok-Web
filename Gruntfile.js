@@ -32,10 +32,10 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'public/js/sangbok.js':
-            ['public/js/src/SangbokApp.js',
-              'public/js/src/SangbokHomeCtrl.js',
-              'public/js/src/SangbokSongCtrl.js',
-              'public/js/src/SangbokOfflineCtrl.js']
+            ['src/js/SangbokApp.js',
+              'src/js/SangbokHomeCtrl.js',
+              'src/js/SangbokSongCtrl.js',
+              'src/js/SangbokOfflineCtrl.js']
         }
       }
     },
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       combine: {
         files: {
           'public/css/vendor/foundation.min.css': ['public/css/vendor/foundation.css'],
-          'public/css/sangbok.min.css': ['public/css/sangbok.css']
+          'public/css/sangbok.min.css': ['src/css/sangbok.css']
         }
       }
     }

@@ -14,7 +14,7 @@ var sangbok = angular.module('sangbok', ['ngRoute', 'mm.foundation'])
        redirectTo: '/'
       });
   }])
-  
+
   .factory( 'Songs', ['$http', function( $http ) {
     var promise;
     var songs = {
@@ -29,10 +29,12 @@ var sangbok = angular.module('sangbok', ['ngRoute', 'mm.foundation'])
     };
     return songs;
   }])
-  
+
   .filter('sbNewlines', ['$sce', function ($sce) {
     return function(text) {
-      if(!text) return '';
-        return $sce.trustAsHtml(text.replace(/\n/g, '<br/>'));
-    }
+      if(!text) {
+        return '';
+      }
+      return $sce.trustAsHtml(text.replace(/\n/g, '<br/>'));
+    };
   }]);

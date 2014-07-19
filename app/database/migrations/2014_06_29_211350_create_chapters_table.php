@@ -5,28 +5,26 @@ use Illuminate\Database\Schema\Blueprint;
 
 class CreateChaptersTable extends Migration {
 
-	/**
-	 * Run the migrations.
-	 *
-	 * @return void
-	 */
-	public function up()
-	{
-		Schema::create('chapters', function(Blueprint $table) {
-			$table->increments('id');
-			$table->string('chapter', 100);
-		});
-	}
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up() {
+    Schema::create('chapters', function(Blueprint $table) {
+      $table->increments('id');
+      $table->string('chapter', 100);
+    });
+  }
 
 
-	/**
-	 * Reverse the migrations.
-	 *
-	 * @return void
-	 */
-	public function down()
-	{
-		Schema::drop('chapters');
-	}
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down() {
+    Schema::drop('chapters');
+  }
 
 }
