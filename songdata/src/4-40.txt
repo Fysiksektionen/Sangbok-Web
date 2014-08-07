@@ -1,6 +1,9 @@
 <titel>
 Inre dialog
 
+<author>
+Text: Mikael Segersten, E-76
+
 <melodi>
 An der schönen blauen Donaul
 F: Försångare
