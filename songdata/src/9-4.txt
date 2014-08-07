@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Öl sex
 
 <melodi>
@@ -14,7 +14,7 @@ Uti ett Vektor III-tal
 Ni har besväret, 
 Ni har besväret att derivera. 
 
-Först tar man Stokes' sats däruppå, 
+Först tar en Stokes' sats däruppå, 
 Så blir det så enkelt så 
 Att integralen, 
 Att integralen evaluera. 
@@ -27,4 +27,4 @@ Så integranden blir bara noll.
 En liten enkel integral 
 Uti ett Vektor III-tal 
 Kan va' så jävlig 
-Att man ej hinner med något mera. 
+Att en ej hinner med något mera. 

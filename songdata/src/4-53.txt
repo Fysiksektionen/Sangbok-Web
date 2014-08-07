@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Änglarna
 
 <melodi>
@@ -8,4 +8,4 @@ Karl Alfred boy
 Vi äro små änglar vi, flax, flax
 Vi äro små änglar vi, flax, flax
 Vi äro små änglar som tar oss en djävel
-VI äro små änglar vi, flax, flax 
+Vi äro små änglar vi, flax, flax 

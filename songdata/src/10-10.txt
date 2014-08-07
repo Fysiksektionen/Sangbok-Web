@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Hårgalåten
 
 <melodi>
@@ -13,13 +13,13 @@ De glömde Gud och hela världen
 
 Dansen gick på äng och backar
 Högt upp på Hårgaåsens topp
-Man slet ut båd skor och klackar
-Aldrig fick man på dansen stopp
+En slet ut båd skor och klackar
+Aldrig fick en på dansen stopp
 
 Varifrån kommer du som spelar
 säg vem har lärt dig detta spel, det vilda, det galna,
 stannar du inte brister hjärtat;
-O Gud bevare, han har bockfot!
+O Gud bevare, hen har bockfot!
 
 Klockorna hade ringt i dalen och där gick
 Far och mor och bror till sockenkyrkan
@@ -28,10 +28,10 @@ Var kan nu Hårgas ungdom vara
 
 Dansen går till Hårgalåten
 Högt upp på Hårgaåsens topp
-Man har inte långt till gråten
+En har inte långt till gråten
 Dansar nu sönder själ och kropp
 
 Hejda din stråke spelman innan 
 vi dansar liv och själ och alla ben ur kroppen
-Nej inte slutar han sin dans 
+Nej inte slutar hen sin dans 
 Förr'n de allesammans faller döda

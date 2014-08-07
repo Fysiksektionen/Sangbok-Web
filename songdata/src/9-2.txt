@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Integralkalkylens fader
 
 <melodi>
@@ -27,7 +27,7 @@ Se'n den dagen,
 Vi skriver det tecknet så. 
 Och vi räknar 
 Och kalkylerar, 
-Integralens tecken kan man lita på. 
+Integralens tecken kan en lita på. 
 
 Och idag vi tecknet hylla 
 Det löser alla problem. 

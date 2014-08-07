@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Undulaten
 
 <melodi>
@@ -9,10 +9,10 @@ Med en enkel tulipan
 <text>
 Jag är en liten undulat,
 som får så dåligt med mat,
-för dom jag bor hos,
-för dom jag bor hos,
-dom är så snåla.
-Dom ger mig fisk varenda dag,
+för de jag bor hos,
+för de jag bor hos,
+de är så snåla.
+De ger mig fisk varenda dag,
 men det vill jag inte ha,
 jag vill ha rödvin,
 jag vill ha rödvin,

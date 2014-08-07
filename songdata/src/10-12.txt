@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Trink, trink
 
 <melodi>
@@ -7,9 +7,9 @@ Trink, trink
 <author>
 
 <text>
-Trink, trink, Brüderlein trink
+Trink, trink, Brüderlein/Schwesterlein trink
 Lasset die Sorgen zu Haus
-Trink, trink, Bruderlein trink
+Trink, trink, Bruderlein/Schwesterlein trink
 Bald ist das Leben aus
 
 ||: Meide den Kummer und meide den Schmerz

@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Smedsvisan
 
 <melodi>
@@ -19,7 +19,7 @@ Hon lovfte mig tro, i lust och i nöd
 allt in till sin blekaste död
 
 Hon var som en lilja vit uti hyn
-den vackraste kvinna man skådat i byn,
+den vackraste kvinna en skådat i byn,
 ett smittande skratt, en lustiger sång
 vi älskade sommaren lång.
 

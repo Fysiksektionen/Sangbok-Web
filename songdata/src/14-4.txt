@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Överföhssång
 
 <melodi>
@@ -11,7 +11,7 @@ Skriven till Ettans Fest 1990
 Ur teknologens djup en gång
 En samfälld och en enkel sång
 Som går till Överföhs fram
-Var honom trofast och hans ätt
-Gör piskan i hans näve lätt
-Och all din tro till honom sätt
+Var henom trofast och hens ätt
+Gör piskan i hens näve lätt
+Och all din tro till henom sätt
 Du schlemm av ingen rang 

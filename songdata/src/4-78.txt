@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Tjugotre
 
 <melodi>
@@ -13,9 +13,9 @@ bom-faderia, bomfaderaderalla.
 skänker liv åt döda kroppar, 
 bom-faderi, faderallanlej. 
 
-Slå en sup i död mans kropp, 
+Slå en sup i död väns kropp, 
 bom-faderi, faderallanlej. Hugg i! 
-så stapplar han ur graven opp, 
+så stapplar hen ur graven opp, 
 bom-faderi faderallanlej. 
 
 Jesus visste att de döda, 

@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Jag har aldrig vart på snusen
 
 <melodi>
@@ -21,7 +21,7 @@ Haleluja - haleluja...
 Bacchus spelar på gitarren
 Satan spelar på sitt handklaver
 Alla djävlar dansar tango
-Säg vad kan man väl önska sig mer?
+Säg vad kan en väl önska sig mer?
 Jo, att alla bäckar vore brännvin
 Riddarfjärden full av bayerskt öl
 Konjak i varenda rännsten

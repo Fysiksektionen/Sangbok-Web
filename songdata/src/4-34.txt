@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Vodka, vodka
 
 <melodi>
@@ -7,7 +7,7 @@ Stenka Razin
 <text>
 Vodka, vodka vill jag dricka, 
 jag vill äta kaviar, 
-||: jag vill älska russkij flicka/pojke, 
+||: jag vill älska russkij människa, 
 jag vill spy i samovar :||
 
 Vita möss som gå i taket, 
@@ -22,6 +22,6 @@ ta en sup och allt går väl :||
 
 
 (Varianter på första versen)
-Falu brännvin - falukorv - falu flicka - Faluån 
-Whisky - baked beans - Yankee flicka - på mina jeans 
-Man kan också permutera "äta", "älska" och "spy i"
+Falu brännvin - falukorv - falu människa - Faluån 
+Whisky - baked beans - Yankee människa - på mina jeans 
+En kan också permutera "äta", "älska" och "spy i"

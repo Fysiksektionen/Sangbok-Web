@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Styrman Karlssons äventyr med porslinspjäsen
 
 <melodi>
@@ -29,7 +29,7 @@ utnämnde Karlsson till kapten.
 
 Nu är kapten Karlsson havets fasa,
 alla sjöpiraters stora skräck.
-Över vattnet hör man tydligt ekot
+Över vattnet hör en tydligt ekot
 av hans steg, när han går kring på däck.
 
 Ja han går med foten i en potta

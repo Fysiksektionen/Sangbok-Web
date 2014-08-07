@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Årskursernas hederssång
 
 <text>

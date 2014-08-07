@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 GG-visan
 
 <melodi>

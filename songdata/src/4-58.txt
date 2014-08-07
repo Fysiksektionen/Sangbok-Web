@@ -1,5 +1,5 @@
-<titel>
-Mandoms morske män
+﻿<titel>
+Mod i Barm
 
 <melodi>
 Kungssången
@@ -11,4 +11,4 @@ som ger oss mod i barm.
 I prima äktsvensk alkohol 
 för svenska folkets höga mål 
 vi höjer nu vår första skål, 
-vi mandoms morske män 
+vi ungdoms främsta vän 

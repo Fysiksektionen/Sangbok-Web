@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Uti min mage
 
 <melodi>
@@ -17,7 +17,7 @@ Kom hjärtans fröjd.
 Där råder en hunger som ropar så här: 
 Kom famnande lena armar. 
 Kom läppar och sköna barmar. 
-Kom fagraste kvinnor. 
+Kom fagraste människor. 
 Kom hjärtans fröjd. 
 
 Uti vår mage där växa begär. 

@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Tentamenssång
 
 <melodi>
@@ -8,12 +8,12 @@ Stockholmsmelodi
 Se hur hela Teknis går i vånda 
 Snart så kommer tentaperiod 
 Mek på fredag sedan Funk på måndag 
-Det är så att man kan gråta blod 
+Det är så att en kan gråta blod 
 
 Vad har jag gjort hela långa våren 
 När jag skulle pluggat och stått i 
 Jag har bara druckit öl på kåren 
-Men det kan man inte tenta i 
+Men det kan en inte tenta i 
 
 Se så många stackars teknologer 
 Transpirerar i en kvalmig sal 

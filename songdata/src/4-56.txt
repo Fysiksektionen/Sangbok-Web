@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Getingen
 
 <melodi>
@@ -7,11 +7,11 @@ Jazzgossen
 <text>
 Å så kommer det en geting, 
 genom luften som ett reaplan. 
-Å han åker på en snyting, 
+Å hen åker på en snyting, 
 mitt under röda kran. 
-Å han trillar ner i magen, 
+Å hen trillar ner i magen, 
 med ett jätte plask, 
 jätte plask, jätteplask. 
-Å så blir man lite dragen, 
+Å så blir en lite dragen, 
 men pigg och rask, 
 pigg och rask, pigg och rask. 

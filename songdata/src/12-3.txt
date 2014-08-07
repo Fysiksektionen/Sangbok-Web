@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Fysikhatarvisan
 
 <melodi>
@@ -19,9 +19,9 @@ nu hyllar vi Data med en skål!
 
 Fysik är torrt - jag vill ju bort!
 
-Einsteins pojkar är vi alla.
-Handelsflickor kan vi aldrig få.
-Går och tror att vi har ballar,
+Einsteins vänner är vi alla.
+Handelsmänniskor kan vi aldrig få.
+Går och tror att vi är balla,
 det får bli på egen hand om det ska gå.
 Nu ska hela Sing-Sing rivas,
 Arkitekt är med på Datas lag.

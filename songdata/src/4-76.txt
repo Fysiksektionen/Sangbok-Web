@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Månen (En gång i månan)
 
 <melodi>
@@ -6,6 +6,6 @@ Mors lilla Olle
 
 <text>
 En gång i månan är månen full, 
-men aldrig jag sett honom ramla omkull. 
-Stum av beundran hur mycket han tål, 
-höja vi glasen och dricka hans skål. 
+men aldrig jag sett henom ramla omkull. 
+Stum av beundran hur mycket hen tål, 
+höja vi glasen och dricka hens skål. 

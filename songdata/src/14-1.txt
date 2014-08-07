@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Konglig Fysiks Paradhymn
 
 <melodi>
@@ -16,8 +16,8 @@ ibland oss
 Höj pokalen, dess flöde känns som sammet
 Drick till det som Bacchi vapen lär.
 
-Känn, o Osquar, känn hur blodet hettar
-Du Osqulda orsak till det är
+Känn, Osquarulda, känn hur blodet hettar
+Osqarulda orsak till det är
 Timmar skrider och dygdens bojor lättar
 Fest och glädje kärleksflamman när
 men minns att
@@ -37,4 +37,4 @@ SKÅL för det Fysiks skyddsgudar lär.
 
 
 
-Under sista versen står fysiker, men inga andar, upp. Orden "Osquar" och "Osqulda" kan bytas efter behag.
+Under sista versen står fysiker, men inga andra, upp. "Osquarulda" kan bytas mot "Osquar" eller "Osqulda" efter behag.

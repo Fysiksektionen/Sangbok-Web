@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Danse Macabre
 
 <melodi>
@@ -15,7 +15,7 @@ Varulvar yla,
 isande kyla 
 sveper i dimma fanstygets dans.
 
-Bäva, o broder, lyssna och hör 
+Bäva, o fränder, lyssna och hör 
 vrålen från gast som osalig dör. 
 Satan han skrattar, 
 flaskan han fattar, 

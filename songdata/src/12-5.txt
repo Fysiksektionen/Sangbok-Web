@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Hyllningsvisa
 
 <melodi>
@@ -19,7 +19,7 @@ Ta hit dynamit, sprängteknik vårt gebit!
 ||: Dessa tofsprydda avskum som ger oss kolik!:|| (3 ggr)
 
 
-<Sjunges tre gånger medan tofsen snurras i cirklar. Bärs ej mössa, så låtsas man och snurrar i luften. Därefter:>
+<Sjunges tre gånger medan tofsen snurras i cirklar. Bärs ej mössa, så låtsas en och snurrar i luften. Därefter:>
 
 Dessa tekniska lik!!! Barampam!
 

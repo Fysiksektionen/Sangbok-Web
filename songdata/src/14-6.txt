@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 O gamla klang och jubeltid
 
 <melodi>
@@ -20,8 +20,8 @@ O, quae mutatio rerum
 
 Var äro de som kunde allt
 Blott ej sin ära svika
-Som vora män av äkta halt
-Och världens herrar lika
+Som voro folk av äkta halt
+Och världens chefer lika
 De drogo bort från vin och sång
 Till vardagslivets tråk och tvång
 O, jerum...
@@ -36,14 +36,14 @@ O, jerum...
 
 Men hjärtat i en sann student
 Kan ingen tid förfrysa
-Den glädjen eld som där han tänt
-Hans hela liv skall lysa
+Den glädjen eld som där hen tänt
+Hens hela liv skall lysa
 Det gamla skalet brustit har
 Men KÄRNAN finnes frisk dock kvar
-Och vad han än skall mista
+Och vad hen än skall mista
 Den skall dock aldrig brista
 
-Så sluten bröder fast vår krets
+Så sluten fränder fast vår krets
 Till glädjens värn och ära
 Trots allt vi tryggt och väl tillfreds
 Vår vänskap trohet svära

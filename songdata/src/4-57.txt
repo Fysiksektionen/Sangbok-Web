@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Kalla små nubbar
 
 <melodi>
@@ -19,8 +19,8 @@ F: Dom skänker oss alla
 ett solljust humör, 
 och även för kroppen 
 stor nytta dom gör. 
-Men skall man ta nubbar 
-så regel dom bör 
+Men skall en ta nubbar 
+som regel dom bör 
 Va' kalla 
 A: Mycket kalla
 F: Ja, kalla 

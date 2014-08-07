@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 Elämnenas lov
 
 <melodi>

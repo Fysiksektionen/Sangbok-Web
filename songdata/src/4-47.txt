@@ -1,4 +1,4 @@
-<titel>
+﻿<titel>
 När jag är fuller
 
 <melodi>
@@ -19,7 +19,7 @@ och full och vacker, och full och vacker.
 När jag är fuller då är jag stark, 
 fan vet om jag ej är modig. 
 Då kan jag slå vem som helst i mark, 
-så han blir trasig och blodig. 
+så hen blir trasig och blodig. 
 Jag välter träden uti vår park, 
 det gör jag bara när jag är stark, 
 och full och modig, och full och modig. 
