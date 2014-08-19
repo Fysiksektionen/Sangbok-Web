@@ -20,7 +20,7 @@ songfiles = [ f for f in os.listdir(inpath) if os.path.isfile(os.path.join(inpat
 songpattern = re.compile('(?:<titel>(?P<title>[^<]*))?(?:<melodi>(?P<melody>[^<]*))?(?:<author>(?P<author>[^<]*))?(?:<text>(?P<text>.*))?', re.MULTILINE | re.DOTALL)
 
 #DEBUG
-#songfiles = songfiles[0:2]
+#songfiles = songfiles[118:119]
 
 for songpath in songfiles:
   print(songpath)

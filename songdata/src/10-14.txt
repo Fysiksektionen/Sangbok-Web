@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Korta smedsvisan
 
 <melodi>

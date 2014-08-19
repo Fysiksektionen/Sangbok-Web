@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 The BASIC song
 
 <melodi>

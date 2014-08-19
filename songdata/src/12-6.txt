@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Man ska gå Teknis
 
 <melodi>

@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Styrman Karlssons äventyr med porslinspjäsen
 
 <melodi>

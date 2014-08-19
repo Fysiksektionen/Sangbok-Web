@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Vi ska supa
 
 <melodi>

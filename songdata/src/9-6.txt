@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Mors lilla dator
 
 <melodi>

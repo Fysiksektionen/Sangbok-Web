@@ -1,13 +1,13 @@
 <titel>
 Inre dialog
 
-<author>
-Text: Mikael Segersten, E-76
-
 <melodi>
 An der schönen blauen Donaul
 F: Försångare
 A: Alla
+
+<author>
+Text: Mikael Segersten, E-76
 
 <text>
 F: Jag vill inte ha - A: en nubbe till!

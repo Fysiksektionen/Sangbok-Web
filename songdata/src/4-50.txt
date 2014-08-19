@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Måsens sista sup
 
 <melodi>

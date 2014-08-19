@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Vi går över ån
 
 <melodi>

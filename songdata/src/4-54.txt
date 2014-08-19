@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Brännvin är jävligt gott
 
 <melodi>

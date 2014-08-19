@@ -1,4 +1,4 @@
-﻿<titel>
+<titel>
 Imperial system
 
 <melodi>
