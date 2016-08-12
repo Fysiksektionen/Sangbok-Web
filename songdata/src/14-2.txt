@@ -71,4 +71,6 @@ Vid <Foo> insättes n-m, där n=aktuellt årtal, m=0, 1, 2...
 10 Framfusig
 11 Frappera
 12 Fumla
-13 Frågvis
+13 Frågvis?
+14 Folkvett!
+15 Fanclub
