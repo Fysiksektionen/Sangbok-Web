@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1476021048
+# rev %d
 
 CACHE:
 # CSS
