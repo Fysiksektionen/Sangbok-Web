@@ -1,0 +1,2 @@
+python-frontmatter
+mysql-connector
