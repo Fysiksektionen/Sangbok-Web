@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width" />
   <title>Sångboksappen</title>
 
-  <base href="/">
+  <base href="/sangbok/">
 
   <link rel="stylesheet" href="css/vendor/normalize.css" />
   <link rel="stylesheet" href="css/vendor/foundation.css" />
