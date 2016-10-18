@@ -1,12 +1,8 @@
-/bootstrap/compiled.php
-/vendor
-composer.phar
-composer.lock
-.env.*.php
-.env.php
 .DS_Store
 Thumbs.db
 
-bower_components
-node_modules
-.sonar
+/vendor
+/bower_components
+/node_modules
+
+config.php

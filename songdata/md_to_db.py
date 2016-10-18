@@ -47,7 +47,7 @@ for songpath in songfiles:
 # Update manifest to notify offline cahced clients
 with open('sangbok.manifest.tpl', 'r') as f:
 	mandata = f.read()
-with open('../public/sangbok.manifest', 'w') as manfile:
+with open('../web/sangbok.manifest', 'w') as manfile:
 	manfile.write(mandata % int(time.time()))
 
 cnx.commit()

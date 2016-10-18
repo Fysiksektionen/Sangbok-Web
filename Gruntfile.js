@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
       foundation: {
         options: {
-          destPrefix: 'public'
+          destPrefix: 'web'
         },
 
         files: {
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'public/js/sangbok.js':
+          'web/js/sangbok.js':
             ['src/js/SangbokApp.js',
               'src/js/SangbokHomeCtrl.js',
               'src/js/SangbokSongCtrl.js',
@@ -43,8 +43,8 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'public/css/vendor/foundation.min.css': ['public/css/vendor/foundation.css'],
-          'public/css/sangbok.min.css': ['src/css/sangbok.css']
+          'web/css/vendor/foundation.min.css': ['web/css/vendor/foundation.css'],
+          'web/css/sangbok.min.css': ['src/css/sangbok.css']
         }
       }
     }
