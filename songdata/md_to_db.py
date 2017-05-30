@@ -15,7 +15,8 @@ elif ENV == 'local':
 cursor = cnx.cursor()
 
 # Insert chapters
-cursor.execute('TRUNCATE TABLE chapters');
+cursor.execute('DELETE FROM chapters');
+cursor.execute('ALTER TABLE chapters AUTO_INCREMENT=1');
 add_chapter = ("INSERT INTO chapters (id, chapter) VALUES (%(id)s, %(chapter)s)")
 with open('chapters.csv', 'r') as csvfile:
 	chapterreader = csv.reader(csvfile)
@@ -24,7 +25,8 @@ with open('chapters.csv', 'r') as csvfile:
 		cursor.execute(add_chapter, chapter)
 
 # Insert songs
-cursor.execute('TRUNCATE TABLE songs');
+cursor.execute('DELETE FROM songs');
+cursor.execute('ALTER TABLE songs AUTO_INCREMENT=1');
 add_song = ("INSERT INTO songs (chapter_id, number, title, author, melody, text) VALUES (%(chapter)s, %(number)s, %(title)s, %(author)s, %(melody)s, %(text)s)")
 songfiles = [ f for f in os.listdir(INPATH) if os.path.isfile(os.path.join(INPATH, f)) ]
 for songpath in songfiles:
